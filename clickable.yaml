@@ -1,0 +1,15 @@
+clickable_minimum_required:
+    "7.0.0"
+builder:
+    "cmake"
+kill:
+    "qmlscene"
+dependencies_target: [
+    "qtdeclarative5-ubuntu-history0.1",
+    "history-service",
+    "qtdeclarative5-ubuntu-contacts0.1",
+    "qtdeclarative5-ubuntu-addressbook0.1",
+    "libpam0g-dev", 
+    "libgsettings-qt-dev",
+    "qtdeclarative5-gsettings1.0"
+    ]
