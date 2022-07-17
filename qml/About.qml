@@ -122,7 +122,7 @@ Item {
             height: donateLabel.height + units.gu(2)
             Label {
                 id: donateLabel
-                text: "<a href='https://github.com/ruditimmer/launcher-modular'>" + i18n.tr("SOURCE") + "</a> | <a href='https://github.com/ruditimmer/launcher-modular/issues'>" + i18n.tr("ISSUES") + "</a> | <a href='https://www.paypal.com/paypalme/RudiTimmermans'>" + i18n.tr("DONATE") + "</a>"
+                text: "<a href='https://github.com/ruditimmer/launcher-modular'>" + i18n.tr("SOURCE") + "</a> | <a href='https://github.com/ruditimmer/launcher-modular/issues'>" + i18n.tr("ISSUES") + "</a> | <a href='https://www.paypal.com/paypalme/RudiTimmer'>" + i18n.tr("DONATE") + "</a>"
                 onLinkActivated: Qt.openUrlExternally(link)
                 anchors.centerIn: parent
                 wrapMode: TextEdit.WrapAtWordBoundaryOrAnywhere
@@ -137,7 +137,7 @@ Item {
             height: thankLabel.height + units.gu(2)
             Label {
                 id: thankLabel
-                text: i18n.tr("Maintainer") + " (c) 2021 - 2022 Rudi Timmermans <rudi.timmer@gmx.com>"
+                text: i18n.tr("Maintainer") + " (c) 2021 - 2022 Rudi Timmermans <rudi.timmer@outlook.be>"
                 anchors.centerIn: parent
                 wrapMode: TextEdit.WrapAtWordBoundaryOrAnywhere
                 horizontalAlignment: Text.AlignHCenter
