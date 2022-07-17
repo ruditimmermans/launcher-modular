@@ -148,9 +148,9 @@ Item {
           
         Item {
             width: parent.width
-            height: trans4Label.height + units.gu(2)
+            height: trans5Label.height + units.gu(2)
             Label {
-                id: trans4Label
+                id: trans5Label
                 text: i18n.tr("Russian - ") + "Dema"
                 anchors.centerIn: parent
                 wrapMode: TextEdit.WrapAtWordBoundaryOrAnywhere
@@ -165,7 +165,7 @@ Item {
             height: translation.height + units.gu(4)
             Label {
                 id: translation
-                                text: i18n.tr("If you like to translate Launcher Modular into your own language, go to <a href='https://poeditor.com/join/project?hash=oMUaXecg1U'>POEditor</a> for more details.")
+                                text: i18n.tr("If you like to translate Launcher Modular into your own language, go to <a href='https://github.com/ruditimmermans/launcher-modular/tree/master/po'>GitHub</a> for more details.")
                 onLinkActivated: Qt.openUrlExternally(link)
                 anchors.centerIn: parent
                 wrapMode: TextEdit.WrapAtWordBoundaryOrAnywhere
