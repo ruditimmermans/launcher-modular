@@ -409,7 +409,7 @@ Connections {
 
                                         background: Rectangle {
                                             radius: units.gu(1.5)
-                                            color: "#E95420"
+                                            color: UbuntuColors.orange
                                         }
                                         onClicked: {
                                             PopupUtils.close(appsDialogue);
@@ -438,7 +438,7 @@ Connections {
                                         width: (parent.width/2)-units.gu(2)
                                         background: Rectangle {
                                             radius: units.gu(1.5)
-                                            color: "#F6F6F5"
+                                            color: UbuntuColors.green
                                         }
                                         onClicked: {
                                             onClicked: PopupUtils.close(appsDialogue);
