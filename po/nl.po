@@ -689,6 +689,14 @@ msgstr "Verborgen Android-apps"
 msgid "<b>Use this only when you have hidden Android applications using \"WayDroid Helper\" and want them to appear in \"Launcher Modular\"</b>"
 msgstr "<b>Gebruik dit alleen als je Android applicaties hebt verborgen met \"WayDroid Helper\" en ze wilt laten verschijnen in \"Launcher Modular\"</b>"
 
+#: ../qml/Util.qml:83
+msgid "<b>Removes the double icon from WayDroid into \"Launcher Modular\"</b>"
+msgstr "<b>Verwijdert dubbele pictogram van WayDroid in \"Launcher Modular\"</b>"
+
+#: ../qml/Util.qml:84
+msgid "Hide double WayDroid icon in Launcher Modular"
+msgstr "Verwijder dubbele WayDroid pictogram in Launcher Modular"
+
 #: ../qml/Settings.qml:172
 msgid "<b>You will need to restart after installing or restore</b>"
 msgstr "<b>Je dient je apparaat te herstarten</b>"

@@ -53,10 +53,10 @@ Rectangle {
                 right: parent.right
             }
             spacing: units.gu(2)
-                                           
+            
             ListItem.Header {
-                text: "<font color=\"#ffffff\">"+i18n.tr("Hided Android apps")+"</font>"
-            }
+                text: "<font color=\"#ffffff\">"+i18n.tr("Android apps")+"</font>"
+            }            
             
         Text{
             id: pleaseWaydroid
@@ -66,8 +66,8 @@ Rectangle {
             horizontalAlignment: Text.AlignHCenter
             anchors.horizontalCenter: parent.horizontalCenter
             color: "white"
-        }               
-            
+        }  
+
         Button {
             anchors.horizontalCenter: parent.horizontalCenter
             text: i18n.tr('Show again hided Android apps in Launcher Modular')
@@ -75,7 +75,31 @@ Rectangle {
    
                 onClicked: Terminalaccess.run("sudo -S bash /opt/click.ubuntu.com/launchermodular.ubuntouchfr/current/assets/systemscript/repair.sh")
             } 
-      }                                     
-        } // column
-    } //flickable
- } //rectangle settings
+      } 
+      
+            Text{
+            id: doubleWaydroid
+            width: parent.width              
+            text: i18n.tr('<b>Removes the double icon from WayDroid into "Launcher Modular"</b>')
+            wrapMode: Text.Wrap
+            horizontalAlignment: Text.AlignHCenter
+            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.top: parent.bottom
+            anchors.topMargin: 40
+            anchors.bottomMargin: 40
+            color: "white"
+        } 
+
+        Button {
+            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.top: parent.bottom
+            anchors.topMargin: 160
+            anchors.bottomMargin: 160
+            text: i18n.tr('Hide double WayDroid icon in Launcher Modular')
+            color: UbuntuColors.red
+   
+                onClicked: Terminalaccess.run("sudo -S bash /opt/click.ubuntu.com/launchermodular.ubuntouchfr/current/assets/systemscript/doubleicon.sh")
+        }
+    } // column
+  } //flickable   
+} //rectangle settings

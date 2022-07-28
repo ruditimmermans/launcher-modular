@@ -85,6 +85,7 @@ Rectangle {
                     onClicked: {if (launchermodular.settings.backgroundColor == "#000000"){ launchermodular.settings.backgroundColor = "#ffffff"; launchermodular.settings.textColor = "#000000"; }else{ launchermodular.settings.backgroundColor = "#000000"; launchermodular.settings.textColor = "#ffffff"; }}
                 }
             }
+            
             Slider {
                 id: slideOpacity
                 anchors.horizontalCenter: parent.horizontalCenter;
