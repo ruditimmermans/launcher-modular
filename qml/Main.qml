@@ -20,7 +20,7 @@ MainView {
     width: units.gu(45)
     height: units.gu(75)
     
-    property string appVersion : "1.3.0"
+    property string appVersion : "1.4.0"
         
     function getCustomIconArray() {
         var customIcon = [], hMI_l = launchermodular.customIconModel.count;
@@ -87,7 +87,7 @@ MainView {
         property string backgroundOpacity: '0.7'
         property string backgroundBlur: '0'
         
-        property string folderimage: '/home/phablet/Pictures/com.ubuntu.camera/'
+        property string folderimage: '/home/phablet/Pictures/'
 
         property int limiteDaysCalendar: 60;
         property int limiteDaysWidgetEvent: 60;
