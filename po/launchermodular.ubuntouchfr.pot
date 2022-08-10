@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-02 13:38+0000\n"
+"POT-Creation-Date: 2022-08-10 18:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -319,8 +319,7 @@ msgstr ""
 msgid "new todo"
 msgstr ""
 
-#: ../qml/pages/calendar/Settings.qml:12
-#: ../qml/pages/cryptoprice/Settings.qml:17 ../qml/pages/home/Settings.qml:14
+#: ../qml/pages/calendar/Settings.qml:12 ../qml/pages/home/Settings.qml:14
 #: ../qml/pages/home/SettingsBACK.qml:15 ../qml/pages/picture/Settings.qml:12
 #: ../qml/pages/todo/Settings.qml:12
 msgid "Settings Page"
@@ -336,14 +335,6 @@ msgstr ""
 
 #: ../qml/pages/calendar/Settings.qml:89 ../qml/widgets/event/Settings.qml:91
 msgid "By default 60 days"
-msgstr ""
-
-#: ../qml/pages/cryptoprice/Settings.qml:52
-msgid "Automatic Updates every 5 seconds?"
-msgstr ""
-
-#: ../qml/pages/cryptoprice/Settings.qml:62
-msgid "Your currency?"
 msgstr ""
 
 #: ../qml/pages/home/Settings.qml:120 ../qml/pages/home/SettingsBACK.qml:128
