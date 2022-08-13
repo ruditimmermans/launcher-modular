@@ -63,7 +63,7 @@ Item {
             UbuntuShape {
                 radius: "medium"
                 source: Image {
-                    source: Qt.resolvedUrl("../assets/logo.png");
+                    source: Qt.resolvedUrl("../assets/logo.svg");
                 }
                 height: units.gu(12); width: height;
                 anchors.centerIn: parent;

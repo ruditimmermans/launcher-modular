@@ -20,7 +20,7 @@ MainView {
     width: units.gu(45)
     height: units.gu(75)
     
-    property string appVersion : "1.4.0"
+    property string appVersion : "1.5.0"
         
     function getCustomIconArray() {
         var customIcon = [], hMI_l = launchermodular.customIconModel.count;

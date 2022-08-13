@@ -2,7 +2,7 @@
 _Name=Launcher modular
 Execold=qmlscene qml/Main.qml -I /usr/lib/arm-linux-gnueabihf/unity8/qml/
 Exec=launchermodular
-Icon=assets/logo.png
+Icon=assets/logo.svg
 Terminal=false
 Type=Application
 X-Ubuntu-Touch=true
