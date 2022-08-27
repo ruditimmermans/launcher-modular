@@ -20,7 +20,7 @@ MainView {
     width: units.gu(45)
     height: units.gu(75)
     
-    property string appVersion : "1.5.0"
+    property string appVersion : "1.6.0"
         
     function getCustomIconArray() {
         var customIcon = [], hMI_l = launchermodular.customIconModel.count;
@@ -89,18 +89,18 @@ MainView {
         
         property string folderimage: '/home/phablet/Pictures/'
 
-        property int limiteDaysCalendar: 60;
-        property int limiteDaysWidgetEvent: 60;
-        property int limiteItemWidgetEvent: 3;
+        property int limiteDaysCalendar: 31;
+        property int limiteDaysWidgetEvent: 31;
+        property int limiteItemWidgetEvent: 5;
 
         property var page;
         property var customIcon;
         property var favoriteApps;
         
         property var selectedAppNews: [];
-	signal newsConfigChanged();        
+	signal newsConfigChanged();
                   
-        property bool newsBackgroundOpacity: false                  
+        property bool newsBackgroundOpacity: false
         property string widgetMessageClick: 'default'
         property bool widgetMessageSummary: true
         property string widgetCallClick: 'default'
@@ -121,7 +121,7 @@ MainView {
         
     Timer {
         id: clockUpdater
-        interval: 60000-(launchermodular.datenow.getSeconds()*1000) 
+        interval: 60000-(launchermodular.datenow.getSeconds()*1000)
         running: true
         repeat: true
         onTriggered: {
@@ -259,7 +259,7 @@ PageStack {
         Loader {
                 sourceComponent:{
                     Qt.createComponent(directory+name)
-                } 
+                }
 	    property int pageIndex:index
 			
         }
@@ -389,7 +389,7 @@ Rectangle {
                 width: units.gu(2)
                 height: units.gu(2)
                 name: "up"
-            }    
+            }
     
             Text {
                 id:staticText
@@ -408,7 +408,7 @@ Rectangle {
                 name: "up"
             }
             
-    }            
+    }
             
         transform: Translate {
             y: -(bottomBarSettings.position * bottomBarSettings.height)
@@ -455,7 +455,7 @@ Rectangle {
                                     bottomBarSettings.close()
                             }
                   }
-                }*/              
+                }*/
                 Column {
                     anchors.verticalCenter: parent.verticalCenter
                     height: parent.height
@@ -536,7 +536,7 @@ Rectangle {
                                     bottomBarSettings.close()
                             }
                   }
-                }                 
+                }
                 Column {
                     anchors.verticalCenter: parent.verticalCenter
                     height: parent.height
@@ -563,7 +563,7 @@ Rectangle {
                                     bottomBarSettings.close()
                             }
                   }
-                }                 
+                }
                 Column {
                     anchors.verticalCenter: parent.verticalCenter
                     height: parent.height
@@ -592,7 +592,7 @@ Rectangle {
                   }
 
 
-                }                 
+                }
                 Column {
                     anchors.verticalCenter: parent.verticalCenter
                     height: parent.height
@@ -621,7 +621,7 @@ Rectangle {
                   }
 
 
-                }                
+                }
 
             }
     }
@@ -643,7 +643,7 @@ Rectangle {
                             onClicked: customIconDialogue.visible = false
                         }
                         
-                    Rectangle{   
+                    Rectangle{
                         anchors.horizontalCenter: parent.horizontalCenter
                         anchors.verticalCenter: parent.verticalCenter
                         width: parent.width*0.75
@@ -672,7 +672,7 @@ Rectangle {
                         Item{
                             width: parent.width
                             height: units.gu(4)
-                        }    
+                        }
                         
                     UbuntuShape {
                         id: webAppIcon
@@ -700,7 +700,7 @@ Rectangle {
                             text: i18n.tr("SVG or PNG icon. 1:1 ratio")
                             wrapMode: Text.Wrap
                         }
-                    }    
+                    }
                     
 
                     TextField {
@@ -735,13 +735,13 @@ Rectangle {
                     TextField {
                         id: appAction
                         width: parent.width
-                        color: "black"                        
+                        color: "black"
                         anchors {
                             left: parent.left
                             right: parent.right
                         }
                         inputMethodHints: Qt.ImhNoAutoUppercase
-                        placeholderText: { 
+                        placeholderText: {
                             if(typeIconCustom.model[typeIconCustom.selectedIndex].style === "website"){i18n.tr("<b>Action</b> example: ")+"https://forums.ubports.com/"}
                             
                             if(typeIconCustom.model[typeIconCustom.selectedIndex].style === "terminal"){i18n.tr("<b>Action</b> example: ")+"sudo reboot"}
@@ -789,7 +789,7 @@ Rectangle {
                                 
                                 launchermodular.customIconModel.append({"name": appTitle.text, "icon": launchermodular.iconCustomUrl, "action": okButton.actionIcon});
                                     
-                                launchermodular.getCustomIconArray();                                      
+                                launchermodular.getCustomIconArray();
                                 launchermodular.settings.customIcon = launchermodular.getCustomIconArray();
                                     
                                 AppHandler.sort();
@@ -827,8 +827,8 @@ Rectangle {
                          }
                       }
                    }
-                } 
-             }      
+                }
+             }
           }
        }
     }
