@@ -16,7 +16,7 @@ Page {
            foregroundColor: "#FFFFFF";
            backgroundColor: "#111111";
        }
-            leadingActionBar.actions: 
+            leadingActionBar.actions:
                 Action {
                     iconName: "back"
                     text: "Back"
@@ -24,7 +24,7 @@ Page {
                         pageStack.pop();
         }
      }
-  } 
+  }
 
 
     Rectangle {
@@ -115,7 +115,7 @@ Item {
                 width: parent.width - units.gu(12)
                 color: "#ffffff"
             }
-        }      
+        }
         
         Item {
             width: parent.width
@@ -130,14 +130,14 @@ Item {
                 width: parent.width - units.gu(12)
                 color: "#ffffff"
             }
-        }   
+        }
                                   
         Item {
             width: parent.width
             height: thankLabel.height + units.gu(2)
             Label {
                 id: thankLabel
-                text: i18n.tr("Maintainer") + " (c) 2021 - 2022 Rudi Timmermans <rudi.timmer@outlook.be>"
+                text: i18n.tr("Maintainer") + " (c) 2021 - 2022 Rudi Timmermans <rudi.timmermans@mailfence.com>"
                 anchors.centerIn: parent
                 wrapMode: TextEdit.WrapAtWordBoundaryOrAnywhere
                 horizontalAlignment: Text.AlignHCenter
@@ -158,7 +158,7 @@ Item {
                 width: parent.width - units.gu(12)
                 color: "#ffffff"
             }
-          } 
+          }
           
         Item {
             width: parent.width
@@ -172,7 +172,7 @@ Item {
                 width: parent.width - units.gu(12)
                 color: "#ffffff"
             }
-          } 
+          }
           
        Item {
             width: parent.width
@@ -189,7 +189,7 @@ Item {
 
                 onLinkActivated: pageStack.push(Qt.resolvedUrl("Translators.qml"))
             }
-          }                                     
+          }
         }
       }
     }
