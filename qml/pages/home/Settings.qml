@@ -115,69 +115,6 @@ Rectangle {
             anchors.fill: parent
 
 
-    
-        ListItemHeader.Header {
-            text: "<font color=\"#ffffff\">"+i18n.tr("Widgets")+"</font>"
-        }
-
-        ListItemHeader.Standard {
-            showDivider: false
-            text: "<font color=\"#ffffff\">"+i18n.tr("Show clock")+"</font>"
-            control: Switch {
-                checked: launchermodular.settings.widgetVisibleClock
-                onClicked: launchermodular.settings.widgetVisibleClock = !launchermodular.settings.widgetVisibleClock 
-            }
-        }      
-            
-        ListItemHeader.Standard {
-            showDivider: false
-            text: "<font color=\"#ffffff\">"+i18n.tr("Show weather")+"</font>"
-            control: Switch {
-                checked: 
-                launchermodular.settings.widgetVisibleWeather
-                onClicked: launchermodular.settings.widgetVisibleWeather = !launchermodular.settings.widgetVisibleWeather  
-            }
-        }               
-            
-        ListItemHeader.Standard {
-            showDivider: false
-            text: "<font color=\"#ffffff\">"+i18n.tr("Show alarms")+"</font>"
-            control: Switch {
-                checked: launchermodular.settings.widgetVisibleAlarm
-                onClicked: launchermodular.settings.widgetVisibleAlarm = !launchermodular.settings.widgetVisibleAlarm
-            }
-        }               
-            
-        ListItemHeader.Standard {
-            showDivider: false
-            text: "<font color=\"#ffffff\">"+i18n.tr("Show last call")+"</font>"
-            control: Switch {
-                checked: launchermodular.settings.widgetVisibleLastcall
-                onClicked: launchermodular.settings.widgetVisibleLastcall = !launchermodular.settings.widgetVisibleLastcall 
-            }
-        }               
-            
-        ListItemHeader.Standard {
-            showDivider: false
-            text: "<font color=\"#ffffff\">"+i18n.tr("Show last message")+"</font>"
-            control: Switch {
-                checked: launchermodular.settings.widgetVisibleLastmessage
-                onClicked: launchermodular.settings.widgetVisibleLastmessage = !launchermodular.settings.widgetVisibleLastmessage
-            }
-        }               
-            
-        ListItemHeader.Standard {
-            showDivider: false
-            text: "<font color=\"#ffffff\">"+i18n.tr("Show events")+"</font>"
-            control: Switch {
-                checked: launchermodular.settings.widgetVisibleEvent
-                onClicked: launchermodular.settings.widgetVisibleEvent = !launchermodular.settings.widgetVisibleEvent
-            }
-        }
-            
-            
-            
-            
         ListItemHeader.Header {
             id: titleFavoriteAppsManagement
             text: "<font color=\"#ffffff\">"+i18n.tr("Favorite apps management")+"</font>"
@@ -219,7 +156,7 @@ Rectangle {
  
                 }
             ]
-        } 
+        }
             onPressAndHold: {
                 ListView.view.ViewItems.dragMode = !ListView.view.ViewItems.dragMode
             }

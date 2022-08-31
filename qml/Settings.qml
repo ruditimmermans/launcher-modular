@@ -20,7 +20,7 @@ Page {
            foregroundColor: "#FFFFFF";
            backgroundColor: "#111111";
        }
-            leadingActionBar.actions: 
+            leadingActionBar.actions:
                 Action {
                     iconName: "back"
                     text: "Back"
@@ -111,7 +111,7 @@ Rectangle {
 
             property var model: [
             { title: "<font color=\"#ffffff\">"+i18n.tr("Standard")+"</font>", descr: "<font color=\"#ffffff\">"+i18n.tr("Style by default")+"</font>", style:"default" },
-            { title: "<font color=\"#ffffff\">"+i18n.tr("Rounded")+"</font>", descr: "<font color=\"#ffffff\">"+i18n.tr("Icons rounded")+"</font>", style:"rounded" },           
+            { title: "<font color=\"#ffffff\">"+i18n.tr("Rounded")+"</font>", descr: "<font color=\"#ffffff\">"+i18n.tr("Icons rounded")+"</font>", style:"rounded" },
             { title: "<font color=\"#ffffff\">"+i18n.tr("None")+"</font>", descr: "<font color=\"#ffffff\">"+i18n.tr("Icons without style")+"</font>", style:"none" }
             ]
 
@@ -146,10 +146,69 @@ Rectangle {
             }
 
           }
+
+        ListItem.Header {
+            text: "<font color=\"#ffffff\">"+i18n.tr("Widgets")+"</font>"
+        }
+
+        ListItem.Standard {
+            showDivider: false
+            text: "<font color=\"#ffffff\">"+i18n.tr("Show clock")+"</font>"
+            control: Switch {
+                checked: launchermodular.settings.widgetVisibleClock
+                onClicked: launchermodular.settings.widgetVisibleClock = !launchermodular.settings.widgetVisibleClock
+            }
+        }
+            
+        ListItem.Standard {
+            showDivider: false
+            text: "<font color=\"#ffffff\">"+i18n.tr("Show weather")+"</font>"
+            control: Switch {
+                checked:
+                launchermodular.settings.widgetVisibleWeather
+                onClicked: launchermodular.settings.widgetVisibleWeather = !launchermodular.settings.widgetVisibleWeather
+            }
+        }
+            
+        ListItem.Standard {
+            showDivider: false
+            text: "<font color=\"#ffffff\">"+i18n.tr("Show alarms")+"</font>"
+            control: Switch {
+                checked: launchermodular.settings.widgetVisibleAlarm
+                onClicked: launchermodular.settings.widgetVisibleAlarm = !launchermodular.settings.widgetVisibleAlarm
+            }
+        }
+            
+        ListItem.Standard {
+            showDivider: false
+            text: "<font color=\"#ffffff\">"+i18n.tr("Show last call")+"</font>"
+            control: Switch {
+                checked: launchermodular.settings.widgetVisibleLastcall
+                onClicked: launchermodular.settings.widgetVisibleLastcall = !launchermodular.settings.widgetVisibleLastcall
+            }
+        }
+            
+        ListItem.Standard {
+            showDivider: false
+            text: "<font color=\"#ffffff\">"+i18n.tr("Show last message")+"</font>"
+            control: Switch {
+                checked: launchermodular.settings.widgetVisibleLastmessage
+                onClicked: launchermodular.settings.widgetVisibleLastmessage = !launchermodular.settings.widgetVisibleLastmessage
+            }
+        }
+            
+        ListItem.Standard {
+            showDivider: false
+            text: "<font color=\"#ffffff\">"+i18n.tr("Show events")+"</font>"
+            control: Switch {
+                checked: launchermodular.settings.widgetVisibleEvent
+                onClicked: launchermodular.settings.widgetVisibleEvent = !launchermodular.settings.widgetVisibleEvent
+            }
+        }
                                            
             ListItem.Header {
                 text: "<font color=\"#ffffff\">"+i18n.tr("Other")+"</font>"
-            }            
+            }
                                     
         Button {
             text: LauncherModularPlug.isDashSet ? i18n.tr('Restore standard launcher') : i18n.tr('Install Launcher Modular by default')
@@ -190,7 +249,7 @@ Rectangle {
             MouseArea {
                 anchors.fill: parent
                 onClicked: Terminalaccess.run("sudo -S bash /opt/click.ubuntu.com/launchermodular.ubuntouchfr/current/assets/systemscript/uninstall.sh ; restart unity8")
-            }            
+            }
         }
                                
         } // column

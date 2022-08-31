@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-25 18:02+0000\n"
+"POT-Creation-Date: 2022-08-31 19:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -149,8 +149,8 @@ msgstr ""
 
 #: ../qml/Main.qml:808 ../qml/Pagemanagement.qml:137
 #: ../qml/Pagemanagementback.qml:128 ../qml/pages/Home.qml:436
-#: ../qml/pages/home/Settings.qml:91 ../qml/pages/home/SettingsBACK.qml:99
-#: ../qml/widgets/FavoriteApp.qml:169 ../qml/widgets/FavoriteAppBACK.qml:150
+#: ../qml/pages/home/Settings.qml:91 ../qml/widgets/FavoriteApp.qml:169
+#: ../qml/widgets/FavoriteAppBACK.qml:150
 msgid "Cancel"
 msgstr ""
 
@@ -163,7 +163,7 @@ msgid "Choose a page"
 msgstr ""
 
 #: ../qml/Pagemanagementback.qml:182 ../qml/pages/Todo.qml:119
-#: ../qml/pages/home/Settings.qml:216 ../qml/pages/home/SettingsBACK.qml:226
+#: ../qml/pages/home/Settings.qml:153
 msgid "Delete"
 msgstr ""
 
@@ -214,26 +214,54 @@ msgid "Style Icons : "
 msgstr ""
 
 #: ../qml/Settings.qml:151
+msgid "Widgets"
+msgstr ""
+
+#: ../qml/Settings.qml:156
+msgid "Show clock"
+msgstr ""
+
+#: ../qml/Settings.qml:165
+msgid "Show weather"
+msgstr ""
+
+#: ../qml/Settings.qml:175
+msgid "Show alarms"
+msgstr ""
+
+#: ../qml/Settings.qml:184
+msgid "Show last call"
+msgstr ""
+
+#: ../qml/Settings.qml:193
+msgid "Show last message"
+msgstr ""
+
+#: ../qml/Settings.qml:202
+msgid "Show events"
+msgstr ""
+
+#: ../qml/Settings.qml:210
 msgid "Other"
 msgstr ""
 
-#: ../qml/Settings.qml:155
+#: ../qml/Settings.qml:214
 msgid "Restore standard launcher"
 msgstr ""
 
-#: ../qml/Settings.qml:155
+#: ../qml/Settings.qml:214
 msgid "Install Launcher Modular by default"
 msgstr ""
 
-#: ../qml/Settings.qml:173
+#: ../qml/Settings.qml:232
 msgid "<b>You will need to restart after installing or restore</b>"
 msgstr ""
 
-#: ../qml/Settings.qml:180
+#: ../qml/Settings.qml:239
 msgid "Replace standard launcher"
 msgstr ""
 
-#: ../qml/Settings.qml:187
+#: ../qml/Settings.qml:246
 msgid "<b>If you can not restore click here</b>"
 msgstr ""
 
@@ -320,8 +348,7 @@ msgid "new todo"
 msgstr ""
 
 #: ../qml/pages/calendar/Settings.qml:12 ../qml/pages/home/Settings.qml:14
-#: ../qml/pages/home/SettingsBACK.qml:15 ../qml/pages/picture/Settings.qml:12
-#: ../qml/pages/todo/Settings.qml:12
+#: ../qml/pages/picture/Settings.qml:12 ../qml/pages/todo/Settings.qml:12
 msgid "Settings Page"
 msgstr ""
 
@@ -337,60 +364,8 @@ msgstr ""
 msgid "By default 60 days"
 msgstr ""
 
-#: ../qml/pages/home/Settings.qml:120 ../qml/pages/home/SettingsBACK.qml:128
-msgid "Widgets"
-msgstr ""
-
-#: ../qml/pages/home/Settings.qml:125
-msgid "Show clock"
-msgstr ""
-
-#: ../qml/pages/home/Settings.qml:134
-msgid "Show weather"
-msgstr ""
-
-#: ../qml/pages/home/Settings.qml:144
-msgid "Show alarms"
-msgstr ""
-
-#: ../qml/pages/home/Settings.qml:153
-msgid "Show last call"
-msgstr ""
-
-#: ../qml/pages/home/Settings.qml:162
-msgid "Show last message"
-msgstr ""
-
-#: ../qml/pages/home/Settings.qml:171
-msgid "Show events"
-msgstr ""
-
-#: ../qml/pages/home/Settings.qml:183 ../qml/pages/home/SettingsBACK.qml:191
+#: ../qml/pages/home/Settings.qml:120
 msgid "Favorite apps management"
-msgstr ""
-
-#: ../qml/pages/home/SettingsBACK.qml:133
-msgid "show clock"
-msgstr ""
-
-#: ../qml/pages/home/SettingsBACK.qml:142
-msgid "show weather"
-msgstr ""
-
-#: ../qml/pages/home/SettingsBACK.qml:152
-msgid "show alarm"
-msgstr ""
-
-#: ../qml/pages/home/SettingsBACK.qml:161
-msgid "show last call"
-msgstr ""
-
-#: ../qml/pages/home/SettingsBACK.qml:170
-msgid "show last message"
-msgstr ""
-
-#: ../qml/pages/home/SettingsBACK.qml:179
-msgid "show event"
 msgstr ""
 
 #: ../qml/pages/picture/Settings.qml:58
