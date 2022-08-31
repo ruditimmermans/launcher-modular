@@ -73,7 +73,7 @@ MainView {
         property bool developerModeEnabled:	false;
 
         property string apiOpenWeatherMap: ''
-        property string unitsFormat: '&units=imperial'
+        property string unitsFormat: '&units=metric'
         property string cityName: ''
 
         property string formatHours: '24h'
@@ -107,7 +107,7 @@ MainView {
         property string widgetFavoriteContactClick: 'tel'
             
         property bool widgetVisibleClock: true
-        property bool widgetVisibleWeather: true
+        property bool widgetVisibleWeather: false
         property bool widgetVisibleAlarm: true
         property bool widgetVisibleLastcall: true
         property bool widgetVisibleLastmessage: true
