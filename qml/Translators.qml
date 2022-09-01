@@ -165,7 +165,7 @@ Item {
             height: translation.height + units.gu(4)
             Label {
                 id: translation
-                text: i18n.tr("If you like to translate Launcher Modular into your own language, go to <a href='https://poeditor.com/projects/view?id=556801'>POEditor</a> for more details.")
+                text: i18n.tr("If you like to translate Launcher Modular into your own language, go to <a href='https://poeditor.com/join/project/w7zMm2Z9Nm'>POEditor</a> for more details.")
                 onLinkActivated: Qt.openUrlExternally(link)
                 anchors.centerIn: parent
                 wrapMode: TextEdit.WrapAtWordBoundaryOrAnywhere
