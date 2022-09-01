@@ -16,7 +16,7 @@ Page {
            foregroundColor: "#FFFFFF";
            backgroundColor: "#111111";
        }
-            leadingActionBar.actions: 
+            leadingActionBar.actions:
                 Action {
                     iconName: "back"
                     text: "Back"
@@ -24,7 +24,7 @@ Page {
                         pageStack.pop();
         }
      }
-  }  
+  }
 
     Rectangle {
         id:rect1
@@ -83,12 +83,12 @@ Item {
                 width: parent.width - units.gu(12)
                 color: "#ffffff"
             }
-        } 
+        }
         
         Item {
             width: parent.width
             height: units.gu(2)
-        }              
+        }
                                     
         Item {
             width: parent.width
@@ -144,7 +144,7 @@ Item {
                 width: parent.width - units.gu(12)
                 color: "#ffffff"
             }
-          }            
+          }
           
         Item {
             width: parent.width
@@ -158,14 +158,14 @@ Item {
                 width: parent.width - units.gu(12)
                 color: "#ffffff"
             }
-          }  
+          }
                              
         Item {
             width: parent.width
             height: translation.height + units.gu(4)
             Label {
                 id: translation
-                                text: i18n.tr("If you like to translate Launcher Modular into your own language, go to <a href='https://github.com/ruditimmermans/launcher-modular/tree/master/po'>GitHub</a> for more details.")
+                text: i18n.tr("If you like to translate Launcher Modular into your own language, go to <a href='https://poeditor.com/projects/view?id=556801'>POEditor</a> for more details.")
                 onLinkActivated: Qt.openUrlExternally(link)
                 anchors.centerIn: parent
                 wrapMode: TextEdit.WrapAtWordBoundaryOrAnywhere
@@ -173,10 +173,10 @@ Item {
                 width: parent.width - units.gu(12)
                 color: "#ffffff"
             }
-          }                                    
+          }
         }
       }
     }
-// TRANSLATORS PAGE    
+// TRANSLATORS PAGE
 }
 
