@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-01 08:19+0000\n"
+"POT-Creation-Date: 2022-09-02 19:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -150,7 +150,6 @@ msgstr ""
 #: ../qml/Main.qml:808 ../qml/Pagemanagement.qml:137
 #: ../qml/Pagemanagementback.qml:128 ../qml/pages/Home.qml:436
 #: ../qml/pages/home/Settings.qml:91 ../qml/widgets/FavoriteApp.qml:169
-#: ../qml/widgets/FavoriteAppBACK.qml:150
 msgid "Cancel"
 msgstr ""
 
@@ -314,11 +313,11 @@ msgstr ""
 msgid "Show again hided Android apps in Launcher Modular"
 msgstr ""
 
-#: ../qml/Util.qml:83
+#: ../qml/Util.qml:84
 msgid "<b>Removes the double icon from WayDroid into \"Launcher Modular\"</b>"
 msgstr ""
 
-#: ../qml/Util.qml:98
+#: ../qml/Util.qml:99
 msgid "Hide double WayDroid icon in Launcher Modular"
 msgstr ""
 
@@ -335,7 +334,6 @@ msgid "Installed Apps"
 msgstr ""
 
 #: ../qml/pages/Home.qml:398 ../qml/widgets/FavoriteApp.qml:146
-#: ../qml/widgets/FavoriteAppBACK.qml:126
 msgid "Uninstall"
 msgstr ""
 
@@ -392,7 +390,7 @@ msgstr ""
 msgid "No events"
 msgstr ""
 
-#: ../qml/widgets/FavoriteApp.qml:42 ../qml/widgets/FavoriteAppBACK.qml:49
+#: ../qml/widgets/FavoriteApp.qml:42
 msgid "Favorite Apps"
 msgstr ""
 

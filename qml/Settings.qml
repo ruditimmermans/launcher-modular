@@ -239,7 +239,7 @@ Rectangle {
             text: i18n.tr('Replace standard launcher')
             color: UbuntuColors.red
    
-                onClicked: Terminalaccess.run("sudo -S bash /opt/click.ubuntu.com/launchermodular.ubuntouchfr/current/assets/systemscript/patchdash.sh ; restart unity8")
+                onClicked: Terminalaccess.run("sudo -S bash file:///" + applicationDirPath + "assets/systemscript/patchdash.sh ; restart unity8")
         }
         Text{
             anchors.horizontalCenter: parent.horizontalCenter
@@ -248,7 +248,7 @@ Rectangle {
    
             MouseArea {
                 anchors.fill: parent
-                onClicked: Terminalaccess.run("sudo -S bash /opt/click.ubuntu.com/launchermodular.ubuntouchfr/current/assets/systemscript/uninstall.sh ; restart unity8")
+                onClicked: Terminalaccess.run("sudo -S bash file:///" + applicationDirPath + "assets/systemscript/uninstall.sh ; restart unity8")
             }
         }
                                
