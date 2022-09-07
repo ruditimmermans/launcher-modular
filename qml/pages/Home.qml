@@ -83,7 +83,7 @@ Connections {
             refreshing: home.reloading
             onRefresh: home.getIcon();
 
-        } 
+        }
       
         
             Column {
@@ -137,8 +137,8 @@ Connections {
                         onClicked:{
                             if(searchField.text.length > 0){
                                searchField.text = ""
-                               searchField.focus = false 
-                            }                                       
+                               searchField.focus = false
+                            }
                         }
                 }
             }
@@ -197,7 +197,7 @@ Connections {
                                 if(searchField.text.toLowerCase().startsWith("http://") || searchField.text.toLowerCase().startsWith("https://")) {
                                     Qt.openUrlExternally( searchField.text.toLowerCase() );
                                 }else{
-                                    Qt.openUrlExternally( "https://duckduckgo.com/?q="+searchField.text.toLowerCase()+"&t=h_&ia=web" );
+                                    Qt.openUrlExternally( "https://search.brave.com/search?q="+searchField.text.toLowerCase()+"&t=h_&ia=web" );
                                 }
 
                          }
@@ -213,7 +213,7 @@ Connections {
                     height: contentHeight
                     anchors.horizontalCenter: parent.horizontalCenter
    
-                        Clock { 
+                        Clock {
                             visible: launchermodular.settings.widgetVisibleClock
                             width: launchermodular.settings.widgetVisibleWeather ? listColumn.width/2 : listColumn.width
                         }
@@ -249,17 +249,17 @@ Connections {
                 
                 FavoriteApp {
                     id: favoriteAppWidget
-                    width: parent.width                
+                    width: parent.width
                 }
                 
                 FavoriteContact {
                     id: favoriteContactWidget
-                    width: parent.width      
+                    width: parent.width
                 }
                 
                 SearchContact {
                     id: searchContactWidget
-                    width: parent.width     
+                    width: parent.width
                 }
                 
                 Item{
@@ -293,7 +293,7 @@ Connections {
                 Item {
                     id: listColumnApps
                     width: parent.width
-                    height: gview.contentHeight                
+                    height: gview.contentHeight
                     anchors {
                         left: parent.left
                         leftMargin: units.gu(2)
@@ -308,7 +308,7 @@ Connections {
                         }
                         if(action.startsWith("terminal:///")) {
                          var actionterm = action.replace(/^terminal:\/\/\//, "")
-                         var actionsudo = actionterm.replace(/^sudo /, "sudo -S ")                               
+                         var actionsudo = actionterm.replace(/^sudo /, "sudo -S ")
                                                          
                         Terminalaccess.run(actionsudo);
                         }
@@ -368,7 +368,7 @@ Connections {
                                 color: if (launchermodular.settings.iconStyle == "rounded") { "";}else{ "transparent";}
                                 visible: if (launchermodular.settings.iconStyle == "rounded") { false;}else{ true;}
                             }
-                        }                      
+                        }
 
                         UbuntuShape {
                             source: imgIcons
@@ -481,7 +481,7 @@ Connections {
         }
                 
     Repeater {
-        id: listCustomIcon 
+        id: listCustomIcon
         model: launchermodular.customIconModel
         Loader {
               
@@ -492,7 +492,7 @@ Connections {
                 icon: model.icon === "../assets/placeholder-app-icon.svg" ? "../../assets/placeholder-app-icon.svg" : model.icon
 
             Component.onCompleted:AppHandler.appsinfo.push(customButton)
-	       }                
+	       }
 			
         }
 
@@ -503,7 +503,7 @@ Connections {
             AppHandler.permaFilter()
             AppHandler.permaFilter("NoDisplay", "^(?!true$).*$") //keep the one that have NOT NoDisplay=true
             AppHandler.permaFilter("package_name",  "^(?!launchermodular.ubuntouchfr_).*$")
-            AppHandler.permaFilter("Icon",  "/.*$")                
+            AppHandler.permaFilter("Icon",  "/.*$")
             
             //AppHandler.appsinfo.push(settingsButton)
                             
@@ -511,7 +511,7 @@ Connections {
             //console.log(AppHandler.appsinfo[0].name);
             //console.log(AppHandler.appsinfo[0].getProp("package_name"));
             //console.log(AppHandler.appsinfo[0].getProp("Icon"));
-            //console.log(Qt.locale().name); 
+            //console.log(Qt.locale().name);
             
         }
     }
