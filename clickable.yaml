@@ -9,7 +9,7 @@ dependencies_target: [
     "history-service",
     "qtdeclarative5-ubuntu-contacts0.1",
     "qtdeclarative5-ubuntu-addressbook0.1",
-    "libpam0g-dev", 
+    "libpam0g-dev",
     "libgsettings-qt-dev",
     "qtdeclarative5-gsettings1.0"
     ]

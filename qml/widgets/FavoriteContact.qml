@@ -27,7 +27,7 @@ Column {
                         }
 
                         Label {
-				            id:titleFavoriteContactText	
+				            id:titleFavoriteContactText
                             anchors.left: iconFavoriteContact.right
                             anchors.leftMargin: units.gu(1)
                             text: i18n.tr("Favorite Contacts")
@@ -79,14 +79,14 @@ ContactModel {
         property var typegrid: "horizontal";
         property var heightgrid: (contactFavoriteView.count != "0") ? units.gu(13)*launchermodular.settings.iconSize : units.gu(0);
         
-        model: contactModel 
+        model: contactModel
 
        anchors {
             left: parent.left
             leftMargin: units.gu(2)
             right: parent.right
             rightMargin: units.gu(2)
-        }            
+        }
             
         cellHeight: iconbasesize+units.gu(5)
         property real iconbasesize: units.gu(10)*launchermodular.settings.iconSize
@@ -178,7 +178,7 @@ ContactModel {
             
             back: Item{
                 width: contactFavoriteView.cellWidth
-                height: contactFavoriteView.iconbasesize                    
+                height: contactFavoriteView.iconbasesize
                     
                 Rectangle{
                     id: screenshotContactFavoriteFlip
@@ -198,8 +198,8 @@ ContactModel {
                                 width: units.gu(2)
                                 height: units.gu(2)
                                 name: "call-start"
-                                color: "green"
-                            } 
+                                color: UbuntuColors.green
+                            }
                         }
                         
                         Rectangle {
@@ -217,8 +217,8 @@ ContactModel {
                                 width: units.gu(2)
                                 height: units.gu(2)
                                 name: "message"
-                                color: "orange"
-                            }    
+                                color: UbuntuColors.orange
+                            }
                             
                         }
 
@@ -273,7 +273,7 @@ ContactModel {
                             onClicked: {
                                 flipable.flipped = false
                                 Qt.openUrlExternally(launchermodular.settings.widgetFavoriteContactClick+":///"+contact.phoneNumber.number)
-                            } 
+                            }
                     }
                 }
                 Item{
@@ -285,7 +285,7 @@ ContactModel {
                         onClicked: {
                                 flipable.flipped = false
                                 Qt.openUrlExternally("message:///"+contact.phoneNumber.number)
-                            } 
+                            }
                     }
                 }
                 
@@ -296,8 +296,8 @@ ContactModel {
                 id: rotation
                 origin.x: flipable.width/2
                 origin.y: flipable.height/2
-                axis.x: 0; axis.y: 1; axis.z: 0   
-                angle: 0 
+                axis.x: 0; axis.y: 1; axis.z: 0
+                angle: 0
             }
 
             states: State {

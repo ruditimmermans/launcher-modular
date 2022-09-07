@@ -122,79 +122,14 @@ Column {
                                 width: if (launchermodular.settings.iconStyle == "default") { units.gu(8)*launchermodular.settings.iconSize;}else{ units.gu(0);}
                                 height: if (launchermodular.settings.iconStyle == "default") { units.gu(8)*launchermodular.settings.iconSize;}else{ units.gu(0);}
                                 radius : "medium"
-
-
-                            }
-                            
-                            
-
-                       Component {
-                            id: appsDialogFav
-                            Dialog {
-                                id: appsDialogueFav
-
-                                title: fav.name
-
-
-                                Rectangle {
-                                    height: units.gu(5)
-                                    width: parent.width
-                                    Button {
-                                        visible: false // todo not work actualy
-                                        anchors.left: parent.left
-                                        id: uninstallButton
-                                        text: i18n.tr("Uninstall")
-                                        height: units.gu(4)
-                                        width: (parent.width/2)-units.gu(2)
-                                        contentItem: Text {
-                                            text: uninstallButton.text
-                                            font: uninstallButton.font
-                                            color: "#ffffff"
-                                            horizontalAlignment: Text.AlignHCenter
-                                            verticalAlignment: Text.AlignVCenter
-                                            elide: Text.ElideRight
-                                        }
-
-                                        background: Rectangle {
-                                            radius: units.gu(1.5)
-                                            color: "#E95420"
-                                        }
-                                        onClicked: {
-                                            
-						
-                                            }
-                                    }
-                                    Button{
-                                        anchors.right: parent.right
-                                        text: i18n.tr("Cancel")
-                                        height: units.gu(4)
-                                        width: (parent.width/2)-units.gu(2)
-                                        background: Rectangle {
-                                            radius: units.gu(1.5)
-                                            color: "#F6F6F5"
-                                        }
-                                        onClicked: {
-                                            onClicked: PopupUtils.close(appsDialogueFav);
-                                        }
-                                    }
-
-
-                                }
-
-                            }
-                        }
-                            
-                            
+                           }
+ 
                             MouseArea {
                                     anchors.fill: parent
                                     onClicked: {
                                         listColumnApps.doAction(action)
                                     }
-                                    onPressAndHold: {
-                                        PopupUtils.open(appsDialogFav);
-                                    } // pressAndHold
                             }
-
 
                             Text{
                                 anchors.top: screenshotAppFavorite.bottom

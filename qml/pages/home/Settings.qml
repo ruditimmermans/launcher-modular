@@ -89,6 +89,7 @@ Page {
 
             Button{
                 text: i18n.tr("Cancel")
+                color: UbuntuColors.orange
                 onClicked: PopupUtils.close(listAppDialogue);
             }
 

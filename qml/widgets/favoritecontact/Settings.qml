@@ -24,7 +24,7 @@ Page {
                         pageStack.pop();
                     }
                 }
-            ]        
+            ]
    }
     
 Rectangle {
@@ -92,7 +92,7 @@ Rectangle {
                 verticalAlignment: Text.AlignVCenter
             }
 
-            }     
+            }
 
             
 

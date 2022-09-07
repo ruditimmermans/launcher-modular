@@ -72,9 +72,7 @@ Rectangle {
             anchors.horizontalCenter: parent.horizontalCenter
             text: i18n.tr('Show again hided Android apps in Launcher Modular')
             color: UbuntuColors.red
-                                              "sudo -S bash file:///" + applicationDirPath + "assets/systemscript/repair.sh"
-   
-                onClicked: Terminalaccess.run("sudo -S bash file:///" + applicationDirPath + "assets/systemscript/repair.sh"")
+            onClicked: Terminalaccess.run("sudo -S bash file:///" + applicationDirPath + "assets/systemscript/repair.sh")
             }
       }
       
@@ -98,8 +96,7 @@ Rectangle {
             anchors.bottomMargin: 160
             text: i18n.tr('Hide double WayDroid icon in Launcher Modular')
             color: UbuntuColors.red
-   
-                onClicked: Terminalaccess.run("sudo -S bash file:///" + applicationDirPath + "assets/systemscript/doubleicon.sh")
+            onClicked: Terminalaccess.run("sudo -S bash file:///" + applicationDirPath + "assets/systemscript/doubleicon.sh")
         }
     } // column
   } //flickable
