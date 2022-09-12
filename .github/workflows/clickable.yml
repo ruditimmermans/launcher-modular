@@ -33,4 +33,3 @@ jobs:
         with:
           name: "ubuntu-info-click"
           path: build/*/app/*.click
-          if-no-files-found: error
