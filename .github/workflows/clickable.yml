@@ -32,4 +32,5 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: "ubuntu-info-click"
-          path: build/*/app/*.click
+          path: /home/runner/work/launcher-modular/launcher-modular/build/aarch64-linux-gnu/app/*.click
+          if-no-files-found: error
