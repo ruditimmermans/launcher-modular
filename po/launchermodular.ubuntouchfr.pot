@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-07 18:17+0000\n"
+"POT-Creation-Date: 2022-09-15 08:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../qml/About.qml:14 ../qml/Main.qml:611
+#: ../qml/About.qml:14 ../qml/Main.qml:598
 msgid "About"
 msgstr ""
 
@@ -87,67 +87,63 @@ msgstr ""
 msgid "Swipe up to configure the launcher"
 msgstr ""
 
-#: ../qml/Main.qml:474
+#: ../qml/Main.qml:478
 msgid "Add custom icon"
 msgstr ""
 
-#: ../qml/Main.qml:501
+#: ../qml/Main.qml:508
 msgid "Manage page"
 msgstr ""
 
-#: ../qml/Main.qml:528 ../qml/Util.qml:18
-msgid "Utilities"
-msgstr ""
-
-#: ../qml/Main.qml:555
+#: ../qml/Main.qml:538
 msgid "Configure Launcher"
 msgstr ""
 
-#: ../qml/Main.qml:582
+#: ../qml/Main.qml:568
 msgid "Help"
 msgstr ""
 
-#: ../qml/Main.qml:700
+#: ../qml/Main.qml:686
 msgid "SVG or PNG icon. 1:1 ratio"
 msgstr ""
 
-#: ../qml/Main.qml:714
+#: ../qml/Main.qml:700
 msgid "The <b>title</b> to be shown in the app list"
 msgstr ""
 
-#: ../qml/Main.qml:719
+#: ../qml/Main.qml:705
 msgid "Website"
 msgstr ""
 
-#: ../qml/Main.qml:719
+#: ../qml/Main.qml:705
 msgid "Open the browser with the url"
 msgstr ""
 
-#: ../qml/Main.qml:720
+#: ../qml/Main.qml:706
 msgid "Terminal command"
 msgstr ""
 
-#: ../qml/Main.qml:720
+#: ../qml/Main.qml:706
 msgid "Launch an order in a terminal"
 msgstr ""
 
-#: ../qml/Main.qml:721
+#: ../qml/Main.qml:707
 msgid "Launch app"
 msgstr ""
 
-#: ../qml/Main.qml:721
+#: ../qml/Main.qml:707
 msgid "Launch an app"
 msgstr ""
 
-#: ../qml/Main.qml:745 ../qml/Main.qml:747 ../qml/Main.qml:749
+#: ../qml/Main.qml:731 ../qml/Main.qml:733 ../qml/Main.qml:735
 msgid "<b>Action</b> example: "
 msgstr ""
 
-#: ../qml/Main.qml:763
+#: ../qml/Main.qml:749
 msgid "Create icon"
 msgstr ""
 
-#: ../qml/Main.qml:808 ../qml/Pagemanagement.qml:137
+#: ../qml/Main.qml:794 ../qml/Pagemanagement.qml:137
 #: ../qml/Pagemanagementback.qml:128 ../qml/pages/Home.qml:436
 #: ../qml/pages/home/Settings.qml:91
 msgid "Cancel"
@@ -297,28 +293,6 @@ msgid ""
 "If you like to translate Launcher Modular into your own language, go to <a "
 "href='https://poeditor.com/join/project/w7zMm2Z9Nm'>POEditor</a> for more "
 "details."
-msgstr ""
-
-#: ../qml/Util.qml:58
-msgid "Android apps"
-msgstr ""
-
-#: ../qml/Util.qml:64
-msgid ""
-"<b>Use this only when you have hidden Android applications using \"WayDroid "
-"Helper\" and want them to appear in \"Launcher Modular\"</b>"
-msgstr ""
-
-#: ../qml/Util.qml:73
-msgid "Show again hided Android apps in Launcher Modular"
-msgstr ""
-
-#: ../qml/Util.qml:82
-msgid "<b>Removes the double icon from WayDroid into \"Launcher Modular\"</b>"
-msgstr ""
-
-#: ../qml/Util.qml:97
-msgid "Hide double WayDroid icon in Launcher Modular"
 msgstr ""
 
 #: ../qml/pages/Calendar.qml:103

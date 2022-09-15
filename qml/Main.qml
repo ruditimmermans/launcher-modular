@@ -20,7 +20,7 @@ MainView {
     width: units.gu(45)
     height: units.gu(75)
     
-    property string appVersion : "1.7.0"
+    property string appVersion : "1.8.0"
         
     function getCustomIconArray() {
         var customIcon = [], hMI_l = launchermodular.customIconModel.count;
@@ -440,6 +440,7 @@ Rectangle {
                         height: units.gu(3)
                         width: units.gu(3)
                     }
+
                     Text {
                         anchors.top: iconShortcut.bottom
                         horizontalAlignment: Text.AlignHCenter
@@ -448,6 +449,7 @@ Rectangle {
                         font.pointSize: units.gu(1)
                         wrapMode:Text.WordWrap
                     }
+
                   MouseArea {
                             anchors.fill: parent
                             onPressed: {
@@ -456,6 +458,7 @@ Rectangle {
                             }
                   }
                 }*/
+
                 Column {
                     anchors.verticalCenter: parent.verticalCenter
                     height: parent.height
@@ -467,6 +470,7 @@ Rectangle {
                         height: units.gu(3)
                         width: units.gu(3)
                     }
+
                     Text {
                         anchors.top: iconWidget.bottom
                         horizontalAlignment: Text.AlignHCenter
@@ -475,6 +479,7 @@ Rectangle {
                         font.pointSize: units.gu(1)
                         wrapMode:Text.WordWrap
                     }
+
                   MouseArea {
                             anchors.fill: parent
                             onPressed: {
@@ -483,6 +488,7 @@ Rectangle {
                             }
                   }
                 }
+
                 Column {
                     anchors.verticalCenter: parent.verticalCenter
                     height: parent.height
@@ -494,6 +500,7 @@ Rectangle {
                         height: units.gu(3)
                         width: units.gu(3)
                     }
+
                     Text {
                         anchors.top: iconPage.bottom
                         horizontalAlignment: Text.AlignHCenter
@@ -502,6 +509,7 @@ Rectangle {
                         font.pointSize: units.gu(1)
                         wrapMode:Text.WordWrap
                     }
+
                   MouseArea {
                             anchors.fill: parent
                             onPressed: {
@@ -510,33 +518,7 @@ Rectangle {
                             }
                   }
                 }
-                Column {
-                    anchors.verticalCenter: parent.verticalCenter
-                    height: parent.height
-                    width: units.gu(8)
-                    Icon {
-                        id: iconUtil
-                        anchors.horizontalCenter: parent.horizontalCenter
-                        name: "preferences-desktop-launcher-symbolic"
-                        height: units.gu(3)
-                        width: units.gu(3)
-                    }
-                    Text {
-                        anchors.top: iconUtil.bottom
-                        horizontalAlignment: Text.AlignHCenter
-                        width: parent.width
-                        text: i18n.tr("Utilities")
-                        font.pointSize: units.gu(1)
-                        wrapMode:Text.WordWrap
-                    }
-                  MouseArea {
-                            anchors.fill: parent
-                            onPressed: {
-                                    pageStack.push(Qt.resolvedUrl("Util.qml"))
-                                    bottomBarSettings.close()
-                            }
-                  }
-                }
+
                 Column {
                     anchors.verticalCenter: parent.verticalCenter
                     height: parent.height
@@ -548,6 +530,7 @@ Rectangle {
                         height: units.gu(3)
                         width: units.gu(3)
                     }
+
                     Text {
                         anchors.top: iconSettings.bottom
                         horizontalAlignment: Text.AlignHCenter
@@ -556,6 +539,7 @@ Rectangle {
                         font.pointSize: units.gu(1)
                         wrapMode:Text.WordWrap
                     }
+
                   MouseArea {
                             anchors.fill: parent
                             onPressed: {
@@ -564,6 +548,7 @@ Rectangle {
                             }
                   }
                 }
+
                 Column {
                     anchors.verticalCenter: parent.verticalCenter
                     height: parent.height
@@ -575,6 +560,7 @@ Rectangle {
                         height: units.gu(3)
                         width: units.gu(3)
                     }
+
                     Text {
                         anchors.top: iconHelp.bottom
                         horizontalAlignment: Text.AlignHCenter
@@ -583,6 +569,7 @@ Rectangle {
                         font.pointSize: units.gu(1)
                         wrapMode:Text.WordWrap
                     }
+
                   MouseArea {
                             anchors.fill: parent
                             onPressed: {
@@ -590,9 +577,8 @@ Rectangle {
                                     bottomBarSettings.close()
                             }
                   }
-
-
                 }
+
                 Column {
                     anchors.verticalCenter: parent.verticalCenter
                     height: parent.height
@@ -604,6 +590,7 @@ Rectangle {
                         height: units.gu(3)
                         width: units.gu(3)
                     }
+
                     Text {
                         anchors.top: iconAbout.bottom
                         horizontalAlignment: Text.AlignHCenter
@@ -612,6 +599,7 @@ Rectangle {
                         font.pointSize: units.gu(1)
                         wrapMode:Text.WordWrap
                     }
+
                   MouseArea {
                             anchors.fill: parent
                             onPressed: {
@@ -619,8 +607,6 @@ Rectangle {
                                     bottomBarSettings.close()
                             }
                   }
-
-
                 }
 
             }
