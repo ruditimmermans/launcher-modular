@@ -3,11 +3,11 @@ import QtQuick.Controls 2.2
 import QtQuick.Layouts 1.1
 import QtGraphicalEffects 1.0
 import Qt.labs.settings 1.0
-import Ubuntu.Components 1.3
-import Ubuntu.Components.ListItems 1.3 as ListItem
+import Lomiri.Components 1.3
+import Lomiri.Components.ListItems 1.3 as ListItem
 import "pages"
 import Terminalaccess 1.0
-import Ubuntu.Components.Popups 0.1
+import Lomiri.Components.Popups 0.1
 import LauncherModular 1.0
 
 Page {

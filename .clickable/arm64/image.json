@@ -1,1 +1,1 @@
-{"name": "clickable/amd64-16.04-arm64:16.04.5-11efc345-7006-4cd4-8f27-57b00fd5276b", "base_image": "clickable/amd64-16.04-arm64:16.04.5"}
+{"name": "clickable/amd64-20.04-arm64-d68587c3-a03c-44ab-ac90-39bf94e4e469", "base_image": "clickable/amd64-20.04-arm64"}

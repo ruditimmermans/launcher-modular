@@ -1,11 +1,11 @@
 import QtQuick 2.4
-import Ubuntu.Components 1.3
-import Ubuntu.Components.ListItems 1.3 as ListItem
-import Ubuntu.Components.Popups 1.0
+import Lomiri.Components 1.3
+import Lomiri.Components.ListItems 1.3 as ListItem
+import Lomiri.Components.Popups 1.0
 import "../components"
 import Qt.labs.settings 1.0
-import Ubuntu.History 0.1
-import Ubuntu.Contacts 0.1
+import Lomiri.History 0.1
+import Lomiri.Contacts 0.1
 
 Item {
     width: listColumn.width/2

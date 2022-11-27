@@ -1,14 +1,14 @@
-import QtQuick 2.9
+import QtQuick 2.8
 import QtQuick.Layouts 1.1
 import QtGraphicalEffects 1.0
 import Qt.labs.settings 1.0
-import Ubuntu.Components 1.3
-import Ubuntu.Components.ListItems 1.3 as ListItem
+import Lomiri.Components 1.3
+import Lomiri.Components.ListItems 1.3 as ListItem
 import MySettings 1.0
 import AppHandler 1.0
 import "pages"
 import QtQuick.Controls 2.2
-import Ubuntu.Components.Popups 1.3
+import Lomiri.Components.Popups 1.3
 import AccountsService 0.1
     
 MainView {
@@ -20,7 +20,7 @@ MainView {
     width: units.gu(45)
     height: units.gu(75)
     
-    property string appVersion : "1.8.0"
+    property string appVersion : "1.9.0"
         
     function getCustomIconArray() {
         var customIcon = [], hMI_l = launchermodular.customIconModel.count;
@@ -660,7 +660,7 @@ Rectangle {
                             height: units.gu(4)
                         }
                         
-                    UbuntuShape {
+                    LomiriShape {
                         id: webAppIcon
                         source: Image {
                             id: imageSource
@@ -760,7 +760,7 @@ Rectangle {
 
                                 background: Rectangle {
                                     radius: units.gu(1.5)
-                                    color: UbuntuColors.green
+                                    color: LomiriColors.green
                                 }
                                 
                                 property var actionIcon: ""
@@ -796,7 +796,7 @@ Rectangle {
                                 width: (parent.width/2)-units.gu(2)
                                 background: Rectangle {
                                     radius: units.gu(1.5)
-                                    color: UbuntuColors.orange
+                                    color: LomiriColors.orange
                                 }
                                 onClicked: {
                                     onClicked: {

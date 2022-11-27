@@ -1,3 +1,3 @@
 #!/bin/bash
 
-clickable build --clean --arch arm64
+CLICKABLE_FRAMEWORK=ubuntu-sdk-20.04 clickable install --arch arm64 

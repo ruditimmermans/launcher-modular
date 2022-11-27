@@ -3,9 +3,9 @@ import QtQuick.Layouts 1.1
 import QtGraphicalEffects 1.0
 import Qt.labs.settings 1.0
 import QtQuick.Controls 2.2
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 import "pages"
-import Ubuntu.Components.Popups 0.1
+import Lomiri.Components.Popups 0.1
 import Qt.labs.folderlistmodel 2.1
 
 
