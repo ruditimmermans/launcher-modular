@@ -1,4 +1,4 @@
-import QtQuick 2.4
+import QtQuick 2.8
 import Lomiri.Components 1.3
 import Lomiri.Components.ListItems 1.3 as ListItem
 import QtGraphicalEffects 1.0
@@ -115,10 +115,10 @@ Column {
                                 }
                             }
 
-                            UbuntuShape {
+                            LomiriShape {
                                 source: screenshotAppFavorite
                                 anchors.horizontalCenter: parent.horizontalCenter
-                                aspect: UbuntuShape.Flat
+                                aspect: LomiriShape.Flat
                                 width: if (launchermodular.settings.iconStyle == "default") { units.gu(8)*launchermodular.settings.iconSize;}else{ units.gu(0);}
                                 height: if (launchermodular.settings.iconStyle == "default") { units.gu(8)*launchermodular.settings.iconSize;}else{ units.gu(0);}
                                 radius : "medium"

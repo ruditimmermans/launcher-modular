@@ -12,7 +12,7 @@ import QtQuick.Controls 2.2
 import Lomiri.Components.Popups 1.3
 
 Item {
-        id: home
+  id: home
 
 Component {
 	id: diag
@@ -45,7 +45,7 @@ Connections {
 }
 
     property bool reloading: false
-        
+
 	function getIcon()
     {
        home.reloading = true
@@ -54,8 +54,8 @@ Connections {
        AppHandler.permaFilter("NoDisplay", "^(?!true$).*$") //keep the one that have NOT NoDisplay=true
        AppHandler.permaFilter("package_name",  "^(?!launchermodular.ubuntouchfr_).*$")
        AppHandler.permaFilter("Icon",  "/.*$")
-        listCustomIcon.model = ""
-        listCustomIcon.model = launchermodular.customIconModel
+       listCustomIcon.model = ""
+       listCustomIcon.model = launchermodular.customIconModel
        //AppHandler.appsinfo.push(settingsButton)
        AppHandler.sort()
            //AppHandler.setFav(settings.coreApps.join())
@@ -77,15 +77,15 @@ Connections {
                 easing.type: Easing.OutBounce
             }
         }
-            
+
        PullToRefresh {
             parent: flickable
             refreshing: home.reloading
             onRefresh: home.getIcon();
 
         }
-      
-        
+
+
             Column {
                 id: listColumn
                 anchors.fill: parent
@@ -93,13 +93,13 @@ Connections {
                     topMargin: units.gu(2)
                 }
                 spacing: units.gu(2)
-                
+
 
             Rectangle {
             id: search
             height: units.gu(5)
             width: parent.width
-                
+
             anchors {
                 left: parent.left
                 right: parent.right
@@ -205,22 +205,22 @@ Connections {
             }
 
         }
-                
-                
+
+
                 Row{
                     id: rowWidgets
                     width: childrenRect.width
                     height: contentHeight
                     anchors.horizontalCenter: parent.horizontalCenter
-   
+
                         Clock {
                             visible: launchermodular.settings.widgetVisibleClock
                             width: launchermodular.settings.widgetVisibleWeather ? listColumn.width/2 : listColumn.width
                         }
                         Weather { visible: launchermodular.settings.widgetVisibleWeather }
-                    
+
                 }
-                
+
                 Row{
                     id: rowWidgetsM
                     width: parent.width
@@ -231,7 +231,7 @@ Connections {
                         left: parent.left
                         leftMargin: units.gu(2)
                     }
-                    
+
                     Column{
                         id: widgetLM
                         spacing: units.gu(1)
@@ -242,26 +242,26 @@ Connections {
                             Lastmessage { visible: launchermodular.settings.widgetVisibleLastmessage }
 
                     }
-                    
+
                     Event { visible: launchermodular.settings.widgetVisibleEvent }
-                
+
                 }
-                
+
                 FavoriteApp {
                     id: favoriteAppWidget
                     width: parent.width
                 }
-                
+
                 FavoriteContact {
                     id: favoriteContactWidget
                     width: parent.width
                 }
-                
+
                 SearchContact {
                     id: searchContactWidget
                     width: parent.width
                 }
-                
+
                 Item{
                     id: titleList
                     height: units.gu(4)
@@ -270,7 +270,7 @@ Connections {
                         left: parent.left
                         leftMargin: units.gu(2)
                     }
-                    
+
                     Icon {
                        id: iconInstalledApps
                         width: units.gu(2)
@@ -286,10 +286,10 @@ Connections {
                         color: launchermodular.settings.textColor
                     }
                 }
-               
-                
-                
-                
+
+
+
+
                 Item {
                     id: listColumnApps
                     width: parent.width
@@ -300,7 +300,7 @@ Connections {
                         right: parent.right
                         rightMargin: units.gu(2)
                     }
-                
+
                     function doAction(action) {
                         console.log("opening "+action)
                         if(action.startsWith("application:///")) {
@@ -309,7 +309,7 @@ Connections {
                         if(action.startsWith("terminal:///")) {
                          var actionterm = action.replace(/^terminal:\/\/\//, "")
                          var actionsudo = actionterm.replace(/^sudo /, "sudo -S ")
-                                                         
+
                         Terminalaccess.run(actionsudo);
                         }
                         if(action.startsWith("browser:///")) {
@@ -329,17 +329,14 @@ Connections {
         cellHeight: iconbasesize+units.gu(5)
         property real iconbasesize: units.gu(10)*launchermodular.settings.iconSize
         cellWidth: Math.floor(width/Math.floor(width/iconbasesize))
-            
+
         focus: true
         model: AppHandler.appsinfo.length
         interactive: false
-            
+
         delegate: Item {
                     width: gview.cellWidth
-
                     height: gview.iconbasesize
-
-
                     property var elem: AppHandler.appsinfo[index]
 
                     Item {
@@ -354,7 +351,7 @@ Connections {
                             anchors.verticalCenter: parent.verticalCenter
                             width: parent.width
                             height: parent.height
-                            source:elem.icon;
+                            source: elem.icon
                             visible: if (launchermodular.settings.iconStyle == "none") { true;}else{ false;}
                         }
 
@@ -370,9 +367,9 @@ Connections {
                             }
                         }
 
-                        UbuntuShape {
+                        LomiriShape {
                             source: imgIcons
-                            aspect: UbuntuShape.Flat
+                            aspect: LomiriShape.Flat
                             width: if (launchermodular.settings.iconStyle == "default") { parent.width;}else{ units.gu(0);}
                             height: if (launchermodular.settings.iconStyle == "default") { parent.height;}else{ units.gu(0);}
                             radius : "medium"
@@ -409,13 +406,13 @@ Connections {
 
                                         background: Rectangle {
                                             radius: units.gu(1.5)
-                                            color: UbuntuColors.green
+                                            color: LomiriColors.green
                                         }
                                         onClicked: {
                                             PopupUtils.close(appsDialogue);
-                                            
+
                                             if(elem.getProp("package_name")){Terminalaccess.run("sudo -S click unregister --user=phablet "+elem.getProp("package_name").split("_")[0])}else{
-                                           
+
     for (var i = 0; i < launchermodular.customIconModel.count; i++) {
         if (elem.name === launchermodular.customIconModel.get(i).name) {
             launchermodular.customIconModel.remove(i)
@@ -426,9 +423,9 @@ Connections {
         launchermodular.settings.customIcon = launchermodular.getCustomIconArray();
 
                                             }
-                                            
+
                                             home.getIcon()
-						
+
                                             }
                                     }
                                     Button{
@@ -438,7 +435,7 @@ Connections {
                                         width: (parent.width/2)-units.gu(2)
                                         background: Rectangle {
                                             radius: units.gu(1.5)
-                                            color: UbuntuColors.orange
+                                            color: LomiriColors.orange
                                         }
                                         onClicked: {
                                             onClicked: PopupUtils.close(appsDialogue);
@@ -461,10 +458,10 @@ Connections {
                                     PopupUtils.open(appsDialog);
                                 } // pressAndHold
                         }
-                                        
+
 
                     } // Item
-            
+
                         Text{
                             anchors.top: itemApp.bottom
                             horizontalAlignment: Text.AlignHCenter
@@ -475,16 +472,16 @@ Connections {
                             text: elem.name;
                             color: launchermodular.settings.textColor
                          }
-            
+
             }// delegate
 
         }
-                
+
     Repeater {
         id: listCustomIcon
         model: launchermodular.customIconModel
         Loader {
-              
+
             AppInfo {
 		      id: customButton
                 name: model.name
@@ -493,33 +490,33 @@ Connections {
 
             Component.onCompleted:AppHandler.appsinfo.push(customButton)
 	       }
-			
+
         }
 
     }
-                        
+
         Component.onCompleted: {
             console.log(AppHandler.appsinfo.length);
             AppHandler.permaFilter()
             AppHandler.permaFilter("NoDisplay", "^(?!true$).*$") //keep the one that have NOT NoDisplay=true
             AppHandler.permaFilter("package_name",  "^(?!launchermodular.ubuntouchfr_).*$")
             AppHandler.permaFilter("Icon",  "/.*$")
-            
+
             //AppHandler.appsinfo.push(settingsButton)
-                            
+
             AppHandler.sort()
             //console.log(AppHandler.appsinfo[0].name);
             //console.log(AppHandler.appsinfo[0].getProp("package_name"));
             //console.log(AppHandler.appsinfo[0].getProp("Icon"));
             //console.log(Qt.locale().name);
-            
+
         }
     }
-            
-            
-            
-            
-                
+
+
+
+
+
             }//Column
         } //Flickable
 

@@ -140,15 +140,15 @@ ContactModel {
                     }
                 }
 
-                UbuntuShape {
+                LomiriShape {
                     source: screenshotContactFavorite
                     anchors.horizontalCenter: parent.horizontalCenter
-                    aspect: UbuntuShape.Flat
+                    aspect: LomiriShape.Flat
                     width: if (launchermodular.settings.iconStyle == "default") { units.gu(8)*launchermodular.settings.iconSize;}else{ units.gu(0);}
                     height: if (launchermodular.settings.iconStyle == "default") { units.gu(8)*launchermodular.settings.iconSize;}else{ units.gu(0);}
                     radius : "medium"
                     backgroundColor: "white"
-                    sourceFillMode: UbuntuShape.PreserveAspectCrop
+                    sourceFillMode: LomiriShape.PreserveAspectCrop
 
                 }
                 MouseArea {
@@ -198,7 +198,7 @@ ContactModel {
                                 width: units.gu(2)
                                 height: units.gu(2)
                                 name: "call-start"
-                                color: UbuntuColors.green
+                                color: LomiriColors.green
                             }
                         }
                         
@@ -217,7 +217,7 @@ ContactModel {
                                 width: units.gu(2)
                                 height: units.gu(2)
                                 name: "message"
-                                color: UbuntuColors.orange
+                                color: LomiriColors.orange
                             }
                             
                         }

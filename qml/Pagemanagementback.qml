@@ -205,7 +205,7 @@ Rectangle {
         }
     }
     moveDisplaced: Transition {
-        UbuntuNumberAnimation {
+        LomiriNumberAnimation {
             property: "y"
         }
     }
@@ -237,7 +237,7 @@ Rectangle {
                             visible: false
                         }
 
-                        UbuntuShape {
+                        LomiriShape {
                             source: imgIcons
                             anchors.topMargin: units.gu(6)
                             anchors.horizontalCenter: parent.horizontalCenter

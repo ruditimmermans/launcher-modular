@@ -1,8 +1,7 @@
 #!/bin/bash
-launched=$(ubuntu-app-list | grep launchermodular.ubuntouchfr)
-appid=$(ubuntu-app-launch-appids | grep launchermodular.ubuntouchfr)
+launched=$(lomiri-app-list | grep launchermodular.ubuntouchfr)
+appid=$(lomiri-app-launch-appids | grep launchermodular.ubuntouchfr)
 if [ -n appid ]
 then
-    ubuntu-app-launch $appid && tail --pid=$(ubuntu-app-pid $appid) -f /dev/null
+    lomiri-app-launch $appid && tail --pid=$(lomiri-app-pid $appid) -f /dev/null
 fi
- 

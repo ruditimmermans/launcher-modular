@@ -1,4 +1,4 @@
-import QtQuick 2.4
+import QtQuick 2.8
 import QtQuick.Controls 2.2
 import Qt.labs.settings 1.0
 import Lomiri.Components 1.3
@@ -39,21 +39,21 @@ Page {
                numberOfSlots: 2
             }
    }
-    
-    
+
+
    Component {
         id: listAppDialog
         Dialog {
             id: listAppDialogue
-                
-                
+
+
             ListView {
-                
+
                 model: AppHandler.appsinfo.length
                 height: pageSettingsHome.height*0.65
 
                 delegate: ListItem {
-                    
+
 			         property var elem: AppHandler.appsinfo[index]
 
                     ListItemLayout {
@@ -61,7 +61,7 @@ Page {
                         id: modelLayout2
                         title.text: elem.name
                         title.color: "black"
-                        UbuntuShape {
+                        LomiriShape {
                             source: Image {
                                 id: screenshotAppFavorite
                                 source: elem.icon
@@ -73,14 +73,14 @@ Page {
                             height: width
                             radius : "medium"
                         }
-                            
+
                     }
                         divider.visible: false
                         onClicked: {
-                      
+
                          launchermodular.favoriteAppsModel.append({"name": elem.name, "icon": elem.icon, "action": elem.action});
 
-                            
+
                             PopupUtils.close(listAppDialogue);
                         }
                     }
@@ -89,13 +89,13 @@ Page {
 
             Button{
                 text: i18n.tr("Cancel")
-                color: UbuntuColors.orange
+                color: LomiriColors.orange
                 onClicked: PopupUtils.close(listAppDialogue);
             }
 
         }
     }
-    
+
 Rectangle {
     id:mainsettings
         anchors.fill: parent
@@ -127,13 +127,13 @@ Rectangle {
             width: parent.width
             height: contentHeight
             delegate: ListItem {
-                                
+
                 divider.visible: false
                 height: modelLayout.height + (divider.visible ? divider.height : 0)
             ListItemLayout {
                 id: modelLayout
                 title.text: "<font color=\"#ffffff\">"+name+"</font>"
-                    UbuntuShape {
+                    LomiriShape {
                         source: Image {
                             id: screenshotAppFavorite
                             source: icon
@@ -154,7 +154,7 @@ Rectangle {
                     text: i18n.tr("Delete")
                     iconName: "edit-delete"
                     onTriggered: launchermodular.favoriteAppsModel.remove(index)
- 
+
                 }
             ]
         }
@@ -170,7 +170,7 @@ Rectangle {
             }
 
             moveDisplaced: Transition {
-                UbuntuNumberAnimation {
+                LomiriNumberAnimation {
                     property: "y"
                 }
             }
@@ -185,7 +185,7 @@ Rectangle {
     Component.onCompleted: {
 		AppHandler.permaFilter()
 		AppHandler.permaFilter("NoDisplay", "^(?!true$).*$") //keep the one that have NOT NoDisplay=true
-        AppHandler.permaFilter("Icon",  "/.*$")
+    AppHandler.permaFilter("Icon",  "/.*$")
 		AppHandler.sort()
 	}
 

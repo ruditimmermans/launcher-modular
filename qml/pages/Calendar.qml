@@ -167,7 +167,7 @@ Item {
             anchors.fill: parent
             onClicked:{
                 Qt.openUrlExternally("calendar://eventid="+item.itemId)
-               // onClicked:Qt.openUrlExternally("application:///com.ubuntu.calendar_calendar.desktop")
+               // onClicked:Qt.openUrlExternally("application:///com.lomiri.calendar_calendar.desktop")
             }
         }
         */

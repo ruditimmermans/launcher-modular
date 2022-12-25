@@ -154,7 +154,7 @@ OrganizerModel {
     
     MouseArea {
         anchors.fill: parent
-        onClicked:Qt.openUrlExternally("application:///com.ubuntu.calendar_calendar.desktop")
+        onClicked:Qt.openUrlExternally("application:///com.lomiri.calendar_calendar.desktop")
         onPressAndHold: pageStack.push(Qt.resolvedUrl("event/Settings.qml"))
 
     }

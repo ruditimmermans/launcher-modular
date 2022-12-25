@@ -1,4 +1,4 @@
-import QtQuick 2.4
+import QtQuick 2.8
 import Lomiri.Components 1.3
 import Lomiri.Components.ListItems 1.3 as ListItem
 import QtContacts 5.0
@@ -98,10 +98,10 @@ ContactModel {
                     }
                 }
 
-                UbuntuShape {
+                LomiriShape {
                     source: screenshotContactSearch
                     anchors.right: parent.right
-                    aspect: UbuntuShape.Flat
+                    aspect: LomiriShape.Flat
                     width: if (launchermodular.settings.iconStyle == "default") { units.gu(8)*launchermodular.settings.iconSize;}else{ units.gu(0);}
                     height: if (launchermodular.settings.iconStyle == "default") { units.gu(8)*launchermodular.settings.iconSize;}else{ units.gu(0);}
                     radius : "medium"

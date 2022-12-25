@@ -1,6 +1,5 @@
 #include <QtQml>
 #include <QtQml/QQmlContext>
-
 #include "plugin.h"
 #include "launcher.h"
 

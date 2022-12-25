@@ -1,4 +1,4 @@
-import QtQuick 2.4
+import QtQuick 2.8
 import Lomiri.Components 1.3
 import Lomiri.Components.ListItems 1.3 as ListItem
 
@@ -62,7 +62,7 @@ ListView {
     
     MouseArea {
         anchors.fill: parent
-            onClicked:Qt.openUrlExternally("application:///com.ubuntu.clock_clock.desktop")
+            onClicked:Qt.openUrlExternally("application:///com.lomiri.clock_clock.desktop")
     }
 
 }

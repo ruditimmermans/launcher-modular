@@ -2,7 +2,6 @@
 #include <QString>
 #include <QUrl>
 #include <QFile>
-
 #include "mysettings.h"
 
 MySettings::MySettings() : _acc() {
@@ -15,7 +14,7 @@ QString MySettings::getBackgroundFile()
 		"org.freedesktop.Accounts.User",
 		"BackgroundFile");
 	QString filename = answer.toString();
-	
+
 	if (filename.isEmpty() || !QFile::exists(filename))
 		return "";//TODO return something more usefull
 	else

@@ -1,4 +1,4 @@
-import QtQuick 2.4
+import QtQuick 2.8
 import Lomiri.Components 1.3
 import Lomiri.Components.ListItems 1.3 as ListItem
 import Lomiri.Components.Popups 1.0

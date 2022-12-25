@@ -1,4 +1,4 @@
-import QtQuick 2.4
+import QtQuick 2.8
 import QtQuick.Controls 2.2
 import QtQuick.Layouts 1.1
 import QtGraphicalEffects 1.0
@@ -212,7 +212,7 @@ Rectangle {
                                     
         Button {
             text: LauncherModularPlug.isDashSet ? i18n.tr('Restore standard launcher') : i18n.tr('Install Launcher Modular by default')
-            color: LauncherModularPlug.isDashSet ? UbuntuColors.red : UbuntuColors.green
+            color: LauncherModularPlug.isDashSet ? LomiriColors.red : LomiriColors.green
             anchors.horizontalCenter: parent.horizontalCenter
             onClicked: {
                 pleaseReboot.visible = true
@@ -237,9 +237,9 @@ Rectangle {
         Button {
             anchors.horizontalCenter: parent.horizontalCenter
             text: i18n.tr('Replace standard launcher')
-            color: UbuntuColors.red
+            color: LomiriColors.red
    
-                onClicked: Terminalaccess.run("sudo -S bash file:///" + applicationDirPath + "assets/systemscript/patchdash.sh ; restart unity8")
+                onClicked: Terminalaccess.run("sudo -S bash file:///" + applicationDirPath + "assets/systemscript/patchdash.sh ; restart lomiri")
         }
         Text{
             anchors.horizontalCenter: parent.horizontalCenter
@@ -248,7 +248,7 @@ Rectangle {
    
             MouseArea {
                 anchors.fill: parent
-                onClicked: Terminalaccess.run("sudo -S bash file:///" + applicationDirPath + "assets/systemscript/uninstall.sh ; restart unity8")
+                onClicked: Terminalaccess.run("sudo -S bash file:///" + applicationDirPath + "assets/systemscript/uninstall.sh ; restart lomiri")
             }
         }
                                

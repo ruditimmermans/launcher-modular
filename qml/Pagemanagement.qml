@@ -50,7 +50,7 @@ Page {
                             Dialog {
                                 id: listPageDialogue
                                 text: i18n.tr("Choose a page")
-            
+
 
       Flickable {
         id: flickableFolder
@@ -58,7 +58,7 @@ Page {
         contentHeight: customPageFolder.height+pageFolder.height
         flickableDirection: Flickable.VerticalFlick
         clip: true
-            
+
         ScrollBar.vertical: ScrollBar {
             active: true;
 
@@ -67,7 +67,7 @@ Page {
                     active = true;
             }
         }
-          
+
     ListView {
         id: customPageFolder
         model: folderModelCustom
@@ -97,8 +97,8 @@ Page {
                 }
             }
 
-    }                                    
-                                    
+    }
+
     ListView {
         id: pageFolder
         model: folderModel
@@ -106,7 +106,7 @@ Page {
         anchors.top: customPageFolder.bottom
         height: contentHeight
         width: parent.width
-            
+
             FolderListModel {
                 id: folderModel
                 nameFilters: ["*.qml"]
@@ -135,7 +135,7 @@ Page {
 
                                 Button{
                                     text: i18n.tr("Cancel")
-                                    color: UbuntuColors.orange
+                                    color: LomiriColors.orange
                                     onClicked: PopupUtils.close(listPageDialogue);
                                 }
 
@@ -160,14 +160,14 @@ Rectangle {
             clip: true
             orientation: ListView.Horizontal
             flickableDirection: Flickable.HorizontalFlick
-            
+
             model: launchermodular.pageModel
 
         delegate: ListItem {
                         width: units.gu(20)
                         height: units.gu(37)
                         divider.visible: false
-            
+
                         Image {
                             id: imgIcons
                             anchors.horizontalCenter: parent.horizontalCenter
@@ -180,7 +180,7 @@ Rectangle {
                             visible: false
                         }
 
-                        UbuntuShape {
+                        LomiriShape {
                             source: imgIcons
                             anchors.topMargin: units.gu(6)
                             anchors.horizontalCenter: parent.horizontalCenter
@@ -188,20 +188,20 @@ Rectangle {
                             width: parent.width-units.gu(2)
                             height: parent.height-units.gu(6)
                             radius : "medium"
-                            sourceFillMode: UbuntuShape.PreserveAspectCrop
-                                
+                            sourceFillMode: LomiriShape.PreserveAspectCrop
+
                             Rectangle {
                                 anchors.fill: parent
                                 color: launchermodular.settings.backgroundColor
                                 opacity: launchermodular.settings.backgroundOpacity
                             }
-                            
+
                             Image {
                                 id: background
                                 anchors.fill: parent
                                 source: "pages/"+name.split(".")[0].toLowerCase()+"/assets/page.png"
                             }
-                            
+
 
                         }
                         Rectangle {
@@ -248,7 +248,7 @@ Rectangle {
                                     launchermodular.pageModel.remove(index)
                                     mainloader.reloadPage()
                                 }
-                            }                  
+                            }
 
                         }
 
@@ -260,23 +260,23 @@ Rectangle {
         onClicked: {pageStack.push(Qt.resolvedUrl(directory+name.split(".")[0].toLowerCase()+"/Settings.qml"),{pageIndex:index});
 		console.log("clicked on"+index)
 		}
-            
+
 
                     } // Item
 
-    
+
     ViewItems.onDragUpdated: {
         if (event.status == ListItemDrag.Moving) {
             model.move(event.from, event.to, 1);
         }
     }
     moveDisplaced: Transition {
-        UbuntuNumberAnimation {
+        LomiriNumberAnimation {
             property: "x"
         }
     }
-    
-    
+
+
         }
 
 

@@ -1,27 +1,27 @@
 #!/bin/bash
 
 
-if [ -f "/home/phablet/.config/upstart/unity8-dash.override" ] 
+if [ -f "/home/phablet/.config/upstart/lomiri-dash.override" ] 
 then 
-	rm -f /home/phablet/.config/upstart/unity8-dash.override
+	rm -f /home/phablet/.config/upstart/lomiri-dash.override
 elif [ -f "/home/phablet/.config/upstart/launchermodular.conf" ] 
 then 
 	rm -f /home/phablet/.config/upstart/launchermodular.conf
-elif [ -f "/home/phablet/.unity8-dash.bak" ] 
+elif [ -f "/home/phablet/.lomiri-dash.bak" ] 
 then 
 mount -o rw,remount /
-	if [ "$(head -n1 /home/phablet/.unity8-dash.bak)" != "#!/bin/bash" ] 
+	if [ "$(head -n1 /home/phablet/.lomiri-dash.bak)" != "#!/bin/bash" ] 
 	then 
-		mv -f /home/phablet/.unity8-dash.bak /usr/bin/unity8-dash
-		rm /home/phablet/.unity8-dash.bak
+		mv -f /home/phablet/.lomiri-dash.bak /usr/bin/lomiri-dash
+		rm /home/phablet/.lomiri-dash.bak
 	else
-		rm /home/phablet/.unity8-dash.bak
+		rm /home/phablet/.lomiri-dash.bak
 		apt update
-		apt install unity8 --reinstall -y
+		apt install lomiri --reinstall -y
 	fi
 
 mount -o ro,remount /
 else  
 	apt update
-	apt install unity8 --reinstall -y
+	apt install lomiri --reinstall -y
 fi

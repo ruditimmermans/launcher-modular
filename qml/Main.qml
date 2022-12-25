@@ -10,7 +10,7 @@ import "pages"
 import QtQuick.Controls 2.2
 import Lomiri.Components.Popups 1.3
 import AccountsService 0.1
-    
+
 MainView {
     id: launchermodular
     objectName: 'mainView'
@@ -19,9 +19,9 @@ MainView {
 
     width: units.gu(45)
     height: units.gu(75)
-    
+
     property string appVersion : "1.9.0"
-        
+
     function getCustomIconArray() {
         var customIcon = [], hMI_l = launchermodular.customIconModel.count;
         for (var i=0; i<hMI_l; i++){
@@ -34,8 +34,8 @@ MainView {
     }
 
     property ListModel customIconModel :  ListModel { id: customIconModel }
-    
-        
+
+
     function getPageArray() {
         var page = [], hM_l = launchermodular.pageModel.count;
         for (var i=0; i<hM_l; i++){
@@ -46,9 +46,9 @@ MainView {
         console.log("pageModel to array, size : "+page.length);
         return page;
     }
-    
-  
-    
+
+
+
     property ListModel pageModel :  ListModel { id: pageModel }
 
     function getFavoriteAppsArray() {
@@ -64,7 +64,7 @@ MainView {
 
     property ListModel favoriteAppsModel :  ListModel { id: favoriteAppsModel }
 
-    
+
     // persistent app settings:
     property var settings: Settings {
 
@@ -86,7 +86,7 @@ MainView {
         property string backgroundColor: '#000000'
         property string backgroundOpacity: '0.7'
         property string backgroundBlur: '0'
-        
+
         property string folderimage: '/home/phablet/Pictures/'
 
         property int limiteDaysCalendar: 31;
@@ -96,16 +96,16 @@ MainView {
         property var page;
         property var customIcon;
         property var favoriteApps;
-        
+
         property var selectedAppNews: [];
 	signal newsConfigChanged();
-                  
+
         property bool newsBackgroundOpacity: false
         property string widgetMessageClick: 'default'
         property bool widgetMessageSummary: true
         property string widgetCallClick: 'default'
         property string widgetFavoriteContactClick: 'tel'
-            
+
         property bool widgetVisibleClock: true
         property bool widgetVisibleWeather: false
         property bool widgetVisibleAlarm: true
@@ -113,12 +113,12 @@ MainView {
         property bool widgetVisibleLastmessage: true
         property bool widgetVisibleEvent: true
 
-	
+
     }//settings
 
     property variant datenow: new Date()
     property var iconCustomUrl: "../assets/placeholder-app-icon.svg"
-        
+
     Timer {
         id: clockUpdater
         interval: 60000-(launchermodular.datenow.getSeconds()*1000)
@@ -129,8 +129,8 @@ MainView {
             launchermodular.datenow = new Date()
         }
     }
-    
-    
+
+
 PageStack {
   id: pageStack
     Page {
@@ -145,7 +145,7 @@ PageStack {
             }
 
             console.log("###### on Component completion #####")
-                
+
             if(typeof launchermodular.settings.customIcon === 'undefined') {
                  launchermodular.settings.customIcon = [];
             }
@@ -155,9 +155,9 @@ PageStack {
                 var item = launchermodular.settings.customIcon[i];
                 launchermodular.customIconModel.insert(i,{"name": item.name, "icon": item.icon, "action": item.action})
             }
-            
 
-                
+
+
             if(typeof launchermodular.settings.favoriteApps === 'undefined') {
                  launchermodular.settings.favoriteApps = [];
             }
@@ -167,8 +167,8 @@ PageStack {
                 var itemApps = launchermodular.settings.favoriteApps[i];
                 launchermodular.favoriteAppsModel.insert(i,{"name": itemApps.name, "icon": itemApps.icon, "action": itemApps.action})
             }
-        
-                
+
+
             if(typeof launchermodular.settings.page === 'undefined') {
                 console.log("page is undefined, let's create a new one");
                 launchermodular.settings.page = [{"name": "Home.qml", "icon": "pages/home/assets/icon.svg","data":{}, "directory": "pages/"}];
@@ -179,7 +179,7 @@ PageStack {
                 var item = launchermodular.settings.page[i];
                 launchermodular.pageModel.insert(i,{"name": item.name, "icon": item.icon, "data":item.data, "directory":item.directory})
             }
-        
+
         }
         Component.onDestruction: {
             console.log("####### On component destruction ###### ");
@@ -188,7 +188,7 @@ PageStack {
 
             launchermodular.settings.customIcon = getCustomIconArray();
             console.log("Store customIcon with : "+ launchermodular.settings.customIcon.length +" elemets");
-            
+
             launchermodular.settings.favoriteApps = getFavoriteAppsArray();
             console.log("Store favoriteApps with : "+ launchermodular.settings.favoriteApps.length +" elemets");
 
@@ -198,8 +198,8 @@ PageStack {
             id: header
             visible: false
         }
-            
-    
+
+
             Rectangle {
                 id: topBorder
                 height: units.gu(0.1)
@@ -261,7 +261,7 @@ PageStack {
                     Qt.createComponent(directory+name)
                 }
 	    property int pageIndex:index
-			
+
         }
     }
 
@@ -367,7 +367,7 @@ PageIndicator {
 
 }
 	}
-            
+
 Rectangle {
         id: tutorialConfig
         visible: launchermodular.settings.firstRun
@@ -381,7 +381,7 @@ Rectangle {
                 bottom: parent.bottom
             }
 
-    
+
             Icon {
                 anchors.right: staticText.left
                 anchors.rightMargin: units.gu(1)
@@ -390,7 +390,7 @@ Rectangle {
                 height: units.gu(2)
                 name: "up"
             }
-    
+
             Text {
                 id:staticText
                 anchors.verticalCenter: parent.verticalCenter
@@ -407,9 +407,9 @@ Rectangle {
                 height: units.gu(2)
                 name: "up"
             }
-            
+
     }
-            
+
         transform: Translate {
             y: -(bottomBarSettings.position * bottomBarSettings.height)
         }
@@ -420,9 +420,9 @@ Rectangle {
         edge: Qt.BottomEdge
         height: units.gu(8)
         width: parent.width
-            
+
         onOpened: launchermodular.settings.firstRun = false
-            
+
             Row {
                 spacing: 4
                 anchors.verticalCenter: parent.verticalCenter
@@ -628,7 +628,7 @@ Rectangle {
                             anchors.fill: parent
                             onClicked: customIconDialogue.visible = false
                         }
-                        
+
                     Rectangle{
                         anchors.horizontalCenter: parent.horizontalCenter
                         anchors.verticalCenter: parent.verticalCenter
@@ -647,19 +647,19 @@ Rectangle {
         clip: true
         maximumFlickVelocity : units.gu(10)*100
         flickDeceleration: 2500
-            
+
              Column {
                     id: customIconColumn
                     width: parent.width-units.gu(4)
                     spacing: units.gu(2)
                     anchors.horizontalCenter: parent.horizontalCenter
-      
-                        
+
+
                         Item{
                             width: parent.width
                             height: units.gu(4)
                         }
-                        
+
                     LomiriShape {
                         id: webAppIcon
                         source: Image {
@@ -673,9 +673,9 @@ Rectangle {
                         MouseArea {
                             anchors.fill: parent
                             onClicked: {
-                           
+
                         pageStack.push(Qt.resolvedUrl("ImportPage.qml"));
-                                
+
                             }
                         }
                         Label {
@@ -687,7 +687,7 @@ Rectangle {
                             wrapMode: Text.Wrap
                         }
                     }
-                    
+
 
                     TextField {
                         id: appTitle
@@ -699,7 +699,7 @@ Rectangle {
                         }
                         placeholderText: i18n.tr("The <b>title</b> to be shown in the app list")
                     }
-                 
+
 
                   property var modelCustom: [
                     { title: "<font color=\"#6f6f6f\">"+i18n.tr("Website")+"</font>", descr: "<font color=\"#ffffff\">"+i18n.tr("Open the browser with the url")+"</font>", style:"website" },
@@ -717,7 +717,7 @@ Rectangle {
                                     subText: item.descr
                                 }
                     }
-                 
+
                     TextField {
                         id: appAction
                         width: parent.width
@@ -729,16 +729,16 @@ Rectangle {
                         inputMethodHints: Qt.ImhNoAutoUppercase
                         placeholderText: {
                             if(typeIconCustom.model[typeIconCustom.selectedIndex].style === "website"){i18n.tr("<b>Action</b> example: ")+"https://forums.ubports.com/"}
-                            
+
                             if(typeIconCustom.model[typeIconCustom.selectedIndex].style === "terminal"){i18n.tr("<b>Action</b> example: ")+"sudo reboot"}
-                            
+
                             if(typeIconCustom.model[typeIconCustom.selectedIndex].style === "appid"){i18n.tr("<b>Action</b> example: ")+"dialer-app.desktop"}
                         }
                     }
-                 
-                 
-                 
-               
+
+
+
+
 
                         Item {
                             height: units.gu(5)
@@ -762,24 +762,24 @@ Rectangle {
                                     radius: units.gu(1.5)
                                     color: LomiriColors.green
                                 }
-                                
+
                                 property var actionIcon: ""
 
                                 onClicked: {
-                                   
+
                                     if(typeIconCustom.model[typeIconCustom.selectedIndex].style === "website"){ okButton.actionIcon = "browser:///"+appAction.text }
 
                                     if(typeIconCustom.model[typeIconCustom.selectedIndex].style === "terminal"){ okButton.actionIcon = "terminal:///"+appAction.text }
 
                                     if(typeIconCustom.model[typeIconCustom.selectedIndex].style === "appid"){ okButton.actionIcon = "application:///"+appAction.text  }
-                                
+
                                 launchermodular.customIconModel.append({"name": appTitle.text, "icon": launchermodular.iconCustomUrl, "action": okButton.actionIcon});
-                                    
+
                                 launchermodular.getCustomIconArray();
                                 launchermodular.settings.customIcon = launchermodular.getCustomIconArray();
-                                    
+
                                 AppHandler.sort();
-                                    
+
                                 launchermodular.iconCustomUrl = "../assets/placeholder-app-icon.svg";
                                 appTitle.text = "";
                                 okButton.actionIcon = "";
@@ -800,7 +800,7 @@ Rectangle {
                                 }
                                 onClicked: {
                                     onClicked: {
-                                    
+
                                     launchermodular.iconCustomUrl = "../assets/placeholder-app-icon.svg";
                                     appTitle.text = "";
                                     okButton.actionIcon = "";

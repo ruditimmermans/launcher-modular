@@ -1,6 +1,5 @@
 #ifndef MYSETTINGS_H
 #define MYSETTINGS_H
-
 #include <QString>
 #include "accountsservice.h"
 
@@ -16,6 +15,6 @@ public slots:
 signals:
 	void backgroundFileChanged();
 protected:
-	AccountsService _acc;	
+	AccountsService _acc;
 };
 #endif

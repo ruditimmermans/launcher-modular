@@ -2,7 +2,6 @@
 #include <QDirIterator>
 #include <QStandardPaths>
 #include <QCoreApplication>
-
 #include "launcher.h"
 
 
@@ -56,22 +55,22 @@ bool LauncherModularPlug::setDash() {
 
     QTextStream out(&file);
 
-    out << "env BINARY=/opt/click.ubuntu.com/launchermodular.ubuntouchfr/current/launchermodular" << endl;
-    out << "env APP_DIR=/opt/click.ubuntu.com/.click/users/phablet/launchermodular.ubuntouchfr" << endl;
+    out << "env BINARY=/opt/click.ubuntu.com/launchermodular.ubuntouchfr/current" << endl;
+    out << "env APP_DIR=/opt/click.ubuntu.com/.click/users/@all/launchermodular.ubuntouchfr" << endl;
     out << "env XDG_CONFIG_HOME=/home/phablet/.config" << endl;
     out << "env XDG_DATA_HOME=/home/phablet/.local/share" << endl;
-    out << "env APP_DESKTOP_FILE_PATH=/opt/click.ubuntu.com/.click/users/phablet/launchermodular.ubuntouchfr/launchermodular.desktop"<< endl;
-    out << "start on started unity8" << endl;
-    out << "stop on stopping unity8" << endl;
+    out << "env APP_DESKTOP_FILE_PATH=/opt/click.ubuntu.com/.click/users/@all/launchermodular.ubuntouchfr/launchermodular.desktop"<< endl;
+    out << "start on started lomiri" << endl;
+    out << "stop on stopping lomiri" << endl;
     out << "kill timeout 240" << endl;
     out << "respawn" << endl;
     out << "respawn limit unlimited" << endl;
 
     out << "script" << endl;
-    out << "	APP_ID=$(ubuntu-app-launch-appids | grep launchermodular.ubuntouchfr)" << endl;
-    out << "	ubuntu-app-launch $APP_ID && tail -f /proc/$(ubuntu-app-pid $APP_ID)/fd/1 2> /dev/null" << endl;
+    out << "	APP_ID=$(lomiri-app-launch-appids | grep launchermodular.ubuntouchfr)" << endl;
+    out << "	lomiri-app-launch $APP_ID && tail -f /proc/$(lomiri-app-pid $APP_ID)/fd/1 2> /dev/null" << endl;
     out << "end script" << endl;
-        
+
     file.close();
 
     m_isDashSet = true;

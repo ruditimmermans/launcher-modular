@@ -6,7 +6,6 @@
 #include <QDebug>
 #include <QQmlListProperty>
 #include <QRegularExpression>
-
 #include "apphandler.h"
 #include "appinfo.h"
 
@@ -56,13 +55,13 @@ void AppHandler::loadLibertineAppsFromDir(const QString& path, const QString& co
 	QStringList nameFilters;
 	nameFilters << "*.desktop";
 	QStringList fileList = dir.entryList(nameFilters, QDir::Files);
-	foreach (const QString &fileName, fileList) {	
+	foreach (const QString &fileName, fileList) {
 		QFile file(dir.filePath(fileName));
 		file.open(QIODevice::ReadOnly | QIODevice::Text);
 		QTextStream filestream(&file);
 		filestream.setCodec("UTF-8");
 		_appinfos.append(new AppInfo(container+"_"+fileName.left(fileName.size() - QString(".desktop").size())+"_0.0", filestream.readAll()));
-		
+
 		if(_appinfos.last()->getProp("Icon").startsWith("/")) {
 			_appinfos.last()->setIcon("/home/phablet/.cache/libertine-container/"+container+"/rootfs"+_appinfos.last()->getProp("Icon"));
 		}
@@ -80,14 +79,14 @@ void AppHandler::loadAppsFromDir(const QString& path)
 	QStringList nameFilters;
 	nameFilters << "*.desktop";
 	QStringList fileList = dir.entryList(nameFilters, QDir::Files);
-	foreach (const QString &fileName, fileList) {	
+	foreach (const QString &fileName, fileList) {
 		QFile file(dir.filePath(fileName));
 		file.open(QIODevice::ReadOnly | QIODevice::Text);
 		QTextStream filestream(&file);
 		filestream.setCodec("UTF-8");
 		_appinfos.append(new AppInfo(fileName.left(fileName.size() - QString(".desktop").size()), filestream.readAll()));
-		if(!_appinfos.last()->getProp("X-Ubuntu-UAL-Source-Desktop").isEmpty()) {
-			QFile subfile(_appinfos.last()->getProp("X-Ubuntu-UAL-Source-Desktop"));
+		if(!_appinfos.last()->getProp("X-Lomiri-UAL-Source-Desktop").isEmpty()) {
+			QFile subfile(_appinfos.last()->getProp("X-Lomiri-UAL-Source-Desktop"));
 			subfile.open(QIODevice::ReadOnly | QIODevice::Text);
 			QTextStream subfilestream(&subfile);
 			subfilestream.setCodec("UTF-8");
@@ -103,7 +102,7 @@ void AppHandler::append_appinfo(QQmlListProperty<AppInfo> *list, AppInfo *appinf
 		appinfoBoard->_appinfos.append(appinfo);
 		emit appinfoBoard->appinfoChanged();
 	}
-		
+
 }
 AppInfo* AppHandler::at_appinfo(QQmlListProperty<AppInfo> *list, int index) {
 	AppHandler *apphandler = qobject_cast<AppHandler*>(list->object);
@@ -137,7 +136,7 @@ void AppHandler::reloadFav() {
 		_appinfos << _fav_appinfos.takeFirst();
 	}
 	if(_filtering)//temp filtering = nofav
-		return;		
+		return;
 	//clear+populateback _fav_appinfos.clear();
 	QStringList favapplist = _fav.split(",");
 	for(int j=0;j<favapplist.size();j++) {
@@ -177,8 +176,8 @@ void AppHandler::sort(const QString& key, bool revertsort) {
 		for(int i=0;i< _appinfos.size()-1;i++) {
 			if( _appinfos[i]->getProp(key) > _appinfos[i+1]->getProp(key)) {
 				ordered = false;
-				_appinfos.swap(i,i+1);	
-			}	
+				_appinfos.swap(i,i+1);
+			}
 		}
 	}
 	while (!ordered);
@@ -213,7 +212,7 @@ void AppHandler::tempFilter(const QString& keys, const QString& regexp, bool cas
 }
 void AppHandler::resetTempFilter() {
 	_filtering = false;
-	while(_hideByFilter.size() >0)		
+	while(_hideByFilter.size() >0)
 		_appinfos << _hideByFilter.takeFirst();
 	emit appinfoChanged();
 }

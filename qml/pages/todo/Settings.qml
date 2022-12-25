@@ -1,4 +1,4 @@
-import QtQuick 2.4
+import QtQuick 2.8
 import QtQuick.Controls 2.2
 import Qt.labs.settings 1.0
 import Lomiri.Components 1.3

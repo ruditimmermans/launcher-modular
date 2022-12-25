@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-26 15:32+0000\n"
+"POT-Creation-Date: 2022-12-25 08:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -144,7 +144,7 @@ msgid "Create icon"
 msgstr ""
 
 #: ../qml/Main.qml:794 ../qml/Pagemanagement.qml:137
-#: ../qml/Pagemanagementback.qml:128 ../qml/pages/Home.qml:436
+#: ../qml/Pagemanagementback.qml:128 ../qml/pages/Home.qml:433
 #: ../qml/pages/home/Settings.qml:91
 msgid "Cancel"
 msgstr ""
@@ -307,11 +307,11 @@ msgstr ""
 msgid "Installed Apps"
 msgstr ""
 
-#: ../qml/pages/Home.qml:398
+#: ../qml/pages/Home.qml:395
 msgid "Uninstall"
 msgstr ""
 
-#: ../qml/pages/Home.qml:398
+#: ../qml/pages/Home.qml:395
 msgid "Remove"
 msgstr ""
 

@@ -59,7 +59,7 @@ Item {
             width: parent.width
             height: units.gu(14)
 
-            UbuntuShape {
+            LomiriShape {
                 radius: "medium"
                 source: Image {
                     source: Qt.resolvedUrl("../assets/logo.svg");
