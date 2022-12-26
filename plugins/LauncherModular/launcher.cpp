@@ -56,11 +56,11 @@ bool LauncherModularPlug::setDash() {
 
     QTextStream out(&file);
 
-    out << "env BINARY=/opt/click.ubuntu.com/launchermodular.ubuntouchfr/current/launchermodular" << endl;
-    out << "env APP_DIR=/opt/click.ubuntu.com/.click/users/phablet/launchermodular.ubuntouchfr" << endl;
+    out << "env BINARY=/opt/click.ubuntu.com/.click/users/@all/launchermodular.ubuntouchf/launchermodular" << endl;
+    out << "env APP_DIR=/opt/click.ubuntu.com/.click/users/@all/launchermodular.ubuntouchfr" << endl;
     out << "env XDG_CONFIG_HOME=/home/phablet/.config" << endl;
     out << "env XDG_DATA_HOME=/home/phablet/.local/share" << endl;
-    out << "env APP_DESKTOP_FILE_PATH=/opt/click.ubuntu.com/.click/users/phablet/launchermodular.ubuntouchfr/launchermodular.desktop"<< endl;
+    out << "env APP_DESKTOP_FILE_PATH=/opt/click.ubuntu.com/.click/users/@all/launchermodular.ubuntouchfr/launchermodular.desktop"<< endl;
     out << "start on started lomiri" << endl;
     out << "stop on stopping lomiri" << endl;
     out << "kill timeout 240" << endl;
