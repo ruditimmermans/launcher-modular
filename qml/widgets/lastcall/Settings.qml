@@ -58,7 +58,6 @@ Rectangle {
             }
 
             property var model: [
-            { title: "<font color=\"#ffffff\">"+i18n.tr("Nothing")+"</font>", descr: "<font color=\"#ffffff\">"+i18n.tr("No action")+"</font>", style:"nothing" },
             { title: "<font color=\"#ffffff\">"+i18n.tr("Default")+"</font>", descr: "<font color=\"#ffffff\">"+i18n.tr("Open the dialer")+"</font>", style:"default" },
             { title: "<font color=\"#ffffff\">"+i18n.tr("Call")+"</font>", descr: "<font color=\"#ffffff\">"+i18n.tr("Open the dialer with number")+"</font>", style:"dial" }
             ]
@@ -78,9 +77,8 @@ Rectangle {
                     launchermodular.settings.widgetCallClick = model[selectedIndex].style
                 }
                 Component.onCompleted: {
-                    if ("dial" == launchermodular.settings.widgetCallClick){selectedIndex = 2}
-                    if ("default" == launchermodular.settings.widgetCallClick){selectedIndex = 1}
-                    if ("nothing" == launchermodular.settings.widgetCallClick){selectedIndex = 0}
+                    if ("dial" == launchermodular.settings.widgetCallClick){selectedIndex = 1}
+                    if ("default" == launchermodular.settings.widgetCallClick){selectedIndex = 0}
                 }
 
              Text {

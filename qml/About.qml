@@ -87,7 +87,7 @@ Item {
             width: parent.width
             height: units.gu(2)
         }
-        
+
         Item {
             width: parent.width
             height: thankLabel.height + units.gu(2)
@@ -101,7 +101,7 @@ Item {
                 color: "#ffffff"
             }
         }
-        
+
         Item {
             width: parent.width
             height: sourceLabel.height + units.gu(2)
@@ -116,7 +116,7 @@ Item {
                 color: "#ffffff"
             }
         }
-        
+
         Item {
             width: parent.width
             height: donateLabel.height + units.gu(2)
@@ -131,13 +131,13 @@ Item {
                 color: "#ffffff"
             }
         }
-                                  
+
         Item {
             width: parent.width
             height: thankLabel.height + units.gu(2)
             Label {
                 id: thankLabel
-                text: i18n.tr("Maintainer") + " (c) 2021 - 2022 Rudi Timmermans <rudi.timmermans@mailfence.com>"
+                text: i18n.tr("Maintainer") + " (c) 2021 - 2023 Rudi Timmermans <rudi.timmermans@mailfence.com>"
                 anchors.centerIn: parent
                 wrapMode: TextEdit.WrapAtWordBoundaryOrAnywhere
                 horizontalAlignment: Text.AlignHCenter
@@ -159,7 +159,7 @@ Item {
                 color: "#ffffff"
             }
           }
-          
+
         Item {
             width: parent.width
             height: betaLabel.height + units.gu(2)
@@ -173,7 +173,7 @@ Item {
                 color: "#ffffff"
             }
           }
-          
+
        Item {
             width: parent.width
             height: donateLabel.height + units.gu(2)
@@ -195,4 +195,3 @@ Item {
     }
 // ABOUT PAGE
 }
-

@@ -68,7 +68,7 @@ Item {
                         }
                             MouseArea {
                                 anchors.fill: parent
-                                onClicked:Qt.openUrlExternally("application:///com.lomiri.gallery_gallery.desktop")
+                                onClicked:Qt.openUrlExternally("application:///gallery.ubports_gallery.desktop")
                                 }
                     } // Item
             }// delegate Rectangle

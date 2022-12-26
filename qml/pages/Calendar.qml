@@ -7,7 +7,7 @@ Item {
     id: calendar
 
 
-            
+
     property variant datenow: new Date()
 
     Timer {
@@ -18,14 +18,14 @@ Item {
             calendar.datenow = new Date()
         }
     }
-    
+
     OrganizerModel {
         id: organizerModel
-            
+
         startPeriod: {
             return calendar.datenow
         }
-        
+
         endPeriod: {
             var date = calendar.datenow;
             date.setDate(date.getDate() + launchermodular.settings.limiteDaysCalendar);
@@ -87,7 +87,7 @@ Item {
             header: Item {
                 id: textCalendar
                 height: units.gu(6)
-                    
+
                 Icon {
                    id: iconCalendar
                     width: units.gu(2)
@@ -105,7 +105,7 @@ Item {
                     anchors.verticalCenter: parent.verticalCenter
                 }
             }
-                
+
             delegate: ListItem {
     height: layout.height + (divider.visible ? divider.height : 0)
     divider.visible: false
@@ -162,22 +162,18 @@ Item {
         }
 
     }
-         /*       
+         /*
         MouseArea {
             anchors.fill: parent
             onClicked:{
                 Qt.openUrlExternally("calendar://eventid="+item.itemId)
-               // onClicked:Qt.openUrlExternally("application:///com.lomiri.calendar_calendar.desktop")
+               // onClicked:Qt.openUrlExternally("application:///calendar.ubports_calendar.desktop")
             }
         }
         */
- 
+
 }
 
       }
-  
+
 }
-
-
-
-

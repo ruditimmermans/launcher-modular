@@ -32,9 +32,9 @@ public slots:
 signals:
 	void nameChanged();
 	void iconChanged();
-	void actionChanged();	
+	void actionChanged();
 protected:
-	QMap<QString, QString> _appinfo;	
+	QMap<QString, QString> _appinfo;
 };
 
 #endif

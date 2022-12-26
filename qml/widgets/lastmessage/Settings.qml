@@ -67,7 +67,6 @@ Rectangle {
             
 
             property var model: [
-            { title: "<font color=\"#ffffff\">"+i18n.tr("Nothing")+"</font>", descr: "<font color=\"#ffffff\">"+i18n.tr("No action")+"</font>", style:"nothing" },
             { title: "<font color=\"#ffffff\">"+i18n.tr("Default")+"</font>", descr: "<font color=\"#ffffff\">"+i18n.tr("Open the application")+"</font>", style:"default" },
             { title: "<font color=\"#ffffff\">"+i18n.tr("Open Message")+"</font>", descr: "<font color=\"#ffffff\">"+i18n.tr("Open the application with message")+"</font>", style:"message" }
             ]
@@ -88,9 +87,8 @@ Rectangle {
                     launchermodular.settings.widgetMessageClick = model[selectedIndex].style
                 }
                 Component.onCompleted: {
-                    if ("message" == launchermodular.settings.widgetMessageClick){selectedIndex = 2}
-                    if ("default" == launchermodular.settings.widgetMessageClick){selectedIndex = 1}
-                    if ("nothing" == launchermodular.settings.widgetMessageClick){selectedIndex = 0}
+                    if ("message" == launchermodular.settings.widgetMessageClick){selectedIndex = 1}
+                    if ("default" == launchermodular.settings.widgetMessageClick){selectedIndex = 0}
                 }
 
              Text {

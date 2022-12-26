@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-25 08:59+0000\n"
+"POT-Creation-Date: 2022-12-26 10:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -181,11 +181,11 @@ msgid "Background blur effect"
 msgstr ""
 
 #: ../qml/Settings.qml:113
-msgid "Standard"
+msgid "None"
 msgstr ""
 
 #: ../qml/Settings.qml:113
-msgid "Style by default"
+msgid "Icons without style"
 msgstr ""
 
 #: ../qml/Settings.qml:114
@@ -196,68 +196,36 @@ msgstr ""
 msgid "Icons rounded"
 msgstr ""
 
-#: ../qml/Settings.qml:115
-msgid "None"
-msgstr ""
-
-#: ../qml/Settings.qml:115
-msgid "Icons without style"
-msgstr ""
-
-#: ../qml/Settings.qml:140
+#: ../qml/Settings.qml:138
 msgid "Style Icons : "
 msgstr ""
 
-#: ../qml/Settings.qml:151
+#: ../qml/Settings.qml:149
 msgid "Widgets"
 msgstr ""
 
-#: ../qml/Settings.qml:156
+#: ../qml/Settings.qml:154
 msgid "Show clock"
 msgstr ""
 
-#: ../qml/Settings.qml:165
+#: ../qml/Settings.qml:163
 msgid "Show weather"
 msgstr ""
 
-#: ../qml/Settings.qml:175
+#: ../qml/Settings.qml:173
 msgid "Show alarms"
 msgstr ""
 
-#: ../qml/Settings.qml:184
+#: ../qml/Settings.qml:182
 msgid "Show last call"
 msgstr ""
 
-#: ../qml/Settings.qml:193
+#: ../qml/Settings.qml:191
 msgid "Show last message"
 msgstr ""
 
-#: ../qml/Settings.qml:202
+#: ../qml/Settings.qml:200
 msgid "Show events"
-msgstr ""
-
-#: ../qml/Settings.qml:210
-msgid "Other"
-msgstr ""
-
-#: ../qml/Settings.qml:214
-msgid "Restore standard launcher"
-msgstr ""
-
-#: ../qml/Settings.qml:214
-msgid "Install Launcher Modular by default"
-msgstr ""
-
-#: ../qml/Settings.qml:232
-msgid "<b>You will need to restart after installing or restore</b>"
-msgstr ""
-
-#: ../qml/Settings.qml:239
-msgid "Replace standard launcher"
-msgstr ""
-
-#: ../qml/Settings.qml:246
-msgid "<b>If you can not restore click here</b>"
 msgstr ""
 
 #: ../qml/Translators.qml:14
@@ -555,7 +523,7 @@ msgid "Dialer"
 msgstr ""
 
 #: ../qml/widgets/favoritecontact/Settings.qml:61
-#: ../qml/widgets/lastcall/Settings.qml:62
+#: ../qml/widgets/lastcall/Settings.qml:61
 msgid "Open the dialer"
 msgstr ""
 
@@ -568,31 +536,21 @@ msgid "Open Linphone"
 msgstr ""
 
 #: ../qml/widgets/favoritecontact/Settings.qml:87
-#: ../qml/widgets/lastcall/Settings.qml:88
-#: ../qml/widgets/lastmessage/Settings.qml:98
+#: ../qml/widgets/lastcall/Settings.qml:86
+#: ../qml/widgets/lastmessage/Settings.qml:96
 msgid "When clicked : "
 msgstr ""
 
 #: ../qml/widgets/lastcall/Settings.qml:61
 #: ../qml/widgets/lastmessage/Settings.qml:70
-msgid "Nothing"
-msgstr ""
-
-#: ../qml/widgets/lastcall/Settings.qml:61
-#: ../qml/widgets/lastmessage/Settings.qml:70
-msgid "No action"
-msgstr ""
-
-#: ../qml/widgets/lastcall/Settings.qml:62
-#: ../qml/widgets/lastmessage/Settings.qml:71
 msgid "Default"
 msgstr ""
 
-#: ../qml/widgets/lastcall/Settings.qml:63
+#: ../qml/widgets/lastcall/Settings.qml:62
 msgid "Call"
 msgstr ""
 
-#: ../qml/widgets/lastcall/Settings.qml:63
+#: ../qml/widgets/lastcall/Settings.qml:62
 msgid "Open the dialer with number"
 msgstr ""
 
@@ -600,15 +558,15 @@ msgstr ""
 msgid "View a summary"
 msgstr ""
 
-#: ../qml/widgets/lastmessage/Settings.qml:71
+#: ../qml/widgets/lastmessage/Settings.qml:70
 msgid "Open the application"
 msgstr ""
 
-#: ../qml/widgets/lastmessage/Settings.qml:72
+#: ../qml/widgets/lastmessage/Settings.qml:71
 msgid "Open Message"
 msgstr ""
 
-#: ../qml/widgets/lastmessage/Settings.qml:72
+#: ../qml/widgets/lastmessage/Settings.qml:71
 msgid "Open the application with message"
 msgstr ""
 
