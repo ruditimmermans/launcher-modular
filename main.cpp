@@ -11,10 +11,7 @@ int main(int argc, char *argv[])
     app->setApplicationName("launchermodular.ubuntouchfr");
     QQmlEngine *engine = new QQmlEngine(app);
 
-    engine->addImportPath(QStringLiteral("/usr/lib/"__ARCH_TRIPLET__"/lomiri/qml/"));
-
-    // This is needed because it won't be automatically set when running as a dash replacement
-    engine->addImportPath(QStringLiteral("%1/lib/"__ARCH_TRIPLET__"/").arg(app->applicationDirPath()));
+    engine->addImportPath(QStringLiteral("/usr/lib/aarch64-linux-gnu/lomiri/qml/"));    
 
     QQuickView *view = new QQuickView(engine, nullptr);
 
