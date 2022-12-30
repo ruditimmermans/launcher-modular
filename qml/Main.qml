@@ -20,7 +20,7 @@ MainView {
     width: units.gu(45)
     height: units.gu(75)
 
-    property string appVersion : "1.9.0"
+    property string appVersion : "2.0.0"
 
     function getCustomIconArray() {
         var customIcon = [], hMI_l = launchermodular.customIconModel.count;
@@ -98,7 +98,7 @@ MainView {
         property var favoriteApps;
 
         property var selectedAppNews: [];
-	signal newsConfigChanged();
+	      signal newsConfigChanged();
 
         property bool newsBackgroundOpacity: false
         property string widgetMessageClick: 'default'

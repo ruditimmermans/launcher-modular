@@ -454,9 +454,6 @@ Connections {
                                 onClicked: {
                                     listColumnApps.doAction(elem.action)
                                 }
-                                onPressAndHold: {
-                                    PopupUtils.open(appsDialog);
-                                } // pressAndHold
                         }
 
 

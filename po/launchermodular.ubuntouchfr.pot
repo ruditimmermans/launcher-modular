@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-27 15:03+0000\n"
+"POT-Creation-Date: 2022-12-30 11:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -162,69 +162,69 @@ msgstr ""
 msgid "Delete"
 msgstr ""
 
-#: ../qml/Settings.qml:18
+#: ../qml/Settings.qml:17
 msgid "Settings"
 msgstr ""
 
-#: ../qml/Settings.qml:77 ../qml/widgets/favoritecontact/Settings.qml:57
+#: ../qml/Settings.qml:76 ../qml/widgets/favoritecontact/Settings.qml:57
 #: ../qml/widgets/lastcall/Settings.qml:57
 #: ../qml/widgets/lastmessage/Settings.qml:56
 msgid "Generals"
 msgstr ""
 
-#: ../qml/Settings.qml:82
+#: ../qml/Settings.qml:81
 msgid "Dark background"
 msgstr ""
 
-#: ../qml/Settings.qml:105
+#: ../qml/Settings.qml:104
 msgid "Background blur effect"
 msgstr ""
 
-#: ../qml/Settings.qml:113
+#: ../qml/Settings.qml:112
 msgid "None"
 msgstr ""
 
-#: ../qml/Settings.qml:113
+#: ../qml/Settings.qml:112
 msgid "Icons without style"
 msgstr ""
 
-#: ../qml/Settings.qml:114
+#: ../qml/Settings.qml:113
 msgid "Rounded"
 msgstr ""
 
-#: ../qml/Settings.qml:114
+#: ../qml/Settings.qml:113
 msgid "Icons rounded"
 msgstr ""
 
-#: ../qml/Settings.qml:138
+#: ../qml/Settings.qml:137
 msgid "Style Icons : "
 msgstr ""
 
-#: ../qml/Settings.qml:149
+#: ../qml/Settings.qml:148
 msgid "Widgets"
 msgstr ""
 
-#: ../qml/Settings.qml:154
+#: ../qml/Settings.qml:153
 msgid "Show clock"
 msgstr ""
 
-#: ../qml/Settings.qml:163
+#: ../qml/Settings.qml:162
 msgid "Show weather"
 msgstr ""
 
-#: ../qml/Settings.qml:173
+#: ../qml/Settings.qml:172
 msgid "Show alarms"
 msgstr ""
 
-#: ../qml/Settings.qml:182
+#: ../qml/Settings.qml:181
 msgid "Show last call"
 msgstr ""
 
-#: ../qml/Settings.qml:191
+#: ../qml/Settings.qml:190
 msgid "Show last message"
 msgstr ""
 
-#: ../qml/Settings.qml:200
+#: ../qml/Settings.qml:199
 msgid "Show events"
 msgstr ""
 

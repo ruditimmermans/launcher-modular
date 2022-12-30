@@ -1,5 +1,4 @@
 #include <QDebug>
-
 #include "terminalaccess.h"
 
 Terminalaccess::Terminalaccess() : _proc(), _cmd(), _output(), _err() {
@@ -62,7 +61,7 @@ void Terminalaccess::fetchError() {
 	_err+=newerr;
 	qDebug() << "SLOT ERR : " << _err;
 	if(newerr.contains("\n"))
-		emit(newErrorLineAvailable());	
+		emit(newErrorLineAvailable());
 	emit(newErrorAvailable());
 }
 void Terminalaccess::fetchOutput() {
@@ -70,7 +69,7 @@ void Terminalaccess::fetchOutput() {
 	_output+=newout;
 	//qDebug() << "SLOT READ : " << _output;
 	if(newout.contains("\n"))
-		emit(newOutputLineAvailable());	
+		emit(newOutputLineAvailable());
 	emit(newOutputAvailable());
 }
 bool Terminalaccess::input(QString newinput, bool printDebug) {
@@ -82,7 +81,7 @@ bool Terminalaccess::input(QString newinput, bool printDebug) {
 }
 bool Terminalaccess::inputLine(QString newinput, bool printDebug) {
 	return input(newinput+"\n", printDebug);
-}	
+}
 void Terminalaccess::procFinished(int exitcode, QProcess::ExitStatus es) {
 	qDebug() << "FINISHED" << exitcode;
 	emit(finished(exitcode));

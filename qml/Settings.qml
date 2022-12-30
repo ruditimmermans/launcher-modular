@@ -8,7 +8,6 @@ import Lomiri.Components.ListItems 1.3 as ListItem
 import "pages"
 import Terminalaccess 1.0
 import Lomiri.Components.Popups 0.1
-import LauncherModular 1.0
 
 Page {
     id: pageSettings
