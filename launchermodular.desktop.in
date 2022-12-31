@@ -5,3 +5,4 @@ Icon=assets/logo.svg
 Terminal=false
 Type=Application
 X-Lomiri-Touch=true
+X-Lomiri-Single-Instance=true
