@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-30 11:26+0000\n"
+"POT-Creation-Date: 2022-12-30 21:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../qml/About.qml:14 ../qml/Main.qml:598
+#: ../qml/About.qml:14 ../qml/Main.qml:628
 msgid "About"
 msgstr ""
 
@@ -100,50 +100,54 @@ msgid "Configure Launcher"
 msgstr ""
 
 #: ../qml/Main.qml:568
+msgid "Autostart"
+msgstr ""
+
+#: ../qml/Main.qml:598
 msgid "Help"
 msgstr ""
 
-#: ../qml/Main.qml:686
+#: ../qml/Main.qml:716
 msgid "SVG or PNG icon. 1:1 ratio"
 msgstr ""
 
-#: ../qml/Main.qml:700
+#: ../qml/Main.qml:730
 msgid "The <b>title</b> to be shown in the app list"
 msgstr ""
 
-#: ../qml/Main.qml:705
+#: ../qml/Main.qml:735
 msgid "Website"
 msgstr ""
 
-#: ../qml/Main.qml:705
+#: ../qml/Main.qml:735
 msgid "Open the browser with the url"
 msgstr ""
 
-#: ../qml/Main.qml:706
+#: ../qml/Main.qml:736
 msgid "Terminal command"
 msgstr ""
 
-#: ../qml/Main.qml:706
+#: ../qml/Main.qml:736
 msgid "Launch an order in a terminal"
 msgstr ""
 
-#: ../qml/Main.qml:707
+#: ../qml/Main.qml:737
 msgid "Launch app"
 msgstr ""
 
-#: ../qml/Main.qml:707
+#: ../qml/Main.qml:737
 msgid "Launch an app"
 msgstr ""
 
-#: ../qml/Main.qml:731 ../qml/Main.qml:733 ../qml/Main.qml:735
+#: ../qml/Main.qml:761 ../qml/Main.qml:763 ../qml/Main.qml:765
 msgid "<b>Action</b> example: "
 msgstr ""
 
-#: ../qml/Main.qml:749
+#: ../qml/Main.qml:779
 msgid "Create icon"
 msgstr ""
 
-#: ../qml/Main.qml:794 ../qml/Pagemanagement.qml:137
+#: ../qml/Main.qml:824 ../qml/Pagemanagement.qml:137
 #: ../qml/Pagemanagementback.qml:128 ../qml/pages/Home.qml:433
 #: ../qml/pages/home/Settings.qml:91
 msgid "Cancel"

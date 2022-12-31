@@ -554,6 +554,36 @@ Rectangle {
                     height: parent.height
                     width: units.gu(8)
                     Icon {
+                        id: iconAuto
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        name: "flash-auto"
+                        height: units.gu(3)
+                        width: units.gu(3)
+                    }
+
+                    Text {
+                        anchors.top: iconAuto.bottom
+                        horizontalAlignment: Text.AlignHCenter
+                        width: parent.width
+                        text: i18n.tr("Autostart")
+                        font.pointSize: units.gu(1)
+                        wrapMode:Text.WordWrap
+                    }
+
+                  MouseArea {
+                            anchors.fill: parent
+                            onPressed: {
+                                    pageStack.push(Qt.openUrlExternally('https://github.com/ruditimmermans/launcher-modular/wiki/To-enable-Launcher-Modular-to-start-automatically-when-the-device-is-booted'))
+                                    bottomBarSettings.close()
+                            }
+                  }
+                }
+
+                Column {
+                    anchors.verticalCenter: parent.verticalCenter
+                    height: parent.height
+                    width: units.gu(8)
+                    Icon {
                         id: iconHelp
                         anchors.horizontalCenter: parent.horizontalCenter
                         name: "help"
