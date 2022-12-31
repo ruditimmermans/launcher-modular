@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-30 21:15+0000\n"
+"POT-Creation-Date: 2022-12-31 14:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -63,6 +63,22 @@ msgstr ""
 
 #: ../qml/About.qml:183
 msgid "<a href='LAUNCHER MODULAR TRANSLATORS'>LAUNCHER MODULAR TRANSLATORS</a>"
+msgstr ""
+
+#: ../qml/Autostart.qml:15
+msgid "Autostart Launcher Modular"
+msgstr ""
+
+#: ../qml/Autostart.qml:49
+msgid "How to Autostart Launcher Modular on boot"
+msgstr ""
+
+#: ../qml/Autostart.qml:62
+msgid ""
+"How to enable Launcher Modular to start automatically when the device is "
+"booted. <br><br>For more details see the <a href='https://github.com/"
+"ruditimmermans/launcher-modular-service'>how to add a Launcher Modular "
+"systemd user service file to/on your device</a>"
 msgstr ""
 
 #: ../qml/Help.qml:15

@@ -573,7 +573,7 @@ Rectangle {
                   MouseArea {
                             anchors.fill: parent
                             onPressed: {
-                                    pageStack.push(Qt.openUrlExternally('https://github.com/ruditimmermans/launcher-modular/wiki/To-enable-Launcher-Modular-to-start-automatically-when-the-device-is-booted'))
+                                    pageStack.push(Qt.resolvedUrl("Autostart.qml"))
                                     bottomBarSettings.close()
                             }
                   }

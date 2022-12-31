@@ -1,5 +1,5 @@
 clickable_minimum_required:
-    "7.0.0"
+    "7.9.0"
 builder:
     "cmake"
 kill:
