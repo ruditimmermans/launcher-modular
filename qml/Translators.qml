@@ -70,7 +70,7 @@ Item {
 
             } // shape
         }/// item
-        
+
         Item {
             width: parent.width
             height: translators1Label.height + units.gu(2)
@@ -84,12 +84,12 @@ Item {
                 color: "#ffffff"
             }
         }
-        
+
         Item {
             width: parent.width
             height: units.gu(2)
         }
-                                    
+
         Item {
             width: parent.width
             height: trans1Label.height + units.gu(2)
@@ -117,7 +117,7 @@ Item {
                 color: "#ffffff"
             }
           }
-          
+
         Item {
             width: parent.width
             height: trans3Label.height + units.gu(2)
@@ -131,7 +131,7 @@ Item {
                 color: "#ffffff"
             }
           }
-          
+
         Item {
             width: parent.width
             height: trans4Label.height + units.gu(2)
@@ -145,7 +145,7 @@ Item {
                 color: "#ffffff"
             }
           }
-          
+
         Item {
             width: parent.width
             height: trans5Label.height + units.gu(2)
@@ -159,13 +159,13 @@ Item {
                 color: "#ffffff"
             }
           }
-                             
+
         Item {
             width: parent.width
             height: translation.height + units.gu(4)
             Label {
                 id: translation
-                text: i18n.tr("If you like to translate Launcher Modular into your own language, go to <a href='https://poeditor.com/join/project/w7zMm2Z9Nm'>POEditor</a> for more details.")
+                text: i18n.tr("If you like to translate Launcher Modular into your own language, go to <a href='https://hosted.weblate.org/projects/ubports/launcher-modular/'>Weblate</a> for more details.")
                 onLinkActivated: Qt.openUrlExternally(link)
                 anchors.centerIn: parent
                 wrapMode: TextEdit.WrapAtWordBoundaryOrAnywhere
@@ -179,4 +179,3 @@ Item {
     }
 // TRANSLATORS PAGE
 }
-
