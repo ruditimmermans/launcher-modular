@@ -1,11 +1,16 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: Launcher modular\n"
+"PO-Revision-Date: 2023-01-05 16:18+0000\n"
+"Last-Translator: Mike Gabriel <mike.gabriel@das-netzwerkteam.de>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/ubports/"
+"launcher-modular/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
-"Project-Id-Version: Launcher modular\n"
-"Language: de\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 
 #. SOME DESCRIPTIVE TITLE.
 #. Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
@@ -29,7 +34,7 @@ msgstr "SVG oder PNG Icon. 1:1 Verhältnis"
 
 #: ../qml/Main.qml:714
 msgid "The <b>title</b> to be shown in the app list"
-msgstr "Der <b>Titel</> welcher in der App-Liste erscheint"
+msgstr "Der <b>Titel</b> welcher in der App-Liste erscheint"
 
 #: ../qml/Main.qml:719
 msgid "Website"
@@ -57,7 +62,7 @@ msgstr "Eine App starten"
 
 #: ../qml/Main.qml:721 ../qml/Main.qml:723 ../qml/Main.qml:725
 msgid "<b>Action</b> exemple: "
-msgstr "<b>Aktion</b Beispiel: "
+msgstr "<b>Aktion</b> Beispiel: "
 
 #: ../qml/Main.qml:763
 msgid "Create icon"
@@ -84,7 +89,16 @@ msgstr "Ein modularer App-Starter für Ubuntu Touch"
 
 #: ../qml/About.qml:110
 msgid "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the <a href='https://www.gnu.org/licenses/gpl-3.0.en.html'>GNU General Public License</a> for more details."
-msgstr "Dieses Programm ist freie Software: du kannst sie verteilen und/oder verändern unter den Bedingungen der GNU General Public License so wie von der Free Software Foundation veröffentlicht, entweder in Version 3 der Lizenz, oder (nach deiner Entscheidung) einer neueren Version. Das Programm wird verteilt in der Hoffnung, dass es nützlich ist, aber OHNE JEDWEDE GARANTIE; ohne auch nur eine implizierte Garantie der VERKÄUFLICHKEIT oder DER GEEIGNETHEIT FÜR EINEN BESTIMMTEN ZWECK. Schaue hier <a href='https://www.gnu.org/licenses/gpl-3.0.en.html'>GNU General Public License</a> für weitere Details."
+msgstr ""
+"Dieses Programm ist freie Software: du kannst sie verteilen und/oder "
+"verändern unter den Bedingungen der GNU General Public License so wie von "
+"der Free Software Foundation veröffentlicht, entweder in Version 3 der "
+"Lizenz, oder (nach deiner Entscheidung) einer neueren Version. Das Programm "
+"wird verteilt in der Hoffnung, dass es nützlich ist, aber OHNE JEDWEDE "
+"GARANTIE; ohne auch nur eine implizierte Garantie der VERKÄUFLICHKEIT oder "
+"DER GEEIGNETHEIT FÜR EINEN BESTIMMTEN ZWECK. Siehe auch hier: <a href=\"https"
+"://www.gnu.org/licenses/gpl-3.0.en.html\">GNU General Public License</a> für "
+"weitere Details."
 
 #: ../qml/About.qml:125
 msgid "SOURCE"
@@ -100,7 +114,7 @@ msgstr "SPENDEN"
 
 #: ../qml/About.qml:140
 msgid "Maintainer"
-msgstr "Maintainer"
+msgstr "Betreuer"
 
 #: ../qml/About.qml:154
 msgid "Copyright"
@@ -760,4 +774,3 @@ msgstr "Mit tippen & halten können die Widget Einstellungen aufgerufen werden u
 #: ../qml/Help.qml:57
 msgid "<br><b>To access to the widget settings, click and hold on the widget and then you can change the widget settings.</b>"
 msgstr "<br><b>Mit tippen & halten können die Widget Einstellungen aufgerufen werden um diese dann anpassen zu können.</b>"
-
