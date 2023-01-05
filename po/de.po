@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Launcher modular\n"
-"PO-Revision-Date: 2023-01-05 16:18+0000\n"
+"PO-Revision-Date: 2023-01-06 00:12+0000\n"
 "Last-Translator: Mike Gabriel <mike.gabriel@das-netzwerkteam.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/ubports/"
 "launcher-modular/de/>\n"
@@ -757,7 +757,8 @@ msgstr "Hilfe"
 
 #: ../qml/About.qml:183
 msgid "<a href='LAUNCHER MODULAR TRANSLATORS'>LAUNCHER MODULAR TRANSLATORS</a>"
-msgstr "<a href='LAUNCHER MODULAR TRANSLATORS'>LAUNCHER MODULAR ÜBERSETZER</a>"
+msgstr ""
+"<a href=\"LAUNCHER MODULAR TRANSLATORS\">LAUNCHER MODULAR ÜBERSETZER</a>"
 
 #: ../qml/Help.qml:15
 msgid "Launcher Modular Help"
@@ -773,4 +774,6 @@ msgstr "Mit tippen & halten können die Widget Einstellungen aufgerufen werden u
 
 #: ../qml/Help.qml:57
 msgid "<br><b>To access to the widget settings, click and hold on the widget and then you can change the widget settings.</b>"
-msgstr "<br><b>Mit tippen & halten können die Widget Einstellungen aufgerufen werden um diese dann anpassen zu können.</b>"
+msgstr ""
+"<br><b>Mit tippen &amp; halten können die Widget Einstellungen aufgerufen "
+"werden um diese dann anpassen zu können.</b>"
