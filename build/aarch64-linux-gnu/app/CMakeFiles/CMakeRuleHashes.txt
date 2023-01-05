@@ -1,0 +1,17 @@
+# Hashes of file build rules.
+82889cf8575a810dbb153dae60cc511b CMakeFiles/launchermodular.desktop
+6028be3a93b149410b8dca4c477cccaa CMakeFiles/launchermodular_autogen
+855b63048f1782813af3dcf4d9fc2509 plugins/AppHandler/CMakeFiles/AppHandler_autogen
+6f37cd3d05945b96c24f35ef79883afb plugins/MySettings/CMakeFiles/MySettings_autogen
+9c1547ea0dc6ff46bc790ebfdd68f3ec plugins/Terminalaccess/CMakeFiles/Terminalaccess_autogen
+76e0e9c7f099a93e85a94039b2547cf4 po/CMakeFiles/launchermodular.ubuntouchfr.pot
+702d45f22c559e6498981db7357323c0 po/CMakeFiles/pofiles_1
+702d45f22c559e6498981db7357323c0 po/CMakeFiles/pofiles_2
+702d45f22c559e6498981db7357323c0 po/CMakeFiles/pofiles_3
+702d45f22c559e6498981db7357323c0 po/CMakeFiles/pofiles_4
+702d45f22c559e6498981db7357323c0 po/CMakeFiles/pofiles_5
+9a86764f6912f4ce79e4bb708ef46915 po/de.gmo
+0f15ff2fb70b3f14c7ee85051cfdaffb po/fr.gmo
+03a6aaef767189406fbfaf308f0e759c po/it.gmo
+432063cd0cf826e1faa291a5aba58dc6 po/nl.gmo
+0d40caf0b33ada3cba359f769f66442a po/ru.gmo

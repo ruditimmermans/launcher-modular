@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Launcher modular\n"
 "Language: nl\n"
 
-#: ../qml/About.qml:14 ../qml/Main.qml:611
+#: ../qml/About.qml:14 ../qml/Main.qml:628
 msgid "About"
 msgstr "Over"
 
@@ -71,11 +71,11 @@ msgstr "Veeg omhoog om te configureren"
 #. Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 #. This file is distributed under the same license as the launchermodular.ubuntouchfr package.
 #. FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#: ../qml/Main.qml:474
+#: ../qml/Main.qml:478
 msgid "Add custom icon"
 msgstr "Aangepast pictogram"
 
-#: ../qml/Main.qml:501
+#: ../qml/Main.qml:508
 msgid "Manage page"
 msgstr "Beheer pagina"
 
@@ -83,58 +83,57 @@ msgstr "Beheer pagina"
 msgid "Utilities"
 msgstr "Gereedschap"
 
-#: ../qml/Main.qml:555
+#: ../qml/Main.qml:538
 msgid "Configure Launcher"
 msgstr "Configureer Launcher"
 
-#: ../qml/Main.qml:582
+#: ../qml/Main.qml:598
 msgid "Help"
 msgstr "Help"
 
-#: ../qml/Main.qml:700
+#: ../qml/Main.qml:716
 msgid "SVG or PNG icon. 1:1 ratio"
 msgstr "SVG of PNG icoon. 1:1 verhouding"
 
-#: ../qml/Main.qml:714
+#: ../qml/Main.qml:730
 msgid "The <b>title</b> to be shown in the app list"
 msgstr "De <b>titel</b> die in de lijst weergeven moet worden"
 
-#: ../qml/Main.qml:719
+#: ../qml/Main.qml:735
 msgid "Website"
 msgstr "Website"
 
-#: ../qml/Main.qml:719
+#: ../qml/Main.qml:735
 msgid "Open the browser with the url"
 msgstr "Open de browser met de url"
 
-#: ../qml/Main.qml:720
+#: ../qml/Main.qml:736
 msgid "Terminal command"
 msgstr "Terminal commando"
 
-#: ../qml/Main.qml:720
+#: ../qml/Main.qml:736
 msgid "Launch an order in a terminal"
 msgstr "Open een commando in een terminal"
 
-#: ../qml/Main.qml:721
+#: ../qml/Main.qml:737
 msgid "Launch app"
 msgstr "Open app"
 
-#: ../qml/Main.qml:721
+#: ../qml/Main.qml:737
 msgid "Launch an app"
 msgstr "Open een app"
 
-#: ../qml/Main.qml:745 ../qml/Main.qml:747 ../qml/Main.qml:749
+#: ../qml/Main.qml:761 ../qml/Main.qml:763 ../qml/Main.qml:765
 msgid "<b>Action</b> example: "
 msgstr "<b>Actie</b> voorbeeld: "
 
-#: ../qml/Main.qml:763
+#: ../qml/Main.qml:779
 msgid "Create icon"
 msgstr "Maak icoon"
 
-#: ../qml/Main.qml:808 ../qml/Pagemanagement.qml:137
-#: ../qml/Pagemanagementback.qml:128 ../qml/pages/Home.qml:436
-#: ../qml/pages/home/Settings.qml:91 ../qml/widgets/FavoriteApp.qml:169
-#: ../qml/widgets/FavoriteAppBACK.qml:150
+#: ../qml/Main.qml:824 ../qml/Pagemanagement.qml:137
+#: ../qml/Pagemanagementback.qml:128 ../qml/pages/Home.qml:433
+#: ../qml/pages/home/Settings.qml:91
 msgid "Cancel"
 msgstr "Annuleren"
 
@@ -147,25 +146,25 @@ msgid "Choose a page"
 msgstr "Kies een pagina"
 
 #: ../qml/Pagemanagementback.qml:182 ../qml/pages/Todo.qml:119
-#: ../qml/pages/home/Settings.qml:153
+#: ../qml/pages/home/Settings.qml:154
 msgid "Delete"
 msgstr "Verwijderen"
 
-#: ../qml/Settings.qml:18
+#: ../qml/Settings.qml:17
 msgid "Settings"
 msgstr "Instellingen"
 
-#: ../qml/Settings.qml:77 ../qml/widgets/favoritecontact/Settings.qml:57
+#: ../qml/Settings.qml:76 ../qml/widgets/favoritecontact/Settings.qml:57
 #: ../qml/widgets/lastcall/Settings.qml:57
 #: ../qml/widgets/lastmessage/Settings.qml:56
 msgid "Generals"
 msgstr "Algemeen"
 
-#: ../qml/Settings.qml:82
+#: ../qml/Settings.qml:81
 msgid "Dark background"
 msgstr "Donkere achtergrond"
 
-#: ../qml/Settings.qml:105
+#: ../qml/Settings.qml:104
 msgid "Background blur effect"
 msgstr "Achtergrond vervagen"
 
@@ -177,51 +176,51 @@ msgstr "Standaard"
 msgid "Style by default"
 msgstr "Standaard stijl"
 
-#: ../qml/Settings.qml:114
+#: ../qml/Settings.qml:113
 msgid "Rounded"
 msgstr "Rond"
 
-#: ../qml/Settings.qml:114
+#: ../qml/Settings.qml:113
 msgid "Icons rounded"
 msgstr "Ronde pictogrammen"
 
-#: ../qml/Settings.qml:115
+#: ../qml/Settings.qml:112
 msgid "None"
 msgstr "Geen"
 
-#: ../qml/Settings.qml:115
+#: ../qml/Settings.qml:112
 msgid "Icons without style"
 msgstr "Stijlloze pictogrammen"
 
-#: ../qml/Settings.qml:140
+#: ../qml/Settings.qml:137
 msgid "Style Icons : "
 msgstr "Pictogrammen stijl : "
 
-#: ../qml/Settings.qml:151
+#: ../qml/Settings.qml:148
 msgid "Widgets"
 msgstr "Widgets"
 
-#: ../qml/Settings.qml:156
+#: ../qml/Settings.qml:153
 msgid "Show clock"
 msgstr "Toon klok"
 
-#: ../qml/Settings.qml:165
+#: ../qml/Settings.qml:162
 msgid "Show weather"
 msgstr "Toon weer"
 
-#: ../qml/Settings.qml:175
+#: ../qml/Settings.qml:172
 msgid "Show alarms"
 msgstr "Toon alarmen"
 
-#: ../qml/Settings.qml:184
+#: ../qml/Settings.qml:181
 msgid "Show last call"
 msgstr "Toon laatste oproep"
 
-#: ../qml/Settings.qml:193
+#: ../qml/Settings.qml:190
 msgid "Show last message"
 msgstr "Toon laatste bericht"
 
-#: ../qml/Settings.qml:202
+#: ../qml/Settings.qml:199
 msgid "Show events"
 msgstr "Toon gebeurtenissen"
 
@@ -309,12 +308,11 @@ msgstr "Je telefoon en online bronnen doorzoeken"
 msgid "Installed Apps"
 msgstr "Geïnstalleerde apps"
 
-#: ../qml/pages/Home.qml:398 ../qml/widgets/FavoriteApp.qml:146
-#: ../qml/widgets/FavoriteAppBACK.qml:126
+#: ../qml/pages/Home.qml:395
 msgid "Uninstall"
 msgstr "Deïnstalleren"
 
-#: ../qml/pages/Home.qml:398
+#: ../qml/pages/Home.qml:395
 msgid "Remove"
 msgstr "Verwijderen"
 
@@ -339,7 +337,7 @@ msgstr "Aantal dagen"
 msgid "By default 60 days"
 msgstr "Standaard 60 dagen"
 
-#: ../qml/pages/home/Settings.qml:120
+#: ../qml/pages/home/Settings.qml:121
 msgid "Favorite apps management"
 msgstr "Beheer favoriete apps"
 
@@ -367,7 +365,7 @@ msgstr "Gebeurtenissen"
 msgid "No events"
 msgstr "Geen gebeurtenissen"
 
-#: ../qml/widgets/FavoriteApp.qml:42 ../qml/widgets/FavoriteAppBACK.qml:49
+#: ../qml/widgets/FavoriteApp.qml:42
 msgid "Favorite Apps"
 msgstr "Favoriete apps"
 
@@ -558,7 +556,7 @@ msgid "Dialer"
 msgstr "Telefoon"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:61
-#: ../qml/widgets/lastcall/Settings.qml:62
+#: ../qml/widgets/lastcall/Settings.qml:61
 msgid "Open the dialer"
 msgstr "Open de telefoon-app"
 
@@ -571,8 +569,8 @@ msgid "Open Linphone"
 msgstr "Open Linphone"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:87
-#: ../qml/widgets/lastcall/Settings.qml:88
-#: ../qml/widgets/lastmessage/Settings.qml:98
+#: ../qml/widgets/lastcall/Settings.qml:86
+#: ../qml/widgets/lastmessage/Settings.qml:96
 msgid "When clicked : "
 msgstr "Wanneer er op wordt geklikt : "
 
@@ -586,16 +584,16 @@ msgstr "Niets"
 msgid "No action"
 msgstr "Geen actie"
 
-#: ../qml/widgets/lastcall/Settings.qml:62
-#: ../qml/widgets/lastmessage/Settings.qml:71
+#: ../qml/widgets/lastcall/Settings.qml:61
+#: ../qml/widgets/lastmessage/Settings.qml:70
 msgid "Default"
 msgstr "Standaard"
 
-#: ../qml/widgets/lastcall/Settings.qml:63
+#: ../qml/widgets/lastcall/Settings.qml:62
 msgid "Call"
 msgstr "Bel"
 
-#: ../qml/widgets/lastcall/Settings.qml:63
+#: ../qml/widgets/lastcall/Settings.qml:62
 msgid "Open the dialer with number"
 msgstr "Open de telefoon-app met dit nummer"
 
@@ -603,15 +601,15 @@ msgstr "Open de telefoon-app met dit nummer"
 msgid "View a summary"
 msgstr "Toon een samenvatting"
 
-#: ../qml/widgets/lastmessage/Settings.qml:71
+#: ../qml/widgets/lastmessage/Settings.qml:70
 msgid "Open the application"
 msgstr "Open de applicatie"
 
-#: ../qml/widgets/lastmessage/Settings.qml:72
+#: ../qml/widgets/lastmessage/Settings.qml:71
 msgid "Open Message"
 msgstr "Open bericht"
 
-#: ../qml/widgets/lastmessage/Settings.qml:72
+#: ../qml/widgets/lastmessage/Settings.qml:71
 msgid "Open the application with message"
 msgstr "Open de app met bericht"
 
@@ -780,4 +778,20 @@ msgstr "Om toegang te krijgen tot de widgetinstellingen, houdt u een widget inge
 #: ../qml/Translators.qml:168
 msgid "If you like to translate Launcher Modular into your own language, go to <a href='https://poeditor.com/join/project/w7zMm2Z9Nm'>POEditor</a> for more details."
 msgstr "Wil je Launcher Modular in je eigen taal vertalen? Ga naar <a href='https://poeditor.com/join/project/w7zMm2Z9Nm'>POEditor</a> voor meer informatie."
+
+#: ../qml/Main.qml:568
+msgid "Autostart"
+msgstr "Automatisch starten"
+
+#: ../qml/Autostart.qml:15
+msgid "Autostart Launcher Modular"
+msgstr "Launcher Modular automatisch starten"
+
+#: ../qml/Autostart.qml:49
+msgid "How to Autostart Launcher Modular on boot"
+msgstr "Launcher Modular automatisch starten bij het opstarten"
+
+#: ../qml/Autostart.qml:62
+msgid "How to enable Launcher Modular to start automatically when the device is booted. <br><br>For more details see the <a href='https://github.com/ruditimmermans/launcher-modular-service'>how to add a Launcher Modular systemd user service file to/on your device</a>"
+msgstr "Launcher Modular automatisch starten bij het opstarten van het apparaat. <br><br>Zie voor meer informatie <a href='https://github.com/ruditimmermans/launcher-modular-service'>hoe u een Launcher Modular systemd-gebruikersbestand toevoegt op uw apparaat</a>"
 
