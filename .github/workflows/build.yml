@@ -6,7 +6,7 @@ jobs:
   build:
     strategy:
       matrix:
-        arch: [amd64, arm64, armhf]
+        arch: [amd64, arm64]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
