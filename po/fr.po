@@ -1,11 +1,16 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: Launcher modular\n"
+"PO-Revision-Date: 2023-01-06 00:12+0000\n"
+"Last-Translator: Steve <steve.kueffer.ch@gmail.com>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/ubports/"
+"launcher-modular/fr/>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
-"Project-Id-Version: Launcher modular\n"
-"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 
 #: ../qml/About.qml:14 ../qml/Main.qml:611
 msgid "About"
@@ -17,7 +22,15 @@ msgstr "Un lanceur modulaire pour Ubuntu Touch"
 
 #: ../qml/About.qml:110
 msgid "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the <a href='https://www.gnu.org/licenses/gpl-3.0.en.html'>GNU General Public License</a> for more details."
-msgstr "Ce programme est un logiciel libre : vous pouvez le redistribuer et/ou le modifier selon les termes de la Licence Publique Générale GNU telle que publiée par la Free Software Foundation, soit la version 3 de la Licence, soit (à votre choix) toute version ultérieure. Ce programme est distribué dans l'espoir qu'il sera utile, mais SANS AUCUNE GARANTIE ; sans même la garantie implicite de COMMERCIALISATION ou d'ADÉQUATION À UN USAGE PARTICULIER.  Voir  <a href='https://www.gnu.org/licenses/gpl-3.0.en.html'>GNU General Public License</a> pour plus de détails."
+msgstr ""
+"Ce programme est un logiciel libre : vous pouvez le redistribuer et/ou le "
+"modifier selon les termes de la Licence Publique Générale GNU telle que "
+"publiée par la Free Software Foundation, soit la version 3 de la Licence, "
+"soit (à votre choix) toute version ultérieure. Ce programme est distribué "
+"dans l'espoir qu'il sera utile, mais SANS AUCUNE GARANTIE ; sans même la "
+"garantie implicite de COMMERCIALISATION ou d'ADÉQUATION À UN USAGE "
+"PARTICULIER.  Voir  <a href=\"https://www.gnu.org/licenses/gpl-3.0.en.html\""
+">GNU General Public License</a> pour plus de détails."
 
 #: ../qml/About.qml:125
 msgid "SOURCE"
@@ -25,7 +38,7 @@ msgstr "SOURCE"
 
 #: ../qml/About.qml:125
 msgid "ISSUES"
-msgstr "PROBLEMES"
+msgstr "PROBLÈMES"
 
 #: ../qml/About.qml:125
 msgid "DONATE"
@@ -45,7 +58,9 @@ msgstr "Merci aux testeurs/euses : Sander Klootwijk, Steve Kueffer."
 
 #: ../qml/About.qml:183
 msgid "<a href='LAUNCHER MODULAR TRANSLATORS'>LAUNCHER MODULAR TRANSLATORS</a>"
-msgstr "<a href='TRADUCTEURS DE LANCEUR MODULAIRE'>TRADUCTEURS DE LANCEUR MODULAIRE</a>"
+msgstr ""
+"<a href=\"TRADUCTEURS DE LANCEUR MODULAIRE\">TRADUCTEURS DE LANCEUR "
+"MODULAIRE</a>"
 
 #: ../qml/Help.qml:15
 msgid "Launcher Modular Help"
@@ -271,7 +286,7 @@ msgstr "Allemand - "
 
 #: ../qml/Translators.qml:140
 msgid "Portuguese - "
-msgstr "Portuguais"
+msgstr "Portugais "
 
 #: ../qml/Translators.qml:154
 msgid "Russian - "
@@ -780,4 +795,3 @@ msgstr "Pour accéder aux paramètres du widget, appuyer longuement sur le widge
 #: ../qml/Translators.qml:168
 msgid "If you like to translate Launcher Modular into your own language, go to <a href='https://poeditor.com/join/project/w7zMm2Z9Nm'>POEditor</a> for more details."
 msgstr "Si vous souhaitez traduire Launcher Modular dans votre propre langue, allez sur <a href='https://poeditor.com/join/project/w7zMm2Z9Nm'>POEditor</a> pour plus de détails."
-
