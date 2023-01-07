@@ -1,11 +1,16 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: Launcher modular\n"
+"PO-Revision-Date: 2023-01-08 13:48+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/ubports/"
+"launcher-modular/nl/>\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
-"Project-Id-Version: Launcher modular\n"
-"Language: nl\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 
 #: ../qml/About.qml:14 ../qml/Main.qml:628
 msgid "About"
@@ -399,51 +404,51 @@ msgstr "Houd ingedrukt om te configureren"
 
 #: ../qml/widgets/Weather.qml:168 ../qml/widgets/Weather.qml:196
 msgid "Calm"
-msgstr "Rustig"
+msgstr "Stil"
 
 #: ../qml/widgets/Weather.qml:170 ../qml/widgets/Weather.qml:198
 msgid "Light Air"
-msgstr "Heldere lucht"
+msgstr "Flauw en stil"
 
 #: ../qml/widgets/Weather.qml:172 ../qml/widgets/Weather.qml:200
 msgid "Light Breeze"
-msgstr "Lichte bries"
+msgstr "Flauwe koelte"
 
 #: ../qml/widgets/Weather.qml:174 ../qml/widgets/Weather.qml:202
 msgid "Gentle Breeze"
-msgstr "Zacht briesje"
+msgstr "Lichte koelte"
 
 #: ../qml/widgets/Weather.qml:176 ../qml/widgets/Weather.qml:204
 msgid "Moderate Breeze"
-msgstr "Matige wind"
+msgstr "Matige koelte"
 
 #: ../qml/widgets/Weather.qml:178 ../qml/widgets/Weather.qml:206
 msgid "Fresh Breeze"
-msgstr "Lichte wind"
+msgstr "Frisse bries"
 
 #: ../qml/widgets/Weather.qml:180 ../qml/widgets/Weather.qml:208
 msgid "Strong Breeze"
-msgstr "Sterke wind"
+msgstr "Matige wind"
 
 #: ../qml/widgets/Weather.qml:182 ../qml/widgets/Weather.qml:210
 msgid "Near Gale"
-msgstr "Lichte storm"
+msgstr "Harde wind"
 
 #: ../qml/widgets/Weather.qml:184 ../qml/widgets/Weather.qml:212
 msgid "Gale"
-msgstr "Storm"
+msgstr "Stormachtig"
 
 #: ../qml/widgets/Weather.qml:186 ../qml/widgets/Weather.qml:214
 msgid "Severe Gale"
-msgstr "Ernstige storm"
+msgstr "Storm"
 
 #: ../qml/widgets/Weather.qml:188 ../qml/widgets/Weather.qml:216
 msgid "Strong storm"
-msgstr "Sterke storm"
+msgstr "Zware storm"
 
 #: ../qml/widgets/Weather.qml:190 ../qml/widgets/Weather.qml:218
 msgid "Violent Storm"
-msgstr "Gewelddadige storm"
+msgstr "Zeer zware storm"
 
 #: ../qml/widgets/Weather.qml:192 ../qml/widgets/Weather.qml:220
 msgid "Hurricane"
@@ -794,4 +799,3 @@ msgstr "Launcher Modular automatisch starten bij het opstarten"
 #: ../qml/Autostart.qml:62
 msgid "How to enable Launcher Modular to start automatically when the device is booted. <br><br>For more details see the <a href='https://github.com/ruditimmermans/launcher-modular-service'>how to add a Launcher Modular systemd user service file to/on your device</a>"
 msgstr "Launcher Modular automatisch starten bij het opstarten van het apparaat. <br><br>Zie voor meer informatie <a href='https://github.com/ruditimmermans/launcher-modular-service'>hoe u een Launcher Modular systemd-gebruikersbestand toevoegt op uw apparaat</a>"
-
