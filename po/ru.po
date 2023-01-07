@@ -1,11 +1,17 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: Launcher modular\n"
+"PO-Revision-Date: 2023-01-08 13:48+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/ubports/"
+"launcher-modular/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
-"Project-Id-Version: Launcher modular\n"
-"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 
 #. SOME DESCRIPTIVE TITLE.
 #. Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
@@ -242,47 +248,47 @@ msgstr "Штиль"
 
 #: ../qml/widgets/Weather.qml:170 ../qml/widgets/Weather.qml:198
 msgid "Light Air"
-msgstr "Лёгкий ветерок"
+msgstr "Тихий"
 
 #: ../qml/widgets/Weather.qml:172 ../qml/widgets/Weather.qml:200
 msgid "Light Breeze"
-msgstr "Лёгкий Бриз"
+msgstr "Лёгкий"
 
 #: ../qml/widgets/Weather.qml:174 ../qml/widgets/Weather.qml:202
 msgid "Gentle Breeze"
-msgstr "Нежный Бриз"
+msgstr "Слабый"
 
 #: ../qml/widgets/Weather.qml:176 ../qml/widgets/Weather.qml:204
 msgid "Moderate Breeze"
-msgstr "Умеренный Бриз"
+msgstr "Умеренный"
 
 #: ../qml/widgets/Weather.qml:178 ../qml/widgets/Weather.qml:206
 msgid "Fresh Breeze"
-msgstr "Освежающий Бриз"
+msgstr "Свежий"
 
 #: ../qml/widgets/Weather.qml:180 ../qml/widgets/Weather.qml:208
 msgid "Strong Breeze"
-msgstr "Сильный Бриз"
+msgstr "Сильный"
 
 #: ../qml/widgets/Weather.qml:182 ../qml/widgets/Weather.qml:210
 msgid "Near Gale"
-msgstr "Почти Шторм"
+msgstr "Крепкий"
 
 #: ../qml/widgets/Weather.qml:184 ../qml/widgets/Weather.qml:212
 msgid "Gale"
-msgstr "Шторм"
+msgstr "Очень крепкий"
 
 #: ../qml/widgets/Weather.qml:186 ../qml/widgets/Weather.qml:214
 msgid "Severe Gale"
-msgstr "Суровый Шторм"
+msgstr "Шторм"
 
 #: ../qml/widgets/Weather.qml:188 ../qml/widgets/Weather.qml:216
 msgid "Strong storm"
-msgstr "Сильный Шторм"
+msgstr "Сильный шторм"
 
 #: ../qml/widgets/Weather.qml:190 ../qml/widgets/Weather.qml:218
 msgid "Violent Storm"
-msgstr "Неистовый Шторм"
+msgstr "Жестокий шторм"
 
 #: ../qml/widgets/Weather.qml:192 ../qml/widgets/Weather.qml:220
 msgid "Hurricane"
@@ -762,4 +768,3 @@ msgstr ""
 #: ../qml/Help.qml:57
 msgid "<br><b>To access to the widget settings, click and hold on the widget and then you can change the widget settings.</b>"
 msgstr ""
-
