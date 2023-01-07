@@ -8,13 +8,16 @@ msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-05 16:12+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-01-08 13:48+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/ubports/"
+"launcher-modular/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 
 #: ../qml/About.qml:14 ../qml/Main.qml:628
 msgid "About"
@@ -385,55 +388,55 @@ msgstr ""
 
 #: ../qml/widgets/Weather.qml:168 ../qml/widgets/Weather.qml:196
 msgid "Calm"
-msgstr ""
+msgstr "Szélcsend"
 
 #: ../qml/widgets/Weather.qml:170 ../qml/widgets/Weather.qml:198
 msgid "Light Air"
-msgstr ""
+msgstr "Gyenge szellő, fuvallat"
 
 #: ../qml/widgets/Weather.qml:172 ../qml/widgets/Weather.qml:200
 msgid "Light Breeze"
-msgstr ""
+msgstr "Enyhe szél"
 
 #: ../qml/widgets/Weather.qml:174 ../qml/widgets/Weather.qml:202
 msgid "Gentle Breeze"
-msgstr ""
+msgstr "Gyenge szél"
 
 #: ../qml/widgets/Weather.qml:176 ../qml/widgets/Weather.qml:204
 msgid "Moderate Breeze"
-msgstr ""
+msgstr "Mérsékelt szél"
 
 #: ../qml/widgets/Weather.qml:178 ../qml/widgets/Weather.qml:206
 msgid "Fresh Breeze"
-msgstr ""
+msgstr "Élénk szél"
 
 #: ../qml/widgets/Weather.qml:180 ../qml/widgets/Weather.qml:208
 msgid "Strong Breeze"
-msgstr ""
+msgstr "Erős szél"
 
 #: ../qml/widgets/Weather.qml:182 ../qml/widgets/Weather.qml:210
 msgid "Near Gale"
-msgstr ""
+msgstr "Viharos szél"
 
 #: ../qml/widgets/Weather.qml:184 ../qml/widgets/Weather.qml:212
 msgid "Gale"
-msgstr ""
+msgstr "Élénk viharos szél, vihar"
 
 #: ../qml/widgets/Weather.qml:186 ../qml/widgets/Weather.qml:214
 msgid "Severe Gale"
-msgstr ""
+msgstr "Heves vihar"
 
 #: ../qml/widgets/Weather.qml:188 ../qml/widgets/Weather.qml:216
 msgid "Strong storm"
-msgstr ""
+msgstr "Dühöngő vihar, szélvész"
 
 #: ../qml/widgets/Weather.qml:190 ../qml/widgets/Weather.qml:218
 msgid "Violent Storm"
-msgstr ""
+msgstr "Heves szélvész"
 
 #: ../qml/widgets/Weather.qml:192 ../qml/widgets/Weather.qml:220
 msgid "Hurricane"
-msgstr ""
+msgstr "Orkán"
 
 #: ../qml/widgets/Weather.qml:233 ../qml/widgets/Weather.qml:235
 #: ../qml/widgets/Weather.qml:237 ../qml/widgets/Weather.qml:239
