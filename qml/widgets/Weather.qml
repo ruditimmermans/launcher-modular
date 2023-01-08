@@ -185,7 +185,7 @@ XmlListModel {
                         } else if (windspeed >= 20.8 && windspeed <= 24.49) {
                             return i18n.tr("Severe Gale")+" "+windspeed+" mph";
                         } else if (windspeed >= 24.5 && windspeed <= 28.49) {
-                            return i18n.tr("Strong storm")+" "+windspeed+" mph";
+                            return i18n.tr("Storm")+" "+windspeed+" mph";
                         } else if (windspeed >= 28.5 && windspeed <= 32.69) {
                             return i18n.tr("Violent Storm")+" "+windspeed+" mph";
                         } else if (windspeed >= 32.7) {
@@ -213,7 +213,7 @@ XmlListModel {
                         } else if (windspeed >= 46.1 && windspeed <= 54) {
                             return i18n.tr("Severe Gale")+" "+windspeed+" km/h";
                         } else if (windspeed >= 54.1 && windspeed <= 63) {
-                            return i18n.tr("Strong storm")+" "+windspeed+" km/h";
+                            return i18n.tr("Storm")+" "+windspeed+" km/h";
                         } else if (windspeed >= 63.1 && windspeed <= 73) {
                             return i18n.tr("Violent Storm")+" "+windspeed+" km/h";
                         } else if (windspeed >= 73.1) {
