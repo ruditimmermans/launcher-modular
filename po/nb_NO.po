@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-05 16:12+0000\n"
-"PO-Revision-Date: 2023-01-08 13:48+0000\n"
+"PO-Revision-Date: 2023-01-10 00:56+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/ubports/"
 "launcher-modular/nb_NO/>\n"
@@ -127,7 +127,7 @@ msgstr "Hjelp"
 
 #: ../qml/Main.qml:716
 msgid "SVG or PNG icon. 1:1 ratio"
-msgstr ""
+msgstr "SVG eller PNG-ikon. 1:1-forhold"
 
 #: ../qml/Main.qml:730
 msgid "The <b>title</b> to be shown in the app list"
