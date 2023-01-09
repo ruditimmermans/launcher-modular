@@ -1,7 +1,6 @@
 clickable_minimum_required:
     "7.9.0"
-build:
-  skip_review: true    
+ignore_review_errors: true   
 builder:
     "cmake"
 kill:
