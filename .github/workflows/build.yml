@@ -15,10 +15,10 @@ jobs:
           submodules: recursive
       - name: Install clickable
         run: |
-          python3 -m pip install clickable-ut
+          python3 -m pip install clickable-ut --upgrade
       - name: Build
         run: |
-          CLICKABLE_FRAMEWORK=ubuntu-sdk-20.04 clickable build skip_review --libs --app --arch ${{ matrix.arch }}
+          CLICKABLE_FRAMEWORK=ubuntu-sdk-20.04 clickable build --skip_review --libs --app --arch ${{ matrix.arch }}
       - name: Upload Artifacts
         uses: actions/upload-artifact@v3
         with:
