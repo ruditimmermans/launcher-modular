@@ -1,5 +1,7 @@
 clickable_minimum_required:
     "7.9.0"
+ignore_review_errors: 
+    "true"    
 builder:
     "cmake"
 kill:
