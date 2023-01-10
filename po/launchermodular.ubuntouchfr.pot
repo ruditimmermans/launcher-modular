@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-05 16:12+0000\n"
+"POT-Creation-Date: 2023-01-10 10:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -164,7 +164,7 @@ msgid "Create icon"
 msgstr ""
 
 #: ../qml/Main.qml:824 ../qml/Pagemanagement.qml:137
-#: ../qml/Pagemanagementback.qml:128 ../qml/pages/Home.qml:433
+#: ../qml/Pagemanagementback.qml:128 ../qml/pages/Home.qml:402
 #: ../qml/pages/home/Settings.qml:91
 msgid "Cancel"
 msgstr ""
@@ -182,69 +182,69 @@ msgstr ""
 msgid "Delete"
 msgstr ""
 
-#: ../qml/Settings.qml:17
+#: ../qml/Settings.qml:16
 msgid "Settings"
 msgstr ""
 
-#: ../qml/Settings.qml:76 ../qml/widgets/favoritecontact/Settings.qml:57
+#: ../qml/Settings.qml:57 ../qml/widgets/favoritecontact/Settings.qml:57
 #: ../qml/widgets/lastcall/Settings.qml:57
 #: ../qml/widgets/lastmessage/Settings.qml:56
 msgid "Generals"
 msgstr ""
 
-#: ../qml/Settings.qml:81
+#: ../qml/Settings.qml:62
 msgid "Dark background"
 msgstr ""
 
-#: ../qml/Settings.qml:104
+#: ../qml/Settings.qml:85
 msgid "Background blur effect"
 msgstr ""
 
-#: ../qml/Settings.qml:112
+#: ../qml/Settings.qml:93
 msgid "None"
 msgstr ""
 
-#: ../qml/Settings.qml:112
+#: ../qml/Settings.qml:93
 msgid "Icons without style"
 msgstr ""
 
-#: ../qml/Settings.qml:113
+#: ../qml/Settings.qml:94
 msgid "Rounded"
 msgstr ""
 
-#: ../qml/Settings.qml:113
+#: ../qml/Settings.qml:94
 msgid "Icons rounded"
 msgstr ""
 
-#: ../qml/Settings.qml:137
+#: ../qml/Settings.qml:118
 msgid "Style Icons : "
 msgstr ""
 
-#: ../qml/Settings.qml:148
+#: ../qml/Settings.qml:129
 msgid "Widgets"
 msgstr ""
 
-#: ../qml/Settings.qml:153
+#: ../qml/Settings.qml:134
 msgid "Show clock"
 msgstr ""
 
-#: ../qml/Settings.qml:162
+#: ../qml/Settings.qml:143
 msgid "Show weather"
 msgstr ""
 
-#: ../qml/Settings.qml:172
+#: ../qml/Settings.qml:153
 msgid "Show alarms"
 msgstr ""
 
-#: ../qml/Settings.qml:181
+#: ../qml/Settings.qml:162
 msgid "Show last call"
 msgstr ""
 
-#: ../qml/Settings.qml:190
+#: ../qml/Settings.qml:171
 msgid "Show last message"
 msgstr ""
 
-#: ../qml/Settings.qml:199
+#: ../qml/Settings.qml:180
 msgid "Show events"
 msgstr ""
 
@@ -287,19 +287,19 @@ msgstr ""
 msgid "Agenda"
 msgstr ""
 
-#: ../qml/pages/Home.qml:158
+#: ../qml/pages/Home.qml:127
 msgid "Search your phone and online sources"
 msgstr ""
 
-#: ../qml/pages/Home.qml:285
+#: ../qml/pages/Home.qml:254
 msgid "Installed Apps"
 msgstr ""
 
-#: ../qml/pages/Home.qml:395
+#: ../qml/pages/Home.qml:364
 msgid "Uninstall"
 msgstr ""
 
-#: ../qml/pages/Home.qml:395
+#: ../qml/pages/Home.qml:364
 msgid "Remove"
 msgstr ""
 
@@ -425,7 +425,7 @@ msgid "Severe Gale"
 msgstr ""
 
 #: ../qml/widgets/Weather.qml:188 ../qml/widgets/Weather.qml:216
-msgid "Strong storm"
+msgid "Storm"
 msgstr ""
 
 #: ../qml/widgets/Weather.qml:190 ../qml/widgets/Weather.qml:218
