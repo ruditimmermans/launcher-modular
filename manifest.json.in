@@ -10,7 +10,7 @@
 	    "content-hub": "launchermodular.contenthub"
         }
     },
-    "version": "2.0.1",
+    "version": "2.2.0",
     "maintainer": "Rudi Timmermans <rudi.timmermans@mailfence.com>",
     "framework" : "ubuntu-sdk-20.04"
 }
