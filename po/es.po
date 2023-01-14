@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-05 16:12+0000\n"
-"PO-Revision-Date: 2023-01-10 00:56+0000\n"
+"PO-Revision-Date: 2023-01-15 10:49+0000\n"
 "Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/ubports/"
 "launcher-modular/es/>\n"
@@ -45,7 +45,7 @@ msgstr ""
 
 #: ../qml/About.qml:125
 msgid "ISSUES"
-msgstr ""
+msgstr "PROBLEMAS"
 
 #: ../qml/About.qml:125
 msgid "DONATE"
@@ -53,11 +53,11 @@ msgstr ""
 
 #: ../qml/About.qml:140
 msgid "Maintainer"
-msgstr ""
+msgstr "Supervisor"
 
 #: ../qml/About.qml:154
 msgid "Copyright"
-msgstr ""
+msgstr "Derechos de autor"
 
 #: ../qml/About.qml:168
 msgid "Special thanks to the testers : Sander Klootwijk, Steve Kueffer."
