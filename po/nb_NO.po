@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-05 16:12+0000\n"
-"PO-Revision-Date: 2023-01-18 18:47+0000\n"
+"PO-Revision-Date: 2023-01-19 05:16+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/ubports/"
 "launcher-modular/nb_NO/>\n"
@@ -119,7 +119,7 @@ msgstr "Sett opp oppstarter"
 
 #: ../qml/Main.qml:568
 msgid "Autostart"
-msgstr ""
+msgstr "Autostart"
 
 #: ../qml/Main.qml:598
 msgid "Help"
@@ -196,11 +196,11 @@ msgstr ""
 
 #: ../qml/Settings.qml:81
 msgid "Dark background"
-msgstr ""
+msgstr "Mørk bakgrunn"
 
 #: ../qml/Settings.qml:104
 msgid "Background blur effect"
-msgstr ""
+msgstr "Bakgrunnstilsløringseffekt"
 
 #: ../qml/Settings.qml:112
 msgid "None"
@@ -451,75 +451,75 @@ msgstr "Orkan"
 #: ../qml/widgets/Weather.qml:257 ../qml/widgets/Weather.qml:259
 #: ../qml/widgets/Weather.qml:261 ../qml/widgets/Weather.qml:263
 msgid "of"
-msgstr ""
+msgstr "fra"
 
 #: ../qml/widgets/Weather.qml:233
 msgid "North"
-msgstr ""
+msgstr "Nord"
 
 #: ../qml/widgets/Weather.qml:235
 msgid "North-Northeast"
-msgstr ""
+msgstr "Nord-nordøst"
 
 #: ../qml/widgets/Weather.qml:237
 msgid "Northeast"
-msgstr ""
+msgstr "Nordøst"
 
 #: ../qml/widgets/Weather.qml:239
 msgid "East-Northeast"
-msgstr ""
+msgstr "Øst-nordøst"
 
 #: ../qml/widgets/Weather.qml:241
 msgid "East"
-msgstr ""
+msgstr "Øst"
 
 #: ../qml/widgets/Weather.qml:243
 msgid "East-Southeast"
-msgstr ""
+msgstr "Øst-sørøst"
 
 #: ../qml/widgets/Weather.qml:245
 msgid "Southeast"
-msgstr ""
+msgstr "Sørøst"
 
 #: ../qml/widgets/Weather.qml:247
 msgid "South-Southeast"
-msgstr ""
+msgstr "Sør-sørøst"
 
 #: ../qml/widgets/Weather.qml:249
 msgid "South"
-msgstr ""
+msgstr "Sør"
 
 #: ../qml/widgets/Weather.qml:251
 msgid "South-Southwest"
-msgstr ""
+msgstr "Sør-sørvest"
 
 #: ../qml/widgets/Weather.qml:253
 msgid "Southwest"
-msgstr ""
+msgstr "Sørvest"
 
 #: ../qml/widgets/Weather.qml:255
 msgid "West-Southwest"
-msgstr ""
+msgstr "Vest-sørvest"
 
 #: ../qml/widgets/Weather.qml:257
 msgid "West"
-msgstr ""
+msgstr "Vest"
 
 #: ../qml/widgets/Weather.qml:259
 msgid "West-Northwest"
-msgstr ""
+msgstr "Vest-nordvest"
 
 #: ../qml/widgets/Weather.qml:261
 msgid "Northwest"
-msgstr ""
+msgstr "Nordvest"
 
 #: ../qml/widgets/Weather.qml:263
 msgid "North-Northwest"
-msgstr ""
+msgstr "Nord-nordvest"
 
 #: ../qml/widgets/Weather.qml:275
 msgid "humidity"
-msgstr ""
+msgstr "fuktighet"
 
 #: ../qml/widgets/clock/Settings.qml:15
 msgid "Settings Widget Clock"
@@ -555,11 +555,11 @@ msgstr ""
 
 #: ../qml/widgets/favoritecontact/Settings.qml:62
 msgid "Linphone"
-msgstr ""
+msgstr "Linphone"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:62
 msgid "Open Linphone"
-msgstr ""
+msgstr "Åpne Linphone"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:87
 #: ../qml/widgets/lastcall/Settings.qml:86
@@ -570,11 +570,11 @@ msgstr ""
 #: ../qml/widgets/lastcall/Settings.qml:61
 #: ../qml/widgets/lastmessage/Settings.qml:70
 msgid "Default"
-msgstr ""
+msgstr "Forvalg"
 
 #: ../qml/widgets/lastcall/Settings.qml:62
 msgid "Call"
-msgstr ""
+msgstr "Ring"
 
 #: ../qml/widgets/lastcall/Settings.qml:62
 msgid "Open the dialer with number"
@@ -582,15 +582,15 @@ msgstr ""
 
 #: ../qml/widgets/lastmessage/Settings.qml:61
 msgid "View a summary"
-msgstr ""
+msgstr "Vis sammendrag"
 
 #: ../qml/widgets/lastmessage/Settings.qml:70
 msgid "Open the application"
-msgstr ""
+msgstr "Åpne programmet"
 
 #: ../qml/widgets/lastmessage/Settings.qml:71
 msgid "Open Message"
-msgstr ""
+msgstr "Åpne melding"
 
 #: ../qml/widgets/lastmessage/Settings.qml:71
 msgid "Open the application with message"
@@ -602,7 +602,7 @@ msgstr ""
 
 #: ../qml/widgets/weather/Settings.qml:66
 msgid "Api Key"
-msgstr ""
+msgstr "API-nøkkel"
 
 #: ../qml/widgets/weather/Settings.qml:85
 msgid "Api openweathermap"
