@@ -48,7 +48,7 @@ Item {
             width: parent.width
             height: units.gu(5)
             Label {
-                text: "Launcher Modular"
+                text: "Modular Launcher"
                 anchors.centerIn: parent
                 fontSize: "x-large"
                 color: "#ffffff"
@@ -76,7 +76,7 @@ Item {
             height: translators1Label.height + units.gu(2)
             Label {
                 id: translators1Label
-                text: i18n.tr("Launcher Modular translators:")
+                text: i18n.tr("Modular Launcher-translators:")
                 anchors.centerIn: parent
                 wrapMode: TextEdit.WrapAtWordBoundaryOrAnywhere
                 horizontalAlignment: Text.AlignHCenter
@@ -165,7 +165,7 @@ Item {
             height: translation.height + units.gu(4)
             Label {
                 id: translation
-                text: i18n.tr("If you like to translate Launcher Modular into your own language, go to <a href='https://hosted.weblate.org/projects/ubports/launcher-modular/'>Weblate</a> for more details.")
+                text: i18n.tr("Translate Modular Launcher at <a href='https://hosted.weblate.org/projects/ubports/launcher-modular/'>Hosted Weblate</a>.")
                 onLinkActivated: Qt.openUrlExternally(link)
                 anchors.centerIn: parent
                 wrapMode: TextEdit.WrapAtWordBoundaryOrAnywhere
