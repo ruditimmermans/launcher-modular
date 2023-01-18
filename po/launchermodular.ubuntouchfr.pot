@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-10 10:38+0000\n"
+"POT-Creation-Date: 2023-01-18 18:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,7 +22,7 @@ msgid "About"
 msgstr ""
 
 #: ../qml/About.qml:96
-msgid "A launcher modular for Ubuntu Touch"
+msgid "A modular launcher for Ubuntu Touch"
 msgstr ""
 
 #: ../qml/About.qml:110
@@ -58,7 +58,7 @@ msgid "Copyright"
 msgstr ""
 
 #: ../qml/About.qml:168
-msgid "Special thanks to the testers : Sander Klootwijk, Steve Kueffer."
+msgid "Special thanks to the testers: Sander Klootwijk, Steve Kueffer."
 msgstr ""
 
 #: ../qml/About.qml:183
