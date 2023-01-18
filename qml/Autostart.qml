@@ -59,7 +59,7 @@ Item {
             height: autostartLabel.height + units.gu(2)
             Label {
                 id: autostartLabel
-                                text: i18n.tr("How to set Launcher Modular to start automatically when the device is booted. <br><br>More details in <a href='https://github.com/ruditimmermans/launcher-modular-service'>how to add a Modular Launcher systemd user service file to/on your device</a>")
+                                text: i18n.tr("How to set Modular Launcher to start automatically when the device is booted. <br><br>More details in <a href='https://github.com/ruditimmermans/launcher-modular-service'>how to add a Modular Launcher systemd user service file to/on your device</a>")
                 onLinkActivated: Qt.openUrlExternally(link)
                 anchors.centerIn: parent
                 wrapMode: TextEdit.WrapAtWordBoundaryOrAnywhere
