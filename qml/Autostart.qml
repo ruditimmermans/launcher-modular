@@ -12,7 +12,7 @@ Page {
 
     header: PageHeader {
         id: aboutPage
-        title: i18n.tr("Autostart Launcher Modular");
+        title: i18n.tr("Autostart Modular Launcher");
        StyleHints {
            foregroundColor: "#FFFFFF";
            backgroundColor: "#111111";
@@ -46,7 +46,7 @@ Item {
         }
 
         ListItem.Header {
-                text: "<font color=\"#ffffff\">"+i18n.tr("How to Autostart Launcher Modular on boot")+"</font>"
+                text: "<font color=\"#ffffff\">"+i18n.tr("How to Autostart Modular Launcher after booting")+"</font>"
         }
 
         Item {
@@ -59,7 +59,7 @@ Item {
             height: autostartLabel.height + units.gu(2)
             Label {
                 id: autostartLabel
-                                text: i18n.tr("How to enable Launcher Modular to start automatically when the device is booted. <br><br>For more details see the <a href='https://github.com/ruditimmermans/launcher-modular-service'>how to add a Launcher Modular systemd user service file to/on your device</a>")
+                                text: i18n.tr("How to set Launcher Modular to start automatically when the device is booted. <br><br>More details in <a href='https://github.com/ruditimmermans/launcher-modular-service'>how to add a Modular Launcher systemd user service file to/on your device</a>")
                 onLinkActivated: Qt.openUrlExternally(link)
                 anchors.centerIn: parent
                 wrapMode: TextEdit.WrapAtWordBoundaryOrAnywhere
