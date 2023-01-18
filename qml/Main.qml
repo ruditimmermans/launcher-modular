@@ -732,8 +732,8 @@ Rectangle {
 
 
                   property var modelCustom: [
-                    { title: "<font color=\"#6f6f6f\">"+i18n.tr("Website")+"</font>", descr: "<font color=\"#ffffff\">"+i18n.tr("Open the browser with the url")+"</font>", style:"website" },
-                    { title: "<font color=\"#ffffff\">"+i18n.tr("Terminal command")+"</font>", descr: "<font color=\"#6f6f6f\">"+i18n.tr("Launch an order in a terminal")+"</font>", style:"terminal" },
+                    { title: "<font color=\"#6f6f6f\">"+i18n.tr("Website")+"</font>", descr: "<font color=\"#ffffff\">"+i18n.tr("Open this URL in the web browser")+"</font>", style:"website" },
+                    { title: "<font color=\"#ffffff\">"+i18n.tr("Terminal command")+"</font>", descr: "<font color=\"#6f6f6f\">"+i18n.tr("Run a command in a terminal")+"</font>", style:"terminal" },
                     { title: "<font color=\"#ffffff\">"+i18n.tr("Launch app")+"</font>", descr: "<font color=\"#6f6f6f\">"+i18n.tr("Launch an app")+"</font>", style:"appid" }
                     ]
 
