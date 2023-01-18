@@ -49,7 +49,7 @@ Item {
             width: parent.width
             height: units.gu(5)
             Label {
-                text: "Launcher Modular"
+                text: "Modular Launcher"
                 anchors.centerIn: parent
                 fontSize: "x-large"
                 color: "#ffffff"
@@ -93,7 +93,7 @@ Item {
             height: thankLabel.height + units.gu(2)
             Label {
                 id: appLabel
-                text: i18n.tr("A launcher modular for Ubuntu Touch")
+                text: i18n.tr("A modular launcher for Ubuntu Touch")
                 anchors.centerIn: parent
                 wrapMode: TextEdit.WrapAtWordBoundaryOrAnywhere
                 horizontalAlignment: Text.AlignHCenter
@@ -137,7 +137,7 @@ Item {
             height: thankLabel.height + units.gu(2)
             Label {
                 id: thankLabel
-                text: i18n.tr("Maintainer") + " (c) 2021 - 2023 Rudi Timmermans <rudi.timmermans@mailfence.com>"
+                text: i18n.tr("Maintainer") + " © 2021–2023 Rudi Timmermans <rudi.timmermans@mailfence.com>"
                 anchors.centerIn: parent
                 wrapMode: TextEdit.WrapAtWordBoundaryOrAnywhere
                 horizontalAlignment: Text.AlignHCenter
@@ -151,7 +151,7 @@ Item {
             height: thank1Label.height + units.gu(2)
             Label {
                 id: thank1Label
-                text: i18n.tr("Copyright") + " (c) 2019 - 2020 Jimmy Lejeune"
+                text: i18n.tr("Copyright") + " © 2019–2020 Jimmy Lejeune"
                 anchors.centerIn: parent
                 wrapMode: TextEdit.WrapAtWordBoundaryOrAnywhere
                 horizontalAlignment: Text.AlignHCenter
@@ -165,7 +165,7 @@ Item {
             height: betaLabel.height + units.gu(2)
             Label {
                 id: betaLabel
-                text: i18n.tr("Special thanks to the testers : Sander Klootwijk, Steve Kueffer.")
+                text: i18n.tr("Special thanks to the testers: Sander Klootwijk, Steve Kueffer.")
                 anchors.centerIn: parent
                 wrapMode: TextEdit.WrapAtWordBoundaryOrAnywhere
                 horizontalAlignment: Text.AlignHCenter
