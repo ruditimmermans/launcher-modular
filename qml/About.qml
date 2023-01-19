@@ -180,7 +180,7 @@ Item {
         Label {
                 id: translatorsLabel
                 anchors.horizontalCenter: parent.horizontalCenter
-                text: i18n.tr("<a href='LAUNCHER MODULAR TRANSLATORS'>LAUNCHER MODULAR TRANSLATORS</a>")
+                text: i18n.tr("<a href='LAUNCHER MODULAR TRANSLATORS'>Modular Launcher-translators</a>")
                 anchors.centerIn: parent
                 wrapMode: TextEdit.WrapAtWordBoundaryOrAnywhere
                 horizontalAlignment: Text.AlignHCenter

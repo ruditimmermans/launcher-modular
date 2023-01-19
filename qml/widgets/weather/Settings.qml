@@ -11,7 +11,7 @@ Page {
 
     header: PageHeader {
         id: headerSettings
-        title: i18n.tr("Settings Widget Weather");
+        title: i18n.tr("Settings for weather widget");
        StyleHints {
            foregroundColor: "#FFFFFF";
            backgroundColor: "#111111";
@@ -63,7 +63,7 @@ Item {
 
     Label {
         id: label
-        text: i18n.tr("Api Key")
+        text: i18n.tr("API Key")
         color:  "white"
         width: templateRow.titleWidth
         anchors.left: parent.left
@@ -82,7 +82,7 @@ Item {
 
             TextField {
                 objectName: "textfield_standard"
-                placeholderText: i18n.tr("Api openweathermap")
+                placeholderText: i18n.tr("OpenWeatherMap API")
                 width: parent.width
                 text: launchermodular.settings.apiOpenWeatherMap
                 onTextChanged: { launchermodular.settings.apiOpenWeatherMap = text }
@@ -94,7 +94,7 @@ Item {
                 id: textAPI
                 anchors.topMargin: units.gu(2)
                 anchors.top: templateRow.bottom
-                text: i18n.tr("Click to signup for an API key")
+                text: i18n.tr("Click to sign up for an API key")
                 color: "yellow"
 
                 MouseArea {
@@ -133,7 +133,7 @@ Item {
 
             TextField {
                 objectName: "textfield_standard"
-                placeholderText: "London,uk "+i18n.tr("or")+" Paris,fr "+i18n.tr("or")+" New York,us ..."
+                placeholderText: "London,uk "+i18n.tr("or")+" Paris,fr "+i18n.tr("or")+" New York,us …"
                 width: parent.width
                 text: launchermodular.settings.cityName
                 onTextChanged: { launchermodular.settings.cityName = text }

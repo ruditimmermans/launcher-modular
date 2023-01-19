@@ -1,5 +1,5 @@
 [Desktop Entry]
-_Name=Launcher modular
+_Name=Modular launcher
 Exec=launchermodular
 Icon=assets/logo.svg
 Terminal=false

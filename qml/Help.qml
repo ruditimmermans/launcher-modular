@@ -12,7 +12,7 @@ Page {
 
     header: PageHeader {
         id: helpPage
-        title: i18n.tr("Launcher Modular Help");
+        title: i18n.tr("Modular Launcher Help");
        StyleHints {
            foregroundColor: "#FFFFFF";
            backgroundColor: "#111111";
@@ -54,7 +54,7 @@ Item {
             height: translators1Label.height + units.gu(2)
             Label {
                 id: translators1Label
-                text: i18n.tr("<br><b>To access to the widget settings, click and hold on the widget and then you can change the widget settings.</b>")
+                text: i18n.tr("<br><b>Click and hold the widget and to change its settings.</b>")
                 anchors.centerIn: parent
                 wrapMode: TextEdit.WrapAtWordBoundaryOrAnywhere
                 horizontalAlignment: Text.AlignHCenter
