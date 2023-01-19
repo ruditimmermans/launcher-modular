@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-05 16:12+0000\n"
-"PO-Revision-Date: 2023-01-19 05:16+0000\n"
+"PO-Revision-Date: 2023-01-19 20:29+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/ubports/"
 "launcher-modular/nb_NO/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 4.15.1\n"
 
 #: ../qml/About.qml:14 ../qml/Main.qml:628
 msgid "About"
@@ -40,16 +40,19 @@ msgid ""
 msgstr ""
 
 #: ../qml/About.qml:125
+#, fuzzy
 msgid "SOURCE"
-msgstr ""
+msgstr "Kilde"
 
 #: ../qml/About.qml:125
+#, fuzzy
 msgid "ISSUES"
-msgstr ""
+msgstr "Problemer"
 
 #: ../qml/About.qml:125
+#, fuzzy
 msgid "DONATE"
-msgstr ""
+msgstr "Doner"
 
 #: ../qml/About.qml:140
 msgid "Maintainer"
@@ -89,7 +92,7 @@ msgstr ""
 
 #: ../qml/Help.qml:49
 msgid "Widget Settings"
-msgstr ""
+msgstr "Miniprogramsinnstillinger"
 
 #: ../qml/Help.qml:57
 msgid ""
@@ -130,8 +133,9 @@ msgid "SVG or PNG icon. 1:1 ratio"
 msgstr "SVG eller PNG-ikon. 1:1-forhold"
 
 #: ../qml/Main.qml:730
+#, fuzzy
 msgid "The <b>title</b> to be shown in the app list"
-msgstr ""
+msgstr "<b>Navn</b> vist i programlisten"
 
 #: ../qml/Main.qml:735
 msgid "Website"
@@ -191,8 +195,9 @@ msgstr "Innstillinger"
 #: ../qml/Settings.qml:76 ../qml/widgets/favoritecontact/Settings.qml:57
 #: ../qml/widgets/lastcall/Settings.qml:57
 #: ../qml/widgets/lastmessage/Settings.qml:56
+#, fuzzy
 msgid "Generals"
-msgstr ""
+msgstr "Generelt"
 
 #: ../qml/Settings.qml:81
 msgid "Dark background"
@@ -219,8 +224,9 @@ msgid "Icons rounded"
 msgstr ""
 
 #: ../qml/Settings.qml:137
+#, fuzzy
 msgid "Style Icons : "
-msgstr ""
+msgstr "Ikonstil: "
 
 #: ../qml/Settings.qml:148
 msgid "Widgets"
@@ -259,24 +265,25 @@ msgid "Launcher Modular translators:"
 msgstr ""
 
 #: ../qml/Translators.qml:98
+#, fuzzy
 msgid "Dutch - "
-msgstr ""
+msgstr "Nederlandsk — "
 
 #: ../qml/Translators.qml:112
 msgid "French - "
-msgstr ""
+msgstr "Fransk — "
 
 #: ../qml/Translators.qml:126
 msgid "German - "
-msgstr ""
+msgstr "Tysk — "
 
 #: ../qml/Translators.qml:140
 msgid "Portuguese - "
-msgstr ""
+msgstr "Portugisisk — "
 
 #: ../qml/Translators.qml:154
 msgid "Russian - "
-msgstr ""
+msgstr "Russisk — "
 
 #: ../qml/Translators.qml:168
 msgid ""
@@ -290,8 +297,9 @@ msgid "Agenda"
 msgstr "Agenda"
 
 #: ../qml/pages/Home.qml:158
+#, fuzzy
 msgid "Search your phone and online sources"
-msgstr ""
+msgstr "Søk på enheten din og i nettbaserte kilder"
 
 #: ../qml/pages/Home.qml:285
 msgid "Installed Apps"
@@ -313,23 +321,25 @@ msgstr "Nytt gjøremål"
 #: ../qml/pages/calendar/Settings.qml:12 ../qml/pages/home/Settings.qml:14
 #: ../qml/pages/picture/Settings.qml:12 ../qml/pages/todo/Settings.qml:12
 msgid "Settings Page"
-msgstr ""
+msgstr "Innstillingsside"
 
 #: ../qml/pages/calendar/Settings.qml:51
 msgid "General"
 msgstr "Generelt"
 
 #: ../qml/pages/calendar/Settings.qml:70 ../qml/widgets/event/Settings.qml:72
+#, fuzzy
 msgid "Limit of days"
-msgstr ""
+msgstr "Dagsfrist"
 
 #: ../qml/pages/calendar/Settings.qml:89 ../qml/widgets/event/Settings.qml:91
 msgid "By default 60 days"
-msgstr ""
+msgstr "Som forvalg 60 dager"
 
 #: ../qml/pages/home/Settings.qml:121
+#, fuzzy
 msgid "Favorite apps management"
-msgstr ""
+msgstr "Håndtering av favorittprogrammer"
 
 #: ../qml/pages/picture/Settings.qml:58
 msgid "Image path"
@@ -522,36 +532,39 @@ msgid "humidity"
 msgstr "fuktighet"
 
 #: ../qml/widgets/clock/Settings.qml:15
+#, fuzzy
 msgid "Settings Widget Clock"
-msgstr ""
+msgstr "Innstillinger for miniprogramsklokke"
 
 #: ../qml/widgets/clock/Settings.qml:56
+#, fuzzy
 msgid "Show analog clock with digits"
-msgstr ""
+msgstr "Vis analog klokke med siffer"
 
 #: ../qml/widgets/event/Settings.qml:15
 #: ../qml/widgets/favoritecontact/Settings.qml:14
 #: ../qml/widgets/lastcall/Settings.qml:15
 #: ../qml/widgets/lastmessage/Settings.qml:15
 msgid "Settings Widget"
-msgstr ""
+msgstr "Innstillingsminiprogram"
 
 #: ../qml/widgets/event/Settings.qml:116
 msgid "Limit of event"
-msgstr ""
+msgstr "Begivenhetsgrense"
 
 #: ../qml/widgets/event/Settings.qml:135
+#, fuzzy
 msgid "By default 3 event"
-msgstr ""
+msgstr "Som forvalg tre begivenheter"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:61
 msgid "Dialer"
-msgstr ""
+msgstr "Nummerskive"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:61
 #: ../qml/widgets/lastcall/Settings.qml:61
 msgid "Open the dialer"
-msgstr ""
+msgstr "Åpne nummerskiven"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:62
 msgid "Linphone"
@@ -564,8 +577,9 @@ msgstr "Åpne Linphone"
 #: ../qml/widgets/favoritecontact/Settings.qml:87
 #: ../qml/widgets/lastcall/Settings.qml:86
 #: ../qml/widgets/lastmessage/Settings.qml:96
+#, fuzzy
 msgid "When clicked : "
-msgstr ""
+msgstr "Når klikket: "
 
 #: ../qml/widgets/lastcall/Settings.qml:61
 #: ../qml/widgets/lastmessage/Settings.qml:70
@@ -577,8 +591,9 @@ msgid "Call"
 msgstr "Ring"
 
 #: ../qml/widgets/lastcall/Settings.qml:62
+#, fuzzy
 msgid "Open the dialer with number"
-msgstr ""
+msgstr "Åpne nummerskiven med nummer"
 
 #: ../qml/widgets/lastmessage/Settings.qml:61
 msgid "View a summary"
@@ -593,8 +608,9 @@ msgid "Open Message"
 msgstr "Åpne melding"
 
 #: ../qml/widgets/lastmessage/Settings.qml:71
+#, fuzzy
 msgid "Open the application with message"
-msgstr ""
+msgstr "Åpne programmet med melding"
 
 #: ../qml/widgets/weather/Settings.qml:14
 msgid "Settings Widget Weather"
@@ -614,11 +630,11 @@ msgstr ""
 
 #: ../qml/widgets/weather/Settings.qml:117
 msgid "City name"
-msgstr ""
+msgstr "Bynavn"
 
 #: ../qml/widgets/weather/Settings.qml:136
 msgid "or"
-msgstr ""
+msgstr "eller"
 
 #: launchermodular.desktop.in.h:1
 msgid "Launcher modular"
