@@ -184,6 +184,18 @@ Rectangle {
             }
         }
 
+        ListItem.Header {
+            text: "<font color=\"#ffffff\">"+i18n.tr("Other")+"</font>"
+        }
+
+        Button {
+            anchors.horizontalCenter: parent.horizontalCenter
+            text: i18n.tr('Launch Modular Launcher on boot')
+            color: LomiriColors.red
+
+                onClicked: ("sudo -S bash file:///" + applicationDirPath + "assets/systemscript/patchdash.sh ; restart unity8")
+        }
+
         } // column
     } //flickable
  } //rectangle settings

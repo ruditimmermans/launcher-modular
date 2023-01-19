@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-19 05:15+0000\n"
+"POT-Creation-Date: 2023-01-19 20:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -242,6 +242,14 @@ msgstr ""
 
 #: ../qml/Settings.qml:180
 msgid "Show events"
+msgstr ""
+
+#: ../qml/Settings.qml:188
+msgid "Other"
+msgstr ""
+
+#: ../qml/Settings.qml:193
+msgid "Launch Modular Launcher on boot"
 msgstr ""
 
 #: ../qml/Translators.qml:14
