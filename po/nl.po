@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Launcher modular\n"
-"PO-Revision-Date: 2023-01-08 13:48+0000\n"
-"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"PO-Revision-Date: 2023-01-19 20:29+0000\n"
+"Last-Translator: Rudi Timmermans <rudi.timmermans@mailfence.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/ubports/"
 "launcher-modular/nl/>\n"
 "Language: nl\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 4.15.1\n"
 
 #: ../qml/About.qml:14 ../qml/Main.qml:628
 msgid "About"
@@ -22,7 +22,16 @@ msgstr "Een modulaire launcher voor Ubuntu Touch"
 
 #: ../qml/About.qml:110
 msgid "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the <a href='https://www.gnu.org/licenses/gpl-3.0.en.html'>GNU General Public License</a> for more details."
-msgstr "Dit programma is vrije software: je mag het herdistribueren en/of wijzigen onder de voorwaarden van de GNU Algemene Publieke Licentie zoals gepubliceerd door de Free Software Foundation, onder versie 3 van de Licentie of (naar jouw keuze) elke latere versie. Dit programma is gedistribueerd in de hoop dat het nuttig zal zijn maar ZONDER ENIGE GARANTIE; zelfs zonder de impliciete garanties die GEBRUIKELIJK ZIJN IN DE HANDEL of voor BRUIKBAARHEID VOOR EEN SPECIFIEK DOEL. Zie de <a href='https://www.gnu.org/licenses/gpl-3.0.nl.html'> GNU Algemene Publike Licentie </a> voor meer details."
+msgstr ""
+"Dit programma is vrije software: je mag het herdistribueren en/of wijzigen "
+"onder de voorwaarden van de GNU Algemene Publieke Licentie zoals "
+"gepubliceerd door de Free Software Foundation, onder versie 3 van de "
+"Licentie of (naar jouw keuze) elke latere versie. Dit programma is "
+"gedistribueerd in de hoop dat het nuttig zal zijn maar ZONDER ENIGE GARANTIE;"
+" zelfs zonder de impliciete garanties die GEBRUIKELIJK ZIJN IN DE HANDEL of "
+"voor BRUIKBAARHEID VOOR EEN SPECIFIEK DOEL. Zie de <a href=\"https://www.gnu."
+"org/licenses/gpl-3.0.nl.html\"> GNU Algemene Publike Licentie </a> voor meer "
+"details."
 
 #: ../qml/About.qml:125
 msgid "SOURCE"
