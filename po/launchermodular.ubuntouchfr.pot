@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-18 18:45+0000\n"
+"POT-Creation-Date: 2023-01-19 05:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,27 +62,27 @@ msgid "Special thanks to the testers: Sander Klootwijk, Steve Kueffer."
 msgstr ""
 
 #: ../qml/About.qml:183
-msgid "<a href='LAUNCHER MODULAR TRANSLATORS'>LAUNCHER MODULAR TRANSLATORS</a>"
+msgid "<a href='LAUNCHER MODULAR TRANSLATORS'>Modular Launcher-translators</a>"
 msgstr ""
 
 #: ../qml/Autostart.qml:15
-msgid "Autostart Launcher Modular"
+msgid "Autostart Modular Launcher"
 msgstr ""
 
 #: ../qml/Autostart.qml:49
-msgid "How to Autostart Launcher Modular on boot"
+msgid "How to Autostart Modular Launcher after booting"
 msgstr ""
 
 #: ../qml/Autostart.qml:62
 msgid ""
-"How to enable Launcher Modular to start automatically when the device is "
-"booted. <br><br>For more details see the <a href='https://github.com/"
-"ruditimmermans/launcher-modular-service'>how to add a Launcher Modular "
-"systemd user service file to/on your device</a>"
+"How to set Modular Launcher to start automatically when the device is "
+"booted. <br><br>More details in <a href='https://github.com/ruditimmermans/"
+"launcher-modular-service'>how to add a Modular Launcher systemd user service "
+"file to/on your device</a>"
 msgstr ""
 
 #: ../qml/Help.qml:15
-msgid "Launcher Modular Help"
+msgid "Modular Launcher Help"
 msgstr ""
 
 #: ../qml/Help.qml:49
@@ -90,9 +90,7 @@ msgid "Widget Settings"
 msgstr ""
 
 #: ../qml/Help.qml:57
-msgid ""
-"<br><b>To access to the widget settings, click and hold on the widget and "
-"then you can change the widget settings.</b>"
+msgid "<br><b>Click and hold the widget and to change its settings.</b>"
 msgstr ""
 
 #: ../qml/ImportPage.qml:11
@@ -136,7 +134,7 @@ msgid "Website"
 msgstr ""
 
 #: ../qml/Main.qml:735
-msgid "Open the browser with the url"
+msgid "Open this URL in the web browser"
 msgstr ""
 
 #: ../qml/Main.qml:736
@@ -144,7 +142,7 @@ msgid "Terminal command"
 msgstr ""
 
 #: ../qml/Main.qml:736
-msgid "Launch an order in a terminal"
+msgid "Run a command in a terminal"
 msgstr ""
 
 #: ../qml/Main.qml:737
@@ -186,10 +184,8 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
-#: ../qml/Settings.qml:57 ../qml/widgets/favoritecontact/Settings.qml:57
-#: ../qml/widgets/lastcall/Settings.qml:57
-#: ../qml/widgets/lastmessage/Settings.qml:56
-msgid "Generals"
+#: ../qml/Settings.qml:57 ../qml/pages/calendar/Settings.qml:51
+msgid "General"
 msgstr ""
 
 #: ../qml/Settings.qml:62
@@ -205,7 +201,7 @@ msgid "None"
 msgstr ""
 
 #: ../qml/Settings.qml:93
-msgid "Icons without style"
+msgid "Unstyled icons"
 msgstr ""
 
 #: ../qml/Settings.qml:94
@@ -213,7 +209,7 @@ msgid "Rounded"
 msgstr ""
 
 #: ../qml/Settings.qml:94
-msgid "Icons rounded"
+msgid "Rounded icons"
 msgstr ""
 
 #: ../qml/Settings.qml:118
@@ -253,7 +249,7 @@ msgid "Translators"
 msgstr ""
 
 #: ../qml/Translators.qml:79
-msgid "Launcher Modular translators:"
+msgid "Modular Launcher-translators:"
 msgstr ""
 
 #: ../qml/Translators.qml:98
@@ -278,9 +274,8 @@ msgstr ""
 
 #: ../qml/Translators.qml:168
 msgid ""
-"If you like to translate Launcher Modular into your own language, go to <a "
-"href='https://hosted.weblate.org/projects/ubports/launcher-"
-"modular/'>Weblate</a> for more details."
+"Translate Modular Launcher at <a href='https://hosted.weblate.org/projects/"
+"ubports/launcher-modular/'>Hosted Weblate</a>."
 msgstr ""
 
 #: ../qml/pages/Calendar.qml:103
@@ -310,10 +305,6 @@ msgstr ""
 #: ../qml/pages/calendar/Settings.qml:12 ../qml/pages/home/Settings.qml:14
 #: ../qml/pages/picture/Settings.qml:12 ../qml/pages/todo/Settings.qml:12
 msgid "Settings Page"
-msgstr ""
-
-#: ../qml/pages/calendar/Settings.qml:51
-msgid "General"
 msgstr ""
 
 #: ../qml/pages/calendar/Settings.qml:70 ../qml/widgets/event/Settings.qml:72
@@ -538,6 +529,12 @@ msgstr ""
 msgid "By default 3 event"
 msgstr ""
 
+#: ../qml/widgets/favoritecontact/Settings.qml:57
+#: ../qml/widgets/lastcall/Settings.qml:57
+#: ../qml/widgets/lastmessage/Settings.qml:56
+msgid "Generals"
+msgstr ""
+
 #: ../qml/widgets/favoritecontact/Settings.qml:61
 msgid "Dialer"
 msgstr ""
@@ -591,19 +588,19 @@ msgid "Open the application with message"
 msgstr ""
 
 #: ../qml/widgets/weather/Settings.qml:14
-msgid "Settings Widget Weather"
+msgid "Settings for weather widget"
 msgstr ""
 
 #: ../qml/widgets/weather/Settings.qml:66
-msgid "Api Key"
+msgid "API Key"
 msgstr ""
 
 #: ../qml/widgets/weather/Settings.qml:85
-msgid "Api openweathermap"
+msgid "OpenWeatherMap API"
 msgstr ""
 
 #: ../qml/widgets/weather/Settings.qml:97
-msgid "Click to signup for an API key"
+msgid "Click to sign up for an API key"
 msgstr ""
 
 #: ../qml/widgets/weather/Settings.qml:117
@@ -615,5 +612,5 @@ msgid "or"
 msgstr ""
 
 #: launchermodular.desktop.in.h:1
-msgid "Launcher modular"
+msgid "Modular launcher"
 msgstr ""
