@@ -54,7 +54,7 @@ Rectangle {
 
 
             ListItem.Header {
-                text: "<font color=\"#ffffff\">"+i18n.tr("Generals")+"</font>"
+                text: "<font color=\"#ffffff\">"+i18n.tr("General")+"</font>"
             }
 
             ListItem.Standard {
@@ -90,8 +90,8 @@ Rectangle {
             }
 
             property var model: [
-            { title: "<font color=\"#ffffff\">"+i18n.tr("None")+"</font>", descr: "<font color=\"#ffffff\">"+i18n.tr("Icons without style")+"</font>", style:"none" },
-            { title: "<font color=\"#ffffff\">"+i18n.tr("Rounded")+"</font>", descr: "<font color=\"#ffffff\">"+i18n.tr("Icons rounded")+"</font>", style:"rounded" }
+            { title: "<font color=\"#ffffff\">"+i18n.tr("None")+"</font>", descr: "<font color=\"#ffffff\">"+i18n.tr("Unstyled icons")+"</font>", style:"none" },
+            { title: "<font color=\"#ffffff\">"+i18n.tr("Rounded")+"</font>", descr: "<font color=\"#ffffff\">"+i18n.tr("Rounded icons")+"</font>", style:"rounded" }
             ]
 
             ListItem.ItemSelector {
