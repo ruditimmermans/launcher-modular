@@ -8,13 +8,17 @@ msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-22 06:48+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-01-22 13:26+0000\n"
+"Last-Translator: HudobniVolk <hudobni.volk@tuta.io>\n"
+"Language-Team: Slovenian <https://hosted.weblate.org/projects/ubports/"
+"launcher-modular/sl/>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 4.15.1\n"
 
 #: ../qml/About.qml:14 ../qml/Main.qml:628
 msgid "About"
@@ -38,15 +42,15 @@ msgstr ""
 
 #: ../qml/About.qml:125
 msgid "SOURCE"
-msgstr ""
+msgstr "IZVOR"
 
 #: ../qml/About.qml:125
 msgid "ISSUES"
-msgstr ""
+msgstr "PROBLEMI"
 
 #: ../qml/About.qml:125
 msgid "DONATE"
-msgstr ""
+msgstr "DONIRAJ"
 
 #: ../qml/About.qml:140
 msgid "Maintainer"
