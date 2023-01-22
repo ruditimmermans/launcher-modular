@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-22 06:48+0000\n"
-"PO-Revision-Date: 2023-01-22 13:26+0000\n"
+"PO-Revision-Date: 2023-01-23 18:52+0000\n"
 "Last-Translator: HudobniVolk <hudobni.volk@tuta.io>\n"
 "Language-Team: Slovenian <https://hosted.weblate.org/projects/ubports/"
 "launcher-modular/sl/>\n"
@@ -18,15 +18,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 4.15.1\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: ../qml/About.qml:14 ../qml/Main.qml:628
 msgid "About"
-msgstr ""
+msgstr "O Launcher modular"
 
 #: ../qml/About.qml:96
 msgid "A modular launcher for Ubuntu Touch"
-msgstr ""
+msgstr "Modularni zaganjalnik za Ubuntu Touch"
 
 #: ../qml/About.qml:110
 msgid ""
@@ -39,6 +39,14 @@ msgid ""
 "href='https://www.gnu.org/licenses/gpl-3.0.en.html'>GNU General Public "
 "License</a> for more details."
 msgstr ""
+"Ta program je prosta programska oprema: lahko ga distribuirate naprej in/ali "
+"spreminjate pod pogoji splošne javne licence GNU, kot jo je objavila "
+"fundacija Free Software Foundation, bodisi različica 3 te licence ali bodisi "
+"(po vaši izbiri) katere koli poznejše različice. Ta program se distribuira v "
+"upanju, da bo uporaben, vendar pa je BREZ KATEREGAKOLI JAMSTVA; celo brez "
+"implicitnega jamstva o PRIMERNOSTI ZA PRODAJO ali PRIMERNOSTI ZA DOLOČEN "
+"NAMEN. Za več podrobnosti glej <a href=\"https://www.gnu.org/licenses/gpl-3.0"
+".en.html\">Splošna javna licenca GNU</a>."
 
 #: ../qml/About.qml:125
 msgid "SOURCE"
@@ -46,7 +54,7 @@ msgstr "IZVOR"
 
 #: ../qml/About.qml:125
 msgid "ISSUES"
-msgstr "PROBLEMI"
+msgstr "TEŽAVE"
 
 #: ../qml/About.qml:125
 msgid "DONATE"
@@ -54,27 +62,28 @@ msgstr "DONIRAJ"
 
 #: ../qml/About.qml:140
 msgid "Maintainer"
-msgstr ""
+msgstr "Vzdrževalec"
 
 #: ../qml/About.qml:154
 msgid "Copyright"
-msgstr ""
+msgstr "Avtorske pravice"
 
 #: ../qml/About.qml:168
 msgid "Special thanks to the testers: Sander Klootwijk, Steve Kueffer."
-msgstr ""
+msgstr "Posebna zahvala preizkuševalcema: Sander Klootwijk, Steve Kueffer."
 
 #: ../qml/About.qml:183
 msgid "<a href='LAUNCHER MODULAR TRANSLATORS'>Modular Launcher-translators</a>"
 msgstr ""
+"<a href=\"LAUNCHER MODULAR TRANSLATORS\">Prevajalci Launcher Modular</a>"
 
 #: ../qml/Autostart.qml:15
 msgid "Autostart Modular Launcher"
-msgstr ""
+msgstr "Samodejni zagon Launcher Modular"
 
 #: ../qml/Autostart.qml:49
 msgid "How to Autostart Modular Launcher after booting"
-msgstr ""
+msgstr "Kako samodejno zagnati Launcher Modular po zagonu"
 
 #: ../qml/Autostart.qml:62
 msgid ""
@@ -83,360 +92,366 @@ msgid ""
 "launcher-modular-service'>how to add a Modular Launcher systemd user service "
 "file to/on your device</a>"
 msgstr ""
+"Kako nastaviti Launcher Modular, da se samodejno zažene ob zagonu naprave. "
+"<br><br>Več podrobnosti <a href=\"https://github.com/ruditimmermans/launcher-"
+"modular-service\">kako dodati Launcher Modular systemd datoteko uporabniških "
+"storitev v/na vašo napravo</a>"
 
 #: ../qml/Help.qml:15
 msgid "Modular Launcher Help"
-msgstr ""
+msgstr "Pomoč Launcher Modular"
 
 #: ../qml/Help.qml:49
 msgid "Widget Settings"
-msgstr ""
+msgstr "Nastavitve pripomočkov"
 
 #: ../qml/Help.qml:57
 msgid "<br><b>Click and hold the widget and to change its settings.</b>"
-msgstr ""
+msgstr "<br><b>Kliknite in pridržite pripomoček za spremembo nastavitev.</b>"
 
 #: ../qml/ImportPage.qml:11
 msgid "Choose"
-msgstr ""
+msgstr "Izberite"
 
 #: ../qml/Main.qml:399
 msgid "Swipe up to configure the launcher"
-msgstr ""
+msgstr "Podrsajte navzgor za konfiguracijo zaganjalnika"
 
 #: ../qml/Main.qml:478
 msgid "Add custom icon"
-msgstr ""
+msgstr "Dodajte ikono po meri"
 
 #: ../qml/Main.qml:508
 msgid "Manage page"
-msgstr ""
+msgstr "Upravljanje strani"
 
 #: ../qml/Main.qml:538
 msgid "Configure Launcher"
-msgstr ""
+msgstr "Konfigurirajte zaganjalnik"
 
 #: ../qml/Main.qml:568
 msgid "Autostart"
-msgstr ""
+msgstr "Samodejni zagon"
 
 #: ../qml/Main.qml:598
 msgid "Help"
-msgstr ""
+msgstr "Pomoč"
 
 #: ../qml/Main.qml:716
 msgid "SVG or PNG icon. 1:1 ratio"
-msgstr ""
+msgstr "Ikona SVG ali PNG formata. Razmerje 1:1"
 
 #: ../qml/Main.qml:730
 msgid "The <b>title</b> to be shown in the app list"
-msgstr ""
+msgstr "<b>Naslov</b>, ki bo prikazan na seznamu aplikacij"
 
 #: ../qml/Main.qml:735
 msgid "Website"
-msgstr ""
+msgstr "Spletna stran"
 
 #: ../qml/Main.qml:735
 msgid "Open this URL in the web browser"
-msgstr ""
+msgstr "Odprite ta naslov URL v spletnem brskalniku"
 
 #: ../qml/Main.qml:736
 msgid "Terminal command"
-msgstr ""
+msgstr "Terminalski ukaz"
 
 #: ../qml/Main.qml:736
 msgid "Run a command in a terminal"
-msgstr ""
+msgstr "Zaženite ukaz v terminalu"
 
 #: ../qml/Main.qml:737
 msgid "Launch app"
-msgstr ""
+msgstr "Zaženi aplikacijo"
 
 #: ../qml/Main.qml:737
 msgid "Launch an app"
-msgstr ""
+msgstr "Zaženite eno aplikacijo"
 
 #: ../qml/Main.qml:761 ../qml/Main.qml:763 ../qml/Main.qml:765
 msgid "<b>Action</b> example: "
-msgstr ""
+msgstr "Primer <b>dejanja</b> : "
 
 #: ../qml/Main.qml:779
 msgid "Create icon"
-msgstr ""
+msgstr "Ustvari ikono"
 
 #: ../qml/Main.qml:824 ../qml/Pagemanagement.qml:137
 #: ../qml/Pagemanagementback.qml:128 ../qml/pages/Home.qml:402
 #: ../qml/pages/home/Settings.qml:91
 msgid "Cancel"
-msgstr ""
+msgstr "Prekliči"
 
 #: ../qml/Pagemanagement.qml:17 ../qml/Pagemanagementback.qml:17
 msgid "Page management"
-msgstr ""
+msgstr "Upravljanje strani"
 
 #: ../qml/Pagemanagement.qml:52 ../qml/Pagemanagementback.qml:52
 msgid "Choose a page"
-msgstr ""
+msgstr "Izberite stran"
 
 #: ../qml/Pagemanagementback.qml:182 ../qml/pages/Todo.qml:119
 #: ../qml/pages/home/Settings.qml:154
 msgid "Delete"
-msgstr ""
+msgstr "Izbriši"
 
 #: ../qml/Settings.qml:16
 msgid "Settings"
-msgstr ""
+msgstr "Nastavitve"
 
 #: ../qml/Settings.qml:57 ../qml/pages/calendar/Settings.qml:51
 msgid "General"
-msgstr ""
+msgstr "Splošno"
 
 #: ../qml/Settings.qml:62
 msgid "Dark background"
-msgstr ""
+msgstr "Temno ozadje"
 
 #: ../qml/Settings.qml:85
 msgid "Background blur effect"
-msgstr ""
+msgstr "Učinek zameglitve ozadja"
 
 #: ../qml/Settings.qml:93
 msgid "None"
-msgstr ""
+msgstr "Nič"
 
 #: ../qml/Settings.qml:93
 msgid "Unstyled icons"
-msgstr ""
+msgstr "Nestilizirane ikone"
 
 #: ../qml/Settings.qml:94
 msgid "Rounded"
-msgstr ""
+msgstr "Zaobljeno"
 
 #: ../qml/Settings.qml:94
 msgid "Rounded icons"
-msgstr ""
+msgstr "Zaobljene ikone"
 
 #: ../qml/Settings.qml:118
 msgid "Style Icons : "
-msgstr ""
+msgstr "Ikone sloga : "
 
 #: ../qml/Settings.qml:129
 msgid "Widgets"
-msgstr ""
+msgstr "Namizni pripomočki"
 
 #: ../qml/Settings.qml:134
 msgid "Show clock"
-msgstr ""
+msgstr "Pokaži uro"
 
 #: ../qml/Settings.qml:143
 msgid "Show weather"
-msgstr ""
+msgstr "Pokaži vreme"
 
 #: ../qml/Settings.qml:153
 msgid "Show alarms"
-msgstr ""
+msgstr "Pokaži alarme"
 
 #: ../qml/Settings.qml:162
 msgid "Show last call"
-msgstr ""
+msgstr "Pokaži zadnji klic"
 
 #: ../qml/Settings.qml:171
 msgid "Show last message"
-msgstr ""
+msgstr "Pokaži zadnje sporočilo"
 
 #: ../qml/Settings.qml:180
 msgid "Show events"
-msgstr ""
+msgstr "Pokaži dogodke"
 
 #: ../qml/Settings.qml:188
 msgid "Other"
-msgstr ""
+msgstr "Drugo"
 
 #: ../qml/Settings.qml:193
 msgid "Launch Modular Launcher on boot"
-msgstr ""
+msgstr "Zaženi Launcher Modular ob zagonu naprave"
 
 #: ../qml/Translators.qml:14
 msgid "Translators"
-msgstr ""
+msgstr "Prevajalci"
 
 #: ../qml/Translators.qml:79
 msgid "Modular Launcher-translators:"
-msgstr ""
+msgstr "Prevejalci Launcher Modular:"
 
 #: ../qml/Translators.qml:98
 msgid "Dutch - "
-msgstr ""
+msgstr "nizozemščina - "
 
 #: ../qml/Translators.qml:112
 msgid "French - "
-msgstr ""
+msgstr "francoščina - "
 
 #: ../qml/Translators.qml:126
 msgid "German - "
-msgstr ""
+msgstr "nemščina - "
 
 #: ../qml/Translators.qml:140
 msgid "Portuguese - "
-msgstr ""
+msgstr "portugalščina - "
 
 #: ../qml/Translators.qml:154
 msgid "Russian - "
-msgstr ""
+msgstr "ruščina - "
 
 #: ../qml/Translators.qml:168
 msgid ""
 "Translate Modular Launcher at <a href='https://hosted.weblate.org/projects/"
 "ubports/launcher-modular/'>Hosted Weblate</a>."
 msgstr ""
+"Prevedite Launcher Modular na <a href=\"https://hosted.weblate.org/projects/"
+"ubports/launcher-modular/\">Hosted Weblate</a>."
 
 #: ../qml/pages/Calendar.qml:103
 msgid "Agenda"
-msgstr ""
+msgstr "Agenda"
 
 #: ../qml/pages/Home.qml:127
 msgid "Search your phone and online sources"
-msgstr ""
+msgstr "Iskanje po telefonu in spletnih virih"
 
 #: ../qml/pages/Home.qml:254
 msgid "Installed Apps"
-msgstr ""
+msgstr "Nameščene aplikacije"
 
 #: ../qml/pages/Home.qml:364
 msgid "Uninstall"
-msgstr ""
+msgstr "Odmesti"
 
 #: ../qml/pages/Home.qml:364
 msgid "Remove"
-msgstr ""
+msgstr "Odstarni"
 
 #: ../qml/pages/Todo.qml:64
 msgid "new todo"
-msgstr ""
+msgstr "novo opravilo"
 
 #: ../qml/pages/calendar/Settings.qml:12 ../qml/pages/home/Settings.qml:14
 #: ../qml/pages/picture/Settings.qml:12 ../qml/pages/todo/Settings.qml:12
 msgid "Settings Page"
-msgstr ""
+msgstr "Stran z nastavitvami"
 
 #: ../qml/pages/calendar/Settings.qml:70 ../qml/widgets/event/Settings.qml:72
 msgid "Limit of days"
-msgstr ""
+msgstr "Omejitev števila dni"
 
 #: ../qml/pages/calendar/Settings.qml:89 ../qml/widgets/event/Settings.qml:91
 msgid "By default 60 days"
-msgstr ""
+msgstr "Privzeto 60 dni"
 
 #: ../qml/pages/home/Settings.qml:121
 msgid "Favorite apps management"
-msgstr ""
+msgstr "Upravljanje priljubljenih aplikacij"
 
 #: ../qml/pages/picture/Settings.qml:58
 msgid "Image path"
-msgstr ""
+msgstr "Pot slike"
 
 #: ../qml/widgets/Alarm.qml:31
 msgid "Alarms"
-msgstr ""
+msgstr "Alarmi"
 
 #: ../qml/widgets/Alarm.qml:42
 msgid "No active alarm"
-msgstr ""
+msgstr "Ni aktivnih alarmov"
 
 #: ../qml/widgets/Alarm.qml:58
 msgid "at"
-msgstr ""
+msgstr "pri"
 
 #: ../qml/widgets/Event.qml:46
 msgid "Events"
-msgstr ""
+msgstr "Dogodki"
 
 #: ../qml/widgets/Event.qml:104
 msgid "No events"
-msgstr ""
+msgstr "Ni dogodkov"
 
 #: ../qml/widgets/FavoriteApp.qml:42
 msgid "Favorite Apps"
-msgstr ""
+msgstr "Priljubljene aplikacije"
 
 #: ../qml/widgets/FavoriteContact.qml:33
 msgid "Favorite Contacts"
-msgstr ""
+msgstr "Priljubljeni stiki"
 
 #: ../qml/widgets/Lastcall.qml:36
 msgid "Last Call"
-msgstr ""
+msgstr "Zadnji klic"
 
 #: ../qml/widgets/Lastcall.qml:57
 msgid "No recent calls"
-msgstr ""
+msgstr "Ni nedavnih klicev"
 
 #: ../qml/widgets/Lastmessage.qml:38
 msgid "Last Message"
-msgstr ""
+msgstr "Zadnje sporočilo"
 
 #: ../qml/widgets/Lastmessage.qml:58
 msgid "No recent messages"
-msgstr ""
+msgstr "Ni nedavnih sporočil"
 
 #: ../qml/widgets/SearchContact.qml:36
 msgid "Search Contacts"
-msgstr ""
+msgstr "Iskanje med stiki"
 
 #: ../qml/widgets/Weather.qml:23
 msgid "Please long press here to configure"
-msgstr ""
+msgstr "Prosimo, dolgo pritisnite tukaj za konfiguracijo"
 
 #: ../qml/widgets/Weather.qml:168 ../qml/widgets/Weather.qml:196
 msgid "Calm"
-msgstr ""
+msgstr "mirno"
 
 #: ../qml/widgets/Weather.qml:170 ../qml/widgets/Weather.qml:198
 msgid "Light Air"
-msgstr ""
+msgstr "brezvetrje"
 
 #: ../qml/widgets/Weather.qml:172 ../qml/widgets/Weather.qml:200
 msgid "Light Breeze"
-msgstr ""
+msgstr "lahek vetrič"
 
 #: ../qml/widgets/Weather.qml:174 ../qml/widgets/Weather.qml:202
 msgid "Gentle Breeze"
-msgstr ""
+msgstr "šibak veter"
 
 #: ../qml/widgets/Weather.qml:176 ../qml/widgets/Weather.qml:204
 msgid "Moderate Breeze"
-msgstr ""
+msgstr "zmeren veter"
 
 #: ../qml/widgets/Weather.qml:178 ../qml/widgets/Weather.qml:206
 msgid "Fresh Breeze"
-msgstr ""
+msgstr "svež vetrič"
 
 #: ../qml/widgets/Weather.qml:180 ../qml/widgets/Weather.qml:208
 msgid "Strong Breeze"
-msgstr ""
+msgstr "močan vetrič"
 
 #: ../qml/widgets/Weather.qml:182 ../qml/widgets/Weather.qml:210
 msgid "Near Gale"
-msgstr ""
+msgstr "Zmerni vihar"
 
 #: ../qml/widgets/Weather.qml:184 ../qml/widgets/Weather.qml:212
 msgid "Gale"
-msgstr ""
+msgstr "vihar"
 
 #: ../qml/widgets/Weather.qml:186 ../qml/widgets/Weather.qml:214
 msgid "Severe Gale"
-msgstr ""
+msgstr "močan vihar"
 
 #: ../qml/widgets/Weather.qml:188 ../qml/widgets/Weather.qml:216
 msgid "Storm"
-msgstr ""
+msgstr "nevihta"
 
 #: ../qml/widgets/Weather.qml:190 ../qml/widgets/Weather.qml:218
 msgid "Violent Storm"
-msgstr ""
+msgstr "silovita nevihta"
 
 #: ../qml/widgets/Weather.qml:192 ../qml/widgets/Weather.qml:220
 msgid "Hurricane"
-msgstr ""
+msgstr "orkan"
 
 #: ../qml/widgets/Weather.qml:233 ../qml/widgets/Weather.qml:235
 #: ../qml/widgets/Weather.qml:237 ../qml/widgets/Weather.qml:239
@@ -447,181 +462,181 @@ msgstr ""
 #: ../qml/widgets/Weather.qml:257 ../qml/widgets/Weather.qml:259
 #: ../qml/widgets/Weather.qml:261 ../qml/widgets/Weather.qml:263
 msgid "of"
-msgstr ""
+msgstr "od"
 
 #: ../qml/widgets/Weather.qml:233
 msgid "North"
-msgstr ""
+msgstr "Sever"
 
 #: ../qml/widgets/Weather.qml:235
 msgid "North-Northeast"
-msgstr ""
+msgstr "Sever-severovzhod"
 
 #: ../qml/widgets/Weather.qml:237
 msgid "Northeast"
-msgstr ""
+msgstr "Severovzhod"
 
 #: ../qml/widgets/Weather.qml:239
 msgid "East-Northeast"
-msgstr ""
+msgstr "Vzhod-severovzhod"
 
 #: ../qml/widgets/Weather.qml:241
 msgid "East"
-msgstr ""
+msgstr "Vzhod"
 
 #: ../qml/widgets/Weather.qml:243
 msgid "East-Southeast"
-msgstr ""
+msgstr "Vzhod-jugovzhod"
 
 #: ../qml/widgets/Weather.qml:245
 msgid "Southeast"
-msgstr ""
+msgstr "Jugovzhod"
 
 #: ../qml/widgets/Weather.qml:247
 msgid "South-Southeast"
-msgstr ""
+msgstr "Jug-jugovzhod"
 
 #: ../qml/widgets/Weather.qml:249
 msgid "South"
-msgstr ""
+msgstr "Jug"
 
 #: ../qml/widgets/Weather.qml:251
 msgid "South-Southwest"
-msgstr ""
+msgstr "Jug-jugozahod"
 
 #: ../qml/widgets/Weather.qml:253
 msgid "Southwest"
-msgstr ""
+msgstr "Jugozahod"
 
 #: ../qml/widgets/Weather.qml:255
 msgid "West-Southwest"
-msgstr ""
+msgstr "Zahod-jugozahod"
 
 #: ../qml/widgets/Weather.qml:257
 msgid "West"
-msgstr ""
+msgstr "Zahod"
 
 #: ../qml/widgets/Weather.qml:259
 msgid "West-Northwest"
-msgstr ""
+msgstr "Zahod-severozahod"
 
 #: ../qml/widgets/Weather.qml:261
 msgid "Northwest"
-msgstr ""
+msgstr "Severozahod"
 
 #: ../qml/widgets/Weather.qml:263
 msgid "North-Northwest"
-msgstr ""
+msgstr "Sever-severozahod"
 
 #: ../qml/widgets/Weather.qml:275
 msgid "humidity"
-msgstr ""
+msgstr "vlažnost"
 
 #: ../qml/widgets/clock/Settings.qml:15
 msgid "Settings Widget Clock"
-msgstr ""
+msgstr "Nastavitve pripomočka Ura"
 
 #: ../qml/widgets/clock/Settings.qml:56
 msgid "Show analog clock with digits"
-msgstr ""
+msgstr "Pokaži analogno uro s števkami"
 
 #: ../qml/widgets/event/Settings.qml:15
 #: ../qml/widgets/favoritecontact/Settings.qml:14
 #: ../qml/widgets/lastcall/Settings.qml:15
 #: ../qml/widgets/lastmessage/Settings.qml:15
 msgid "Settings Widget"
-msgstr ""
+msgstr "Pripomoček Nastavitve"
 
 #: ../qml/widgets/event/Settings.qml:116
 msgid "Limit of event"
-msgstr ""
+msgstr "Omejitev dogodka"
 
 #: ../qml/widgets/event/Settings.qml:135
 msgid "By default 3 event"
-msgstr ""
+msgstr "Privzeto 3 dogodki"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:57
 #: ../qml/widgets/lastcall/Settings.qml:57
 #: ../qml/widgets/lastmessage/Settings.qml:56
 msgid "Generals"
-msgstr ""
+msgstr "Splošno"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:61
 msgid "Dialer"
-msgstr ""
+msgstr "Telefon"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:61
 #: ../qml/widgets/lastcall/Settings.qml:61
 msgid "Open the dialer"
-msgstr ""
+msgstr "Odprite telefon"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:62
 msgid "Linphone"
-msgstr ""
+msgstr "Linphone"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:62
 msgid "Open Linphone"
-msgstr ""
+msgstr "Odpri Linphone"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:87
 #: ../qml/widgets/lastcall/Settings.qml:86
 #: ../qml/widgets/lastmessage/Settings.qml:96
 msgid "When clicked : "
-msgstr ""
+msgstr "Ko kliknete : "
 
 #: ../qml/widgets/lastcall/Settings.qml:61
 #: ../qml/widgets/lastmessage/Settings.qml:70
 msgid "Default"
-msgstr ""
+msgstr "Privzeto"
 
 #: ../qml/widgets/lastcall/Settings.qml:62
 msgid "Call"
-msgstr ""
+msgstr "Kliči"
 
 #: ../qml/widgets/lastcall/Settings.qml:62
 msgid "Open the dialer with number"
-msgstr ""
+msgstr "Odpri telefon s številko"
 
 #: ../qml/widgets/lastmessage/Settings.qml:61
 msgid "View a summary"
-msgstr ""
+msgstr "Oglejte si povzetek"
 
 #: ../qml/widgets/lastmessage/Settings.qml:70
 msgid "Open the application"
-msgstr ""
+msgstr "Odprite aplikacijo"
 
 #: ../qml/widgets/lastmessage/Settings.qml:71
 msgid "Open Message"
-msgstr ""
+msgstr "Odprite Sporočila"
 
 #: ../qml/widgets/lastmessage/Settings.qml:71
 msgid "Open the application with message"
-msgstr ""
+msgstr "Odpri aplikacijo s sporočilom"
 
 #: ../qml/widgets/weather/Settings.qml:14
 msgid "Settings for weather widget"
-msgstr ""
+msgstr "Nastavitve za pripomoček Vreme"
 
 #: ../qml/widgets/weather/Settings.qml:66
 msgid "API Key"
-msgstr ""
+msgstr "Ključ API"
 
 #: ../qml/widgets/weather/Settings.qml:85
 msgid "OpenWeatherMap API"
-msgstr ""
+msgstr "Ključ API OpenWeatherMap"
 
 #: ../qml/widgets/weather/Settings.qml:97
 msgid "Click to sign up for an API key"
-msgstr ""
+msgstr "Pritisnite, če se želite prijaviti za pridobitev ključa API"
 
 #: ../qml/widgets/weather/Settings.qml:117
 msgid "City name"
-msgstr ""
+msgstr "Ime kraja"
 
 #: ../qml/widgets/weather/Settings.qml:136
 msgid "or"
-msgstr ""
+msgstr "ali"
 
 #: launchermodular.desktop.in.h:1
 msgid "Modular launcher"
-msgstr ""
+msgstr "Launcher Modular"
