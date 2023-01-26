@@ -8,17 +8,20 @@ msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-05 16:12+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-01-27 23:57+0000\n"
+"Last-Translator: phlostically <phlostically@mailinator.com>\n"
+"Language-Team: Esperanto <https://hosted.weblate.org/projects/ubports/"
+"launcher-modular/eo/>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: ../qml/About.qml:14 ../qml/Main.qml:628
 msgid "About"
-msgstr ""
+msgstr "Pri"
 
 #: ../qml/About.qml:96
 msgid "A launcher modular for Ubuntu Touch"
@@ -38,15 +41,15 @@ msgstr ""
 
 #: ../qml/About.qml:125
 msgid "SOURCE"
-msgstr ""
+msgstr "FONTO"
 
 #: ../qml/About.qml:125
 msgid "ISSUES"
-msgstr ""
+msgstr "PROBLEMOJ"
 
 #: ../qml/About.qml:125
 msgid "DONATE"
-msgstr ""
+msgstr "DONACI"
 
 #: ../qml/About.qml:140
 msgid "Maintainer"
@@ -120,7 +123,7 @@ msgstr ""
 
 #: ../qml/Main.qml:598
 msgid "Help"
-msgstr ""
+msgstr "Helpo"
 
 #: ../qml/Main.qml:716
 msgid "SVG or PNG icon. 1:1 ratio"
@@ -132,7 +135,7 @@ msgstr ""
 
 #: ../qml/Main.qml:735
 msgid "Website"
-msgstr ""
+msgstr "Retejo"
 
 #: ../qml/Main.qml:735
 msgid "Open the browser with the url"
@@ -201,7 +204,7 @@ msgstr ""
 
 #: ../qml/Settings.qml:112
 msgid "None"
-msgstr ""
+msgstr "Nenio"
 
 #: ../qml/Settings.qml:112
 msgid "Icons without style"
@@ -249,7 +252,7 @@ msgstr ""
 
 #: ../qml/Translators.qml:14
 msgid "Translators"
-msgstr ""
+msgstr "Tradukintoj"
 
 #: ../qml/Translators.qml:79
 msgid "Launcher Modular translators:"
@@ -257,23 +260,23 @@ msgstr ""
 
 #: ../qml/Translators.qml:98
 msgid "Dutch - "
-msgstr ""
+msgstr "Nederlanda - "
 
 #: ../qml/Translators.qml:112
 msgid "French - "
-msgstr ""
+msgstr "Franca - "
 
 #: ../qml/Translators.qml:126
 msgid "German - "
-msgstr ""
+msgstr "Germana - "
 
 #: ../qml/Translators.qml:140
 msgid "Portuguese - "
-msgstr ""
+msgstr "Portugala - "
 
 #: ../qml/Translators.qml:154
 msgid "Russian - "
-msgstr ""
+msgstr "Rusa - "
 
 #: ../qml/Translators.qml:168
 msgid ""
@@ -296,11 +299,11 @@ msgstr ""
 
 #: ../qml/pages/Home.qml:395
 msgid "Uninstall"
-msgstr ""
+msgstr "Malinstali"
 
 #: ../qml/pages/Home.qml:395
 msgid "Remove"
-msgstr ""
+msgstr "Forigi"
 
 #: ../qml/pages/Todo.qml:64
 msgid "new todo"
