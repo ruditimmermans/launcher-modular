@@ -8,17 +8,21 @@ msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-22 06:48+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-02-08 13:38+0000\n"
+"Last-Translator: Dan <denqwerta@gmail.com>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/"
+"launcher-modular/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: ../qml/About.qml:14 ../qml/Main.qml:628
 msgid "About"
-msgstr ""
+msgstr "Про нас"
 
 #: ../qml/About.qml:96
 msgid "A modular launcher for Ubuntu Touch"
@@ -50,7 +54,7 @@ msgstr ""
 
 #: ../qml/About.qml:140
 msgid "Maintainer"
-msgstr ""
+msgstr "Супроводжувач"
 
 #: ../qml/About.qml:154
 msgid "Copyright"
@@ -164,7 +168,7 @@ msgstr ""
 #: ../qml/Pagemanagementback.qml:128 ../qml/pages/Home.qml:402
 #: ../qml/pages/home/Settings.qml:91
 msgid "Cancel"
-msgstr ""
+msgstr "Скасувати"
 
 #: ../qml/Pagemanagement.qml:17 ../qml/Pagemanagementback.qml:17
 msgid "Page management"
@@ -181,11 +185,11 @@ msgstr ""
 
 #: ../qml/Settings.qml:16
 msgid "Settings"
-msgstr ""
+msgstr "Налаштування"
 
 #: ../qml/Settings.qml:57 ../qml/pages/calendar/Settings.qml:51
 msgid "General"
-msgstr ""
+msgstr "Загальний"
 
 #: ../qml/Settings.qml:62
 msgid "Dark background"
