@@ -8,17 +8,20 @@ msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-05 16:12+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-02-08 13:38+0000\n"
+"Last-Translator: Ivo Xavier <ivofernandes12@gmail.com>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/ubports/"
+"launcher-modular/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: ../qml/About.qml:14 ../qml/Main.qml:628
 msgid "About"
-msgstr ""
+msgstr "Sobre"
 
 #: ../qml/About.qml:96
 msgid "A launcher modular for Ubuntu Touch"
@@ -35,26 +38,34 @@ msgid ""
 "href='https://www.gnu.org/licenses/gpl-3.0.en.html'>GNU General Public "
 "License</a> for more details."
 msgstr ""
+"This program is free software: you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation, either version 3 of the License, or (at your option) "
+"any later version. This program is distributed in the hope that it will be "
+"useful, but WITHOUT ANY WARRANTY; without even the implied warranty of "
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the <a href=\"https"
+"://www.gnu.org/licenses/gpl-3.0.en.html\">GNU General Public License</a> for "
+"more details."
 
 #: ../qml/About.qml:125
 msgid "SOURCE"
-msgstr ""
+msgstr "FONTE"
 
 #: ../qml/About.qml:125
 msgid "ISSUES"
-msgstr ""
+msgstr "PROBLEMAS"
 
 #: ../qml/About.qml:125
 msgid "DONATE"
-msgstr ""
+msgstr "DOAR"
 
 #: ../qml/About.qml:140
 msgid "Maintainer"
-msgstr ""
+msgstr "Mantedor"
 
 #: ../qml/About.qml:154
 msgid "Copyright"
-msgstr ""
+msgstr "Direitos de Autor"
 
 #: ../qml/About.qml:168
 msgid "Special thanks to the testers : Sander Klootwijk, Steve Kueffer."
@@ -86,7 +97,7 @@ msgstr ""
 
 #: ../qml/Help.qml:49
 msgid "Widget Settings"
-msgstr ""
+msgstr "Configurações de Widget"
 
 #: ../qml/Help.qml:57
 msgid ""
@@ -96,43 +107,43 @@ msgstr ""
 
 #: ../qml/ImportPage.qml:11
 msgid "Choose"
-msgstr ""
+msgstr "Escolher"
 
 #: ../qml/Main.qml:399
 msgid "Swipe up to configure the launcher"
-msgstr ""
+msgstr "Deslize para cima para configurar o iniciador"
 
 #: ../qml/Main.qml:478
 msgid "Add custom icon"
-msgstr ""
+msgstr "Adicionar ícone personalizado"
 
 #: ../qml/Main.qml:508
 msgid "Manage page"
-msgstr ""
+msgstr "Gerir página"
 
 #: ../qml/Main.qml:538
 msgid "Configure Launcher"
-msgstr ""
+msgstr "Configurar Iniciador"
 
 #: ../qml/Main.qml:568
 msgid "Autostart"
-msgstr ""
+msgstr "Começo automático"
 
 #: ../qml/Main.qml:598
 msgid "Help"
-msgstr ""
+msgstr "Ajuda"
 
 #: ../qml/Main.qml:716
 msgid "SVG or PNG icon. 1:1 ratio"
-msgstr ""
+msgstr "SVG ou PNG icon. 1:1 ratio"
 
 #: ../qml/Main.qml:730
 msgid "The <b>title</b> to be shown in the app list"
-msgstr ""
+msgstr "O <b>title</b> a ser mostrado na lista de aplicações"
 
 #: ../qml/Main.qml:735
 msgid "Website"
-msgstr ""
+msgstr "Website"
 
 #: ../qml/Main.qml:735
 msgid "Open the browser with the url"
@@ -140,7 +151,7 @@ msgstr ""
 
 #: ../qml/Main.qml:736
 msgid "Terminal command"
-msgstr ""
+msgstr "Comando de terminal"
 
 #: ../qml/Main.qml:736
 msgid "Launch an order in a terminal"
@@ -148,60 +159,60 @@ msgstr ""
 
 #: ../qml/Main.qml:737
 msgid "Launch app"
-msgstr ""
+msgstr "Iniciar aplicação"
 
 #: ../qml/Main.qml:737
 msgid "Launch an app"
-msgstr ""
+msgstr "Iniciar uma aplicação"
 
 #: ../qml/Main.qml:761 ../qml/Main.qml:763 ../qml/Main.qml:765
 msgid "<b>Action</b> example: "
-msgstr ""
+msgstr "<b>Action</b> examplo: "
 
 #: ../qml/Main.qml:779
 msgid "Create icon"
-msgstr ""
+msgstr "Criar ícone"
 
 #: ../qml/Main.qml:824 ../qml/Pagemanagement.qml:137
 #: ../qml/Pagemanagementback.qml:128 ../qml/pages/Home.qml:433
 #: ../qml/pages/home/Settings.qml:91
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #: ../qml/Pagemanagement.qml:17 ../qml/Pagemanagementback.qml:17
 msgid "Page management"
-msgstr ""
+msgstr "Gestão de páginas"
 
 #: ../qml/Pagemanagement.qml:52 ../qml/Pagemanagementback.qml:52
 msgid "Choose a page"
-msgstr ""
+msgstr "Escolher uma página"
 
 #: ../qml/Pagemanagementback.qml:182 ../qml/pages/Todo.qml:119
 #: ../qml/pages/home/Settings.qml:154
 msgid "Delete"
-msgstr ""
+msgstr "Eliminar"
 
 #: ../qml/Settings.qml:17
 msgid "Settings"
-msgstr ""
+msgstr "Configurações"
 
 #: ../qml/Settings.qml:76 ../qml/widgets/favoritecontact/Settings.qml:57
 #: ../qml/widgets/lastcall/Settings.qml:57
 #: ../qml/widgets/lastmessage/Settings.qml:56
 msgid "Generals"
-msgstr ""
+msgstr "Gerais"
 
 #: ../qml/Settings.qml:81
 msgid "Dark background"
-msgstr ""
+msgstr "Fundo escuro"
 
 #: ../qml/Settings.qml:104
 msgid "Background blur effect"
-msgstr ""
+msgstr "Efeito de desfoque no fundo"
 
 #: ../qml/Settings.qml:112
 msgid "None"
-msgstr ""
+msgstr "Nenhum"
 
 #: ../qml/Settings.qml:112
 msgid "Icons without style"
@@ -209,7 +220,7 @@ msgstr ""
 
 #: ../qml/Settings.qml:113
 msgid "Rounded"
-msgstr ""
+msgstr "Arredondado"
 
 #: ../qml/Settings.qml:113
 msgid "Icons rounded"
@@ -217,39 +228,39 @@ msgstr ""
 
 #: ../qml/Settings.qml:137
 msgid "Style Icons : "
-msgstr ""
+msgstr "Estilo dos ícones: "
 
 #: ../qml/Settings.qml:148
 msgid "Widgets"
-msgstr ""
+msgstr "Widgets"
 
 #: ../qml/Settings.qml:153
 msgid "Show clock"
-msgstr ""
+msgstr "Mostrar relógio"
 
 #: ../qml/Settings.qml:162
 msgid "Show weather"
-msgstr ""
+msgstr "Mostrar meteorologia"
 
 #: ../qml/Settings.qml:172
 msgid "Show alarms"
-msgstr ""
+msgstr "Mostrar alarmes"
 
 #: ../qml/Settings.qml:181
 msgid "Show last call"
-msgstr ""
+msgstr "Mostrar última chamada"
 
 #: ../qml/Settings.qml:190
 msgid "Show last message"
-msgstr ""
+msgstr "Mostrar última mensagem"
 
 #: ../qml/Settings.qml:199
 msgid "Show events"
-msgstr ""
+msgstr "Mostrar eventos"
 
 #: ../qml/Translators.qml:14
 msgid "Translators"
-msgstr ""
+msgstr "Tradutores"
 
 #: ../qml/Translators.qml:79
 msgid "Launcher Modular translators:"
@@ -257,23 +268,23 @@ msgstr ""
 
 #: ../qml/Translators.qml:98
 msgid "Dutch - "
-msgstr ""
+msgstr "Alemão - "
 
 #: ../qml/Translators.qml:112
 msgid "French - "
-msgstr ""
+msgstr "Francês - "
 
 #: ../qml/Translators.qml:126
 msgid "German - "
-msgstr ""
+msgstr "Alemão - "
 
 #: ../qml/Translators.qml:140
 msgid "Portuguese - "
-msgstr ""
+msgstr "Português - "
 
 #: ../qml/Translators.qml:154
 msgid "Russian - "
-msgstr ""
+msgstr "Russo - "
 
 #: ../qml/Translators.qml:168
 msgid ""
@@ -284,144 +295,144 @@ msgstr ""
 
 #: ../qml/pages/Calendar.qml:103
 msgid "Agenda"
-msgstr ""
+msgstr "Agenda"
 
 #: ../qml/pages/Home.qml:158
 msgid "Search your phone and online sources"
-msgstr ""
+msgstr "Procurar em fontes online e no dispositivo"
 
 #: ../qml/pages/Home.qml:285
 msgid "Installed Apps"
-msgstr ""
+msgstr "Aplicações Instaladas"
 
 #: ../qml/pages/Home.qml:395
 msgid "Uninstall"
-msgstr ""
+msgstr "Desinstalar"
 
 #: ../qml/pages/Home.qml:395
 msgid "Remove"
-msgstr ""
+msgstr "Remover"
 
 #: ../qml/pages/Todo.qml:64
 msgid "new todo"
-msgstr ""
+msgstr "novo a fazer"
 
 #: ../qml/pages/calendar/Settings.qml:12 ../qml/pages/home/Settings.qml:14
 #: ../qml/pages/picture/Settings.qml:12 ../qml/pages/todo/Settings.qml:12
 msgid "Settings Page"
-msgstr ""
+msgstr "Página das Configurações"
 
 #: ../qml/pages/calendar/Settings.qml:51
 msgid "General"
-msgstr ""
+msgstr "Geral"
 
 #: ../qml/pages/calendar/Settings.qml:70 ../qml/widgets/event/Settings.qml:72
 msgid "Limit of days"
-msgstr ""
+msgstr "Limite de dias"
 
 #: ../qml/pages/calendar/Settings.qml:89 ../qml/widgets/event/Settings.qml:91
 msgid "By default 60 days"
-msgstr ""
+msgstr "60 dias por padrão"
 
 #: ../qml/pages/home/Settings.qml:121
 msgid "Favorite apps management"
-msgstr ""
+msgstr "Aplicações de gestão favoritas"
 
 #: ../qml/pages/picture/Settings.qml:58
 msgid "Image path"
-msgstr ""
+msgstr "Caminho da Imagem"
 
 #: ../qml/widgets/Alarm.qml:31
 msgid "Alarms"
-msgstr ""
+msgstr "Alarmes"
 
 #: ../qml/widgets/Alarm.qml:42
 msgid "No active alarm"
-msgstr ""
+msgstr "Sem alarmes ativos"
 
 #: ../qml/widgets/Alarm.qml:58
 msgid "at"
-msgstr ""
+msgstr "às"
 
 #: ../qml/widgets/Event.qml:46
 msgid "Events"
-msgstr ""
+msgstr "Eventos"
 
 #: ../qml/widgets/Event.qml:104
 msgid "No events"
-msgstr ""
+msgstr "Sem eventos"
 
 #: ../qml/widgets/FavoriteApp.qml:42
 msgid "Favorite Apps"
-msgstr ""
+msgstr "Aplicações Favoritas"
 
 #: ../qml/widgets/FavoriteContact.qml:33
 msgid "Favorite Contacts"
-msgstr ""
+msgstr "Contactos Favoritos"
 
 #: ../qml/widgets/Lastcall.qml:36
 msgid "Last Call"
-msgstr ""
+msgstr "Última Chamada"
 
 #: ../qml/widgets/Lastcall.qml:57
 msgid "No recent calls"
-msgstr ""
+msgstr "Sem chamadas recentes"
 
 #: ../qml/widgets/Lastmessage.qml:38
 msgid "Last Message"
-msgstr ""
+msgstr "Última Mensagem"
 
 #: ../qml/widgets/Lastmessage.qml:58
 msgid "No recent messages"
-msgstr ""
+msgstr "Sem mensagens recentes"
 
 #: ../qml/widgets/SearchContact.qml:36
 msgid "Search Contacts"
-msgstr ""
+msgstr "Procurar Contactos"
 
 #: ../qml/widgets/Weather.qml:23
 msgid "Please long press here to configure"
-msgstr ""
+msgstr "Por favor, pressione continuamente aqui para configurar"
 
 #: ../qml/widgets/Weather.qml:168 ../qml/widgets/Weather.qml:196
 msgid "Calm"
-msgstr ""
+msgstr "Calmo"
 
 #: ../qml/widgets/Weather.qml:170 ../qml/widgets/Weather.qml:198
 msgid "Light Air"
-msgstr ""
+msgstr "Ar Leve"
 
 #: ../qml/widgets/Weather.qml:172 ../qml/widgets/Weather.qml:200
 msgid "Light Breeze"
-msgstr ""
+msgstr "Brisa Leve"
 
 #: ../qml/widgets/Weather.qml:174 ../qml/widgets/Weather.qml:202
 msgid "Gentle Breeze"
-msgstr ""
+msgstr "Brisa Gentil"
 
 #: ../qml/widgets/Weather.qml:176 ../qml/widgets/Weather.qml:204
 msgid "Moderate Breeze"
-msgstr ""
+msgstr "Brisa Moderada"
 
 #: ../qml/widgets/Weather.qml:178 ../qml/widgets/Weather.qml:206
 msgid "Fresh Breeze"
-msgstr ""
+msgstr "Brisa Fresca"
 
 #: ../qml/widgets/Weather.qml:180 ../qml/widgets/Weather.qml:208
 msgid "Strong Breeze"
-msgstr ""
+msgstr "Brisa Forte"
 
 #: ../qml/widgets/Weather.qml:182 ../qml/widgets/Weather.qml:210
 msgid "Near Gale"
-msgstr ""
+msgstr "Perto de Vendaval"
 
 #: ../qml/widgets/Weather.qml:184 ../qml/widgets/Weather.qml:212
 msgid "Gale"
-msgstr ""
+msgstr "Vendaval"
 
 #: ../qml/widgets/Weather.qml:186 ../qml/widgets/Weather.qml:214
 msgid "Severe Gale"
-msgstr ""
+msgstr "Vendaval Severo"
 
 #: ../qml/widgets/Weather.qml:188 ../qml/widgets/Weather.qml:216
 msgid "Strong storm"
@@ -429,11 +440,11 @@ msgstr ""
 
 #: ../qml/widgets/Weather.qml:190 ../qml/widgets/Weather.qml:218
 msgid "Violent Storm"
-msgstr ""
+msgstr "Tempestade Violenta"
 
 #: ../qml/widgets/Weather.qml:192 ../qml/widgets/Weather.qml:220
 msgid "Hurricane"
-msgstr ""
+msgstr "Furacão"
 
 #: ../qml/widgets/Weather.qml:233 ../qml/widgets/Weather.qml:235
 #: ../qml/widgets/Weather.qml:237 ../qml/widgets/Weather.qml:239
@@ -444,150 +455,150 @@ msgstr ""
 #: ../qml/widgets/Weather.qml:257 ../qml/widgets/Weather.qml:259
 #: ../qml/widgets/Weather.qml:261 ../qml/widgets/Weather.qml:263
 msgid "of"
-msgstr ""
+msgstr "de"
 
 #: ../qml/widgets/Weather.qml:233
 msgid "North"
-msgstr ""
+msgstr "Norte"
 
 #: ../qml/widgets/Weather.qml:235
 msgid "North-Northeast"
-msgstr ""
+msgstr "Norte-Nordeste"
 
 #: ../qml/widgets/Weather.qml:237
 msgid "Northeast"
-msgstr ""
+msgstr "Nordeste"
 
 #: ../qml/widgets/Weather.qml:239
 msgid "East-Northeast"
-msgstr ""
+msgstr "Leste-Nordeste"
 
 #: ../qml/widgets/Weather.qml:241
 msgid "East"
-msgstr ""
+msgstr "Leste"
 
 #: ../qml/widgets/Weather.qml:243
 msgid "East-Southeast"
-msgstr ""
+msgstr "Leste-Sudeste"
 
 #: ../qml/widgets/Weather.qml:245
 msgid "Southeast"
-msgstr ""
+msgstr "Sudeste"
 
 #: ../qml/widgets/Weather.qml:247
 msgid "South-Southeast"
-msgstr ""
+msgstr "Sul-Sudeste"
 
 #: ../qml/widgets/Weather.qml:249
 msgid "South"
-msgstr ""
+msgstr "Sul"
 
 #: ../qml/widgets/Weather.qml:251
 msgid "South-Southwest"
-msgstr ""
+msgstr "Sul-Sudoeste"
 
 #: ../qml/widgets/Weather.qml:253
 msgid "Southwest"
-msgstr ""
+msgstr "Sudoeste"
 
 #: ../qml/widgets/Weather.qml:255
 msgid "West-Southwest"
-msgstr ""
+msgstr "Oeste-Sudoeste"
 
 #: ../qml/widgets/Weather.qml:257
 msgid "West"
-msgstr ""
+msgstr "Oeste"
 
 #: ../qml/widgets/Weather.qml:259
 msgid "West-Northwest"
-msgstr ""
+msgstr "Oeste-Noroeste"
 
 #: ../qml/widgets/Weather.qml:261
 msgid "Northwest"
-msgstr ""
+msgstr "Noroeste"
 
 #: ../qml/widgets/Weather.qml:263
 msgid "North-Northwest"
-msgstr ""
+msgstr "Norte-Noroeste"
 
 #: ../qml/widgets/Weather.qml:275
 msgid "humidity"
-msgstr ""
+msgstr "humidade"
 
 #: ../qml/widgets/clock/Settings.qml:15
 msgid "Settings Widget Clock"
-msgstr ""
+msgstr "Configurações do Widget Relógio"
 
 #: ../qml/widgets/clock/Settings.qml:56
 msgid "Show analog clock with digits"
-msgstr ""
+msgstr "Mostrar o relógio analógico com dígitos"
 
 #: ../qml/widgets/event/Settings.qml:15
 #: ../qml/widgets/favoritecontact/Settings.qml:14
 #: ../qml/widgets/lastcall/Settings.qml:15
 #: ../qml/widgets/lastmessage/Settings.qml:15
 msgid "Settings Widget"
-msgstr ""
+msgstr "Configurações do Widget"
 
 #: ../qml/widgets/event/Settings.qml:116
 msgid "Limit of event"
-msgstr ""
+msgstr "Limite do evento"
 
 #: ../qml/widgets/event/Settings.qml:135
 msgid "By default 3 event"
-msgstr ""
+msgstr "3 eventos por padrão"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:61
 msgid "Dialer"
-msgstr ""
+msgstr "Telefone"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:61
 #: ../qml/widgets/lastcall/Settings.qml:61
 msgid "Open the dialer"
-msgstr ""
+msgstr "Abrir o telefone"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:62
 msgid "Linphone"
-msgstr ""
+msgstr "Linphone"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:62
 msgid "Open Linphone"
-msgstr ""
+msgstr "Abrir Linphone"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:87
 #: ../qml/widgets/lastcall/Settings.qml:86
 #: ../qml/widgets/lastmessage/Settings.qml:96
 msgid "When clicked : "
-msgstr ""
+msgstr "Quando clicado : "
 
 #: ../qml/widgets/lastcall/Settings.qml:61
 #: ../qml/widgets/lastmessage/Settings.qml:70
 msgid "Default"
-msgstr ""
+msgstr "Padrão"
 
 #: ../qml/widgets/lastcall/Settings.qml:62
 msgid "Call"
-msgstr ""
+msgstr "Chamada"
 
 #: ../qml/widgets/lastcall/Settings.qml:62
 msgid "Open the dialer with number"
-msgstr ""
+msgstr "Abrir o telefone com o número"
 
 #: ../qml/widgets/lastmessage/Settings.qml:61
 msgid "View a summary"
-msgstr ""
+msgstr "Ver sumário"
 
 #: ../qml/widgets/lastmessage/Settings.qml:70
 msgid "Open the application"
-msgstr ""
+msgstr "Abrir a aplicação"
 
 #: ../qml/widgets/lastmessage/Settings.qml:71
 msgid "Open Message"
-msgstr ""
+msgstr "Abrir Mensagem"
 
 #: ../qml/widgets/lastmessage/Settings.qml:71
 msgid "Open the application with message"
-msgstr ""
+msgstr "Abrir com a aplicação com mensagem"
 
 #: ../qml/widgets/weather/Settings.qml:14
 msgid "Settings Widget Weather"
@@ -607,11 +618,11 @@ msgstr ""
 
 #: ../qml/widgets/weather/Settings.qml:117
 msgid "City name"
-msgstr ""
+msgstr "Nome da cidade"
 
 #: ../qml/widgets/weather/Settings.qml:136
 msgid "or"
-msgstr ""
+msgstr "ou"
 
 #: launchermodular.desktop.in.h:1
 msgid "Launcher modular"
