@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-22 06:48+0000\n"
-"PO-Revision-Date: 2023-02-08 13:38+0000\n"
+"PO-Revision-Date: 2023-02-09 21:39+0000\n"
 "Last-Translator: Dan <denqwerta@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/"
 "launcher-modular/uk/>\n"
@@ -26,7 +26,7 @@ msgstr "Про нас"
 
 #: ../qml/About.qml:96
 msgid "A modular launcher for Ubuntu Touch"
-msgstr ""
+msgstr "Модульний лаунчер для Ubuntu Touch"
 
 #: ../qml/About.qml:110
 msgid ""
@@ -39,18 +39,26 @@ msgid ""
 "href='https://www.gnu.org/licenses/gpl-3.0.en.html'>GNU General Public "
 "License</a> for more details."
 msgstr ""
+"Ця програма є вільним програмним забезпеченням: Її можна перерозподілити та/"
+"або модифікувати за умовами GNU General Public License, як це було "
+"опубліковано Free Software Foundation, або 3 версії ліцензії, або (за вашим "
+"вибором) будь-якої пізнішої версії. Ця програма розповсюджується в надії, що "
+"вона буде корисною, але БЕЗ БУДЬ-ЯКОЇ ГАРАНТІЇ; без навіть непрямої гарантії "
+"КОМЕРЦІЙНА ПРИДАТНІСТЬ або ПРИДАТНОСТІ ДЛЯ ПЕВНОЇ МЕТИ. Докладніше про це "
+"читайте у розділі <a href=\"https://www.gnu.org/licenses/gpl-3.0.en.html\""
+">GNU General Public License</a>."
 
 #: ../qml/About.qml:125
 msgid "SOURCE"
-msgstr ""
+msgstr "ДЖЕРЕЛО"
 
 #: ../qml/About.qml:125
 msgid "ISSUES"
-msgstr ""
+msgstr "ПРОБЛЕМИ"
 
 #: ../qml/About.qml:125
 msgid "DONATE"
-msgstr ""
+msgstr "ПОЖЕРТВУВАТИ"
 
 #: ../qml/About.qml:140
 msgid "Maintainer"
@@ -58,23 +66,24 @@ msgstr "Супроводжувач"
 
 #: ../qml/About.qml:154
 msgid "Copyright"
-msgstr ""
+msgstr "Авторське право"
 
 #: ../qml/About.qml:168
 msgid "Special thanks to the testers: Sander Klootwijk, Steve Kueffer."
-msgstr ""
+msgstr "Особлива подяка тестувальникам: Сандеру Клутвейку, Стіву Кюфферу."
 
 #: ../qml/About.qml:183
 msgid "<a href='LAUNCHER MODULAR TRANSLATORS'>Modular Launcher-translators</a>"
 msgstr ""
+"<a href=\"LAUNCHER MODULAR TRANSLATORS\">Modular Launcher-translators</a>"
 
 #: ../qml/Autostart.qml:15
 msgid "Autostart Modular Launcher"
-msgstr ""
+msgstr "Автозапуск Modular Launcher"
 
 #: ../qml/Autostart.qml:49
 msgid "How to Autostart Modular Launcher after booting"
-msgstr ""
+msgstr "Як запустити Modular Launcher після завантаження"
 
 #: ../qml/Autostart.qml:62
 msgid ""
@@ -83,86 +92,91 @@ msgid ""
 "launcher-modular-service'>how to add a Modular Launcher systemd user service "
 "file to/on your device</a>"
 msgstr ""
+"Як налаштувати автоматичний запуск Modular Launcher під час завантаження "
+"пристрою. <br><br>Детальніше в статті <a href=\"https://github.com/"
+"ruditimmermans/launcher-modular-service\">як додати службовий файл "
+"користувача systemd Modular Launcher до/на ваш пристрій</a>"
 
 #: ../qml/Help.qml:15
 msgid "Modular Launcher Help"
-msgstr ""
+msgstr "Допомога Modular Launcher"
 
 #: ../qml/Help.qml:49
 msgid "Widget Settings"
-msgstr ""
+msgstr "Налаштування віджету"
 
 #: ../qml/Help.qml:57
 msgid "<br><b>Click and hold the widget and to change its settings.</b>"
 msgstr ""
+"<br><b>Натисніть і утримуйте віджет, а потім змініть його налаштування.</b>"
 
 #: ../qml/ImportPage.qml:11
 msgid "Choose"
-msgstr ""
+msgstr "Обрати"
 
 #: ../qml/Main.qml:399
 msgid "Swipe up to configure the launcher"
-msgstr ""
+msgstr "Проведіть вгору, щоб налаштувати лаунчер"
 
 #: ../qml/Main.qml:478
 msgid "Add custom icon"
-msgstr ""
+msgstr "Додати власну іконку"
 
 #: ../qml/Main.qml:508
 msgid "Manage page"
-msgstr ""
+msgstr "Керувати сторінкою"
 
 #: ../qml/Main.qml:538
 msgid "Configure Launcher"
-msgstr ""
+msgstr "Налаштувати лаунчер"
 
 #: ../qml/Main.qml:568
 msgid "Autostart"
-msgstr ""
+msgstr "Автозапуск"
 
 #: ../qml/Main.qml:598
 msgid "Help"
-msgstr ""
+msgstr "Допомога"
 
 #: ../qml/Main.qml:716
 msgid "SVG or PNG icon. 1:1 ratio"
-msgstr ""
+msgstr "Іконка у форматі SVG або PNG. Співвідношення 1:1"
 
 #: ../qml/Main.qml:730
 msgid "The <b>title</b> to be shown in the app list"
-msgstr ""
+msgstr "<b>Назва</b>, яку буде показано у списку застосунків"
 
 #: ../qml/Main.qml:735
 msgid "Website"
-msgstr ""
+msgstr "Вебсайт"
 
 #: ../qml/Main.qml:735
 msgid "Open this URL in the web browser"
-msgstr ""
+msgstr "Відкрийте цю адресу у веббраузері"
 
 #: ../qml/Main.qml:736
 msgid "Terminal command"
-msgstr ""
+msgstr "Команда терміналу"
 
 #: ../qml/Main.qml:736
 msgid "Run a command in a terminal"
-msgstr ""
+msgstr "Запустити команду в терміналі"
 
 #: ../qml/Main.qml:737
 msgid "Launch app"
-msgstr ""
+msgstr "Запустити застосунок"
 
 #: ../qml/Main.qml:737
 msgid "Launch an app"
-msgstr ""
+msgstr "Запустити застосунок"
 
 #: ../qml/Main.qml:761 ../qml/Main.qml:763 ../qml/Main.qml:765
 msgid "<b>Action</b> example: "
-msgstr ""
+msgstr "<b>Дія</b> Приклад: "
 
 #: ../qml/Main.qml:779
 msgid "Create icon"
-msgstr ""
+msgstr "Створити іконку"
 
 #: ../qml/Main.qml:824 ../qml/Pagemanagement.qml:137
 #: ../qml/Pagemanagementback.qml:128 ../qml/pages/Home.qml:402
@@ -172,16 +186,16 @@ msgstr "Скасувати"
 
 #: ../qml/Pagemanagement.qml:17 ../qml/Pagemanagementback.qml:17
 msgid "Page management"
-msgstr ""
+msgstr "Керування сторінками"
 
 #: ../qml/Pagemanagement.qml:52 ../qml/Pagemanagementback.qml:52
 msgid "Choose a page"
-msgstr ""
+msgstr "Виберіть сторінку"
 
 #: ../qml/Pagemanagementback.qml:182 ../qml/pages/Todo.qml:119
 #: ../qml/pages/home/Settings.qml:154
 msgid "Delete"
-msgstr ""
+msgstr "Видалити"
 
 #: ../qml/Settings.qml:16
 msgid "Settings"
@@ -193,250 +207,252 @@ msgstr "Загальний"
 
 #: ../qml/Settings.qml:62
 msgid "Dark background"
-msgstr ""
+msgstr "Темний фон"
 
 #: ../qml/Settings.qml:85
 msgid "Background blur effect"
-msgstr ""
+msgstr "Ефект розмиття фону"
 
 #: ../qml/Settings.qml:93
 msgid "None"
-msgstr ""
+msgstr "Нічого"
 
 #: ../qml/Settings.qml:93
 msgid "Unstyled icons"
-msgstr ""
+msgstr "Нестилізовані іконки"
 
 #: ../qml/Settings.qml:94
 msgid "Rounded"
-msgstr ""
+msgstr "Закруглені"
 
 #: ../qml/Settings.qml:94
 msgid "Rounded icons"
-msgstr ""
+msgstr "Закруглені іконки"
 
 #: ../qml/Settings.qml:118
 msgid "Style Icons : "
-msgstr ""
+msgstr "Стиль іконок : "
 
 #: ../qml/Settings.qml:129
 msgid "Widgets"
-msgstr ""
+msgstr "Віджети"
 
 #: ../qml/Settings.qml:134
 msgid "Show clock"
-msgstr ""
+msgstr "Показати годинник"
 
 #: ../qml/Settings.qml:143
 msgid "Show weather"
-msgstr ""
+msgstr "Показати погоду"
 
 #: ../qml/Settings.qml:153
 msgid "Show alarms"
-msgstr ""
+msgstr "Показувати сигнали про тривогу"
 
 #: ../qml/Settings.qml:162
 msgid "Show last call"
-msgstr ""
+msgstr "Показати останній дзвінок"
 
 #: ../qml/Settings.qml:171
 msgid "Show last message"
-msgstr ""
+msgstr "Показати останнє повідомлення"
 
 #: ../qml/Settings.qml:180
 msgid "Show events"
-msgstr ""
+msgstr "Показати події"
 
 #: ../qml/Settings.qml:188
 msgid "Other"
-msgstr ""
+msgstr "Інше"
 
 #: ../qml/Settings.qml:193
 msgid "Launch Modular Launcher on boot"
-msgstr ""
+msgstr "Запускати Modular Launcher під час завантаження"
 
 #: ../qml/Translators.qml:14
 msgid "Translators"
-msgstr ""
+msgstr "Перекладачі"
 
 #: ../qml/Translators.qml:79
 msgid "Modular Launcher-translators:"
-msgstr ""
+msgstr "Перекладачі Modular Launcher:"
 
 #: ../qml/Translators.qml:98
 msgid "Dutch - "
-msgstr ""
+msgstr "Нідерландська- "
 
 #: ../qml/Translators.qml:112
 msgid "French - "
-msgstr ""
+msgstr "Французька - "
 
 #: ../qml/Translators.qml:126
 msgid "German - "
-msgstr ""
+msgstr "Німецька - "
 
 #: ../qml/Translators.qml:140
 msgid "Portuguese - "
-msgstr ""
+msgstr "Португальська - "
 
 #: ../qml/Translators.qml:154
 msgid "Russian - "
-msgstr ""
+msgstr "Російська- "
 
 #: ../qml/Translators.qml:168
 msgid ""
 "Translate Modular Launcher at <a href='https://hosted.weblate.org/projects/"
 "ubports/launcher-modular/'>Hosted Weblate</a>."
 msgstr ""
+"Перекладіть Modular Launcher на <a href=\"https://hosted.weblate.org/"
+"projects/ubports/launcher-modular/\">Hosted Weblate</a>."
 
 #: ../qml/pages/Calendar.qml:103
 msgid "Agenda"
-msgstr ""
+msgstr "Порядок денний"
 
 #: ../qml/pages/Home.qml:127
 msgid "Search your phone and online sources"
-msgstr ""
+msgstr "Пошук на телефоні та в інтернет-джерелах"
 
 #: ../qml/pages/Home.qml:254
 msgid "Installed Apps"
-msgstr ""
+msgstr "Встановлені застосунки"
 
 #: ../qml/pages/Home.qml:364
 msgid "Uninstall"
-msgstr ""
+msgstr "Видалити"
 
 #: ../qml/pages/Home.qml:364
 msgid "Remove"
-msgstr ""
+msgstr "Прибрати"
 
 #: ../qml/pages/Todo.qml:64
 msgid "new todo"
-msgstr ""
+msgstr "нове завдання"
 
 #: ../qml/pages/calendar/Settings.qml:12 ../qml/pages/home/Settings.qml:14
 #: ../qml/pages/picture/Settings.qml:12 ../qml/pages/todo/Settings.qml:12
 msgid "Settings Page"
-msgstr ""
+msgstr "Сторінка налаштувань"
 
 #: ../qml/pages/calendar/Settings.qml:70 ../qml/widgets/event/Settings.qml:72
 msgid "Limit of days"
-msgstr ""
+msgstr "Ліміт днів"
 
 #: ../qml/pages/calendar/Settings.qml:89 ../qml/widgets/event/Settings.qml:91
 msgid "By default 60 days"
-msgstr ""
+msgstr "За замовчуванням 60 днів"
 
 #: ../qml/pages/home/Settings.qml:121
 msgid "Favorite apps management"
-msgstr ""
+msgstr "Керування улюбленими застосунками"
 
 #: ../qml/pages/picture/Settings.qml:58
 msgid "Image path"
-msgstr ""
+msgstr "Шлях до зображення"
 
 #: ../qml/widgets/Alarm.qml:31
 msgid "Alarms"
-msgstr ""
+msgstr "Сигнали тривоги"
 
 #: ../qml/widgets/Alarm.qml:42
 msgid "No active alarm"
-msgstr ""
+msgstr "Немає активної тривоги"
 
 #: ../qml/widgets/Alarm.qml:58
 msgid "at"
-msgstr ""
+msgstr "в"
 
 #: ../qml/widgets/Event.qml:46
 msgid "Events"
-msgstr ""
+msgstr "Події"
 
 #: ../qml/widgets/Event.qml:104
 msgid "No events"
-msgstr ""
+msgstr "Немає подій"
 
 #: ../qml/widgets/FavoriteApp.qml:42
 msgid "Favorite Apps"
-msgstr ""
+msgstr "Улюблені застосунки"
 
 #: ../qml/widgets/FavoriteContact.qml:33
 msgid "Favorite Contacts"
-msgstr ""
+msgstr "Улюблені контакти"
 
 #: ../qml/widgets/Lastcall.qml:36
 msgid "Last Call"
-msgstr ""
+msgstr "Останній дзвінок"
 
 #: ../qml/widgets/Lastcall.qml:57
 msgid "No recent calls"
-msgstr ""
+msgstr "Немає останніх дзвінків"
 
 #: ../qml/widgets/Lastmessage.qml:38
 msgid "Last Message"
-msgstr ""
+msgstr "Останнє повідомлення"
 
 #: ../qml/widgets/Lastmessage.qml:58
 msgid "No recent messages"
-msgstr ""
+msgstr "Немає останніх повідомлень"
 
 #: ../qml/widgets/SearchContact.qml:36
 msgid "Search Contacts"
-msgstr ""
+msgstr "Пошук контактів"
 
 #: ../qml/widgets/Weather.qml:23
 msgid "Please long press here to configure"
-msgstr ""
+msgstr "Будь ласка, натисніть і утримуйте тут, щоб налаштувати"
 
 #: ../qml/widgets/Weather.qml:168 ../qml/widgets/Weather.qml:196
 msgid "Calm"
-msgstr ""
+msgstr "Штиль"
 
 #: ../qml/widgets/Weather.qml:170 ../qml/widgets/Weather.qml:198
 msgid "Light Air"
-msgstr ""
+msgstr "Легке повітря"
 
 #: ../qml/widgets/Weather.qml:172 ../qml/widgets/Weather.qml:200
 msgid "Light Breeze"
-msgstr ""
+msgstr "Легкий вітерець"
 
 #: ../qml/widgets/Weather.qml:174 ../qml/widgets/Weather.qml:202
 msgid "Gentle Breeze"
-msgstr ""
+msgstr "Лагідний вітерець"
 
 #: ../qml/widgets/Weather.qml:176 ../qml/widgets/Weather.qml:204
 msgid "Moderate Breeze"
-msgstr ""
+msgstr "Помірний вітерець"
 
 #: ../qml/widgets/Weather.qml:178 ../qml/widgets/Weather.qml:206
 msgid "Fresh Breeze"
-msgstr ""
+msgstr "Свіжий вітерець"
 
 #: ../qml/widgets/Weather.qml:180 ../qml/widgets/Weather.qml:208
 msgid "Strong Breeze"
-msgstr ""
+msgstr "Сильний вітерець"
 
 #: ../qml/widgets/Weather.qml:182 ../qml/widgets/Weather.qml:210
 msgid "Near Gale"
-msgstr ""
+msgstr "Сильний вітер"
 
 #: ../qml/widgets/Weather.qml:184 ../qml/widgets/Weather.qml:212
 msgid "Gale"
-msgstr ""
+msgstr "Штормовий вітер"
 
 #: ../qml/widgets/Weather.qml:186 ../qml/widgets/Weather.qml:214
 msgid "Severe Gale"
-msgstr ""
+msgstr "Сильний вітер"
 
 #: ../qml/widgets/Weather.qml:188 ../qml/widgets/Weather.qml:216
 msgid "Storm"
-msgstr ""
+msgstr "Шторм"
 
 #: ../qml/widgets/Weather.qml:190 ../qml/widgets/Weather.qml:218
 msgid "Violent Storm"
-msgstr ""
+msgstr "Сильний шторм"
 
 #: ../qml/widgets/Weather.qml:192 ../qml/widgets/Weather.qml:220
 msgid "Hurricane"
-msgstr ""
+msgstr "Ураган"
 
 #: ../qml/widgets/Weather.qml:233 ../qml/widgets/Weather.qml:235
 #: ../qml/widgets/Weather.qml:237 ../qml/widgets/Weather.qml:239
@@ -447,181 +463,181 @@ msgstr ""
 #: ../qml/widgets/Weather.qml:257 ../qml/widgets/Weather.qml:259
 #: ../qml/widgets/Weather.qml:261 ../qml/widgets/Weather.qml:263
 msgid "of"
-msgstr ""
+msgstr "з"
 
 #: ../qml/widgets/Weather.qml:233
 msgid "North"
-msgstr ""
+msgstr "Північ"
 
 #: ../qml/widgets/Weather.qml:235
 msgid "North-Northeast"
-msgstr ""
+msgstr "Північ-Північний Схід"
 
 #: ../qml/widgets/Weather.qml:237
 msgid "Northeast"
-msgstr ""
+msgstr "Північний Схід"
 
 #: ../qml/widgets/Weather.qml:239
 msgid "East-Northeast"
-msgstr ""
+msgstr "Схід-Північний Схід"
 
 #: ../qml/widgets/Weather.qml:241
 msgid "East"
-msgstr ""
+msgstr "Схід"
 
 #: ../qml/widgets/Weather.qml:243
 msgid "East-Southeast"
-msgstr ""
+msgstr "Схід-Південний Схід"
 
 #: ../qml/widgets/Weather.qml:245
 msgid "Southeast"
-msgstr ""
+msgstr "Південний Схід"
 
 #: ../qml/widgets/Weather.qml:247
 msgid "South-Southeast"
-msgstr ""
+msgstr "Південь-Південний Схід"
 
 #: ../qml/widgets/Weather.qml:249
 msgid "South"
-msgstr ""
+msgstr "Південь"
 
 #: ../qml/widgets/Weather.qml:251
 msgid "South-Southwest"
-msgstr ""
+msgstr "Південь-Південний Захід"
 
 #: ../qml/widgets/Weather.qml:253
 msgid "Southwest"
-msgstr ""
+msgstr "Південний Захід"
 
 #: ../qml/widgets/Weather.qml:255
 msgid "West-Southwest"
-msgstr ""
+msgstr "Захід-Південний Захід"
 
 #: ../qml/widgets/Weather.qml:257
 msgid "West"
-msgstr ""
+msgstr "Захід"
 
 #: ../qml/widgets/Weather.qml:259
 msgid "West-Northwest"
-msgstr ""
+msgstr "Захід-Північний Захід"
 
 #: ../qml/widgets/Weather.qml:261
 msgid "Northwest"
-msgstr ""
+msgstr "Північний Захід"
 
 #: ../qml/widgets/Weather.qml:263
 msgid "North-Northwest"
-msgstr ""
+msgstr "Північ-Північний Захід"
 
 #: ../qml/widgets/Weather.qml:275
 msgid "humidity"
-msgstr ""
+msgstr "вологість"
 
 #: ../qml/widgets/clock/Settings.qml:15
 msgid "Settings Widget Clock"
-msgstr ""
+msgstr "Налаштування віджету Годинник"
 
 #: ../qml/widgets/clock/Settings.qml:56
 msgid "Show analog clock with digits"
-msgstr ""
+msgstr "Показати аналоговий годинник з цифрами"
 
 #: ../qml/widgets/event/Settings.qml:15
 #: ../qml/widgets/favoritecontact/Settings.qml:14
 #: ../qml/widgets/lastcall/Settings.qml:15
 #: ../qml/widgets/lastmessage/Settings.qml:15
 msgid "Settings Widget"
-msgstr ""
+msgstr "Налаштування віджету"
 
 #: ../qml/widgets/event/Settings.qml:116
 msgid "Limit of event"
-msgstr ""
+msgstr "Ліміт події"
 
 #: ../qml/widgets/event/Settings.qml:135
 msgid "By default 3 event"
-msgstr ""
+msgstr "За замовчуванням 3 події"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:57
 #: ../qml/widgets/lastcall/Settings.qml:57
 #: ../qml/widgets/lastmessage/Settings.qml:56
 msgid "Generals"
-msgstr ""
+msgstr "Загальні"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:61
 msgid "Dialer"
-msgstr ""
+msgstr "Телефон"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:61
 #: ../qml/widgets/lastcall/Settings.qml:61
 msgid "Open the dialer"
-msgstr ""
+msgstr "Відкрити телефон"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:62
 msgid "Linphone"
-msgstr ""
+msgstr "Linphone"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:62
 msgid "Open Linphone"
-msgstr ""
+msgstr "Відкрити Linphone"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:87
 #: ../qml/widgets/lastcall/Settings.qml:86
 #: ../qml/widgets/lastmessage/Settings.qml:96
 msgid "When clicked : "
-msgstr ""
+msgstr "При натисканні: "
 
 #: ../qml/widgets/lastcall/Settings.qml:61
 #: ../qml/widgets/lastmessage/Settings.qml:70
 msgid "Default"
-msgstr ""
+msgstr "За замовчуванням"
 
 #: ../qml/widgets/lastcall/Settings.qml:62
 msgid "Call"
-msgstr ""
+msgstr "Виклик"
 
 #: ../qml/widgets/lastcall/Settings.qml:62
 msgid "Open the dialer with number"
-msgstr ""
+msgstr "Відкрити телефон з номером"
 
 #: ../qml/widgets/lastmessage/Settings.qml:61
 msgid "View a summary"
-msgstr ""
+msgstr "Переглянути резюме"
 
 #: ../qml/widgets/lastmessage/Settings.qml:70
 msgid "Open the application"
-msgstr ""
+msgstr "Відкрити застосунок"
 
 #: ../qml/widgets/lastmessage/Settings.qml:71
 msgid "Open Message"
-msgstr ""
+msgstr "Відкрити повідомлення"
 
 #: ../qml/widgets/lastmessage/Settings.qml:71
 msgid "Open the application with message"
-msgstr ""
+msgstr "Відкрити застосунок з повідомленням"
 
 #: ../qml/widgets/weather/Settings.qml:14
 msgid "Settings for weather widget"
-msgstr ""
+msgstr "Налаштування віджету погоди"
 
 #: ../qml/widgets/weather/Settings.qml:66
 msgid "API Key"
-msgstr ""
+msgstr "Ключ API"
 
 #: ../qml/widgets/weather/Settings.qml:85
 msgid "OpenWeatherMap API"
-msgstr ""
+msgstr "OpenWeatherMap API"
 
 #: ../qml/widgets/weather/Settings.qml:97
 msgid "Click to sign up for an API key"
-msgstr ""
+msgstr "Натисніть, щоб зареєструватися для отримання ключа API"
 
 #: ../qml/widgets/weather/Settings.qml:117
 msgid "City name"
-msgstr ""
+msgstr "Назва міста"
 
 #: ../qml/widgets/weather/Settings.qml:136
 msgid "or"
-msgstr ""
+msgstr "або"
 
 #: launchermodular.desktop.in.h:1
 msgid "Modular launcher"
-msgstr ""
+msgstr "Modular launcher"
