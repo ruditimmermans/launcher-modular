@@ -18,7 +18,7 @@ jobs:
           python3 -m pip install clickable-ut --upgrade
       - name: Build
         run: |
-          CLICKABLE_FRAMEWORK=ubuntu-sdk-20.04 clickable build --libs --app --arch ${{ matrix.arch }}
+         clickable build --libs --app --arch ${{ matrix.arch }}
       - name: Upload Artifacts
         uses: actions/upload-artifact@v3
         with:
