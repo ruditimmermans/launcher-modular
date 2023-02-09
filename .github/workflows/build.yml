@@ -4,24 +4,19 @@ on: [ push, pull_request ]
 
 jobs:
   build:
-    strategy:
-      matrix:
-        arch: [amd64, arm64]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        with:
-          submodules: recursive
       - name: Install clickable
         run: |
-          python3 -m pip install clickable-ut --upgrade
+          python3 -m pip install clickable-ut
       - name: Build
         run: |
-         clickable build --libs --app --arch ${{ matrix.arch }}
+          clickable build
       - name: Upload Artifacts
         uses: actions/upload-artifact@v3
         with:
-          name: Launcher-modular_${{ matrix.arch }}
-          path: build/*/app/*.click
+          name: waydroid_helper_UNCONFINED
+          path: build/all/app/*.click
           if-no-files-found: error
