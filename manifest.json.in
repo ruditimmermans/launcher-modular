@@ -1,7 +1,7 @@
 {
     "name": "launchermodular.ubuntouchfr",
     "description": "A launcher modular for ubuntu touch",
-    "architecture": "@CLICK_ARCH@",
+    "architecture": "arm64",
     "title": "Launcher modular",
     "hooks": {
         "launchermodular": {
