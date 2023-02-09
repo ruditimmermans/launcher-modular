@@ -13,7 +13,7 @@ jobs:
           python3 -m pip install clickable-ut
       - name: Build
         run: |
-          clickable build
+          clickable build --arch arm64 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v3
         with:
