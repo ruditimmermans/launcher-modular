@@ -13,10 +13,11 @@ jobs:
           python3 -m pip install clickable-ut
       - name: Build
         run: |
-          clickable build --arch arm64 
+          clickable build
       - name: Upload Artifacts
         uses: actions/upload-artifact@v3
         with:
           name: waydroid_helper_UNCONFINED
           path: build/all/app/*.click
           if-no-files-found: error
+          
