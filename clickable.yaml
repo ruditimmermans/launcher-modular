@@ -13,5 +13,4 @@ dependencies_target: [
     "libpam0g-dev",
     "libgsettings-qt-dev",
     "qml-module-gsettings1.0"
-    ]
-framework: ubuntu-sdk-20.04    
+    ]   
