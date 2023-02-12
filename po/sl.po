@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-22 06:48+0000\n"
-"PO-Revision-Date: 2023-02-09 21:39+0000\n"
+"PO-Revision-Date: 2023-02-12 14:38+0000\n"
 "Last-Translator: HudobniVolk <hudobni.volk@tuta.io>\n"
 "Language-Team: Slovenian <https://hosted.weblate.org/projects/ubports/"
 "launcher-modular/sl/>\n"
@@ -322,7 +322,7 @@ msgstr "Odmesti"
 
 #: ../qml/pages/Home.qml:364
 msgid "Remove"
-msgstr "Odstarni"
+msgstr "Odstrani"
 
 #: ../qml/pages/Todo.qml:64
 msgid "new todo"
