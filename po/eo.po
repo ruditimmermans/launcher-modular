@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-05 16:12+0000\n"
-"PO-Revision-Date: 2023-02-09 21:39+0000\n"
+"PO-Revision-Date: 2023-02-14 03:36+0000\n"
 "Last-Translator: phlostically <phlostically@mailinator.com>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/ubports/"
 "launcher-modular/eo/>\n"
@@ -38,6 +38,14 @@ msgid ""
 "href='https://www.gnu.org/licenses/gpl-3.0.en.html'>GNU General Public "
 "License</a> for more details."
 msgstr ""
+"Ĉi tiu programo estas libera programo: vi povas redistribui ĝin kaj/aŭ "
+"modifi ĝin laŭ la kondiĉoj de la Ĝenerala Publika Licenco GNU eldonita de "
+"Free Software Foundation — aŭ versio 3 de la Licenco, aŭ (laŭplaĉe) ajna "
+"posta versio. Ĉi tiu programo estas distribuata kun la espero, ke ĝi estos "
+"utila, sed SEN AJNA GARANTIO; sen eĉ la implicita garantio de "
+"PRIKOMERCEBLECO aŭ TAŬGECO POR IU CELO. Vidu la <a href=\"https://www.gnu."
+"org/licenses/gpl-3.0.en.html\">Ĝeneralan Publikan Licencon GNU</a> por pliaj "
+"detaloj."
 
 #: ../qml/About.qml:125
 msgid "SOURCE"
@@ -53,7 +61,7 @@ msgstr "DONACI"
 
 #: ../qml/About.qml:140
 msgid "Maintainer"
-msgstr ""
+msgstr "Mastrumanto"
 
 #: ../qml/About.qml:154
 msgid "Copyright"
@@ -111,7 +119,7 @@ msgstr ""
 
 #: ../qml/Main.qml:508
 msgid "Manage page"
-msgstr ""
+msgstr "Administri paĝon"
 
 #: ../qml/Main.qml:538
 msgid "Configure Launcher"
@@ -119,7 +127,7 @@ msgstr ""
 
 #: ../qml/Main.qml:568
 msgid "Autostart"
-msgstr ""
+msgstr "Aŭtomate lanĉi"
 
 #: ../qml/Main.qml:598
 msgid "Help"
@@ -143,7 +151,7 @@ msgstr ""
 
 #: ../qml/Main.qml:736
 msgid "Terminal command"
-msgstr ""
+msgstr "Terminala komando"
 
 #: ../qml/Main.qml:736
 msgid "Launch an order in a terminal"
@@ -159,7 +167,7 @@ msgstr "Lanĉi programon"
 
 #: ../qml/Main.qml:761 ../qml/Main.qml:763 ../qml/Main.qml:765
 msgid "<b>Action</b> example: "
-msgstr ""
+msgstr "<b>Ago</b> ekzemple: "
 
 #: ../qml/Main.qml:779
 msgid "Create icon"
@@ -177,12 +185,12 @@ msgstr ""
 
 #: ../qml/Pagemanagement.qml:52 ../qml/Pagemanagementback.qml:52
 msgid "Choose a page"
-msgstr ""
+msgstr "Elekti paĝon"
 
 #: ../qml/Pagemanagementback.qml:182 ../qml/pages/Todo.qml:119
 #: ../qml/pages/home/Settings.qml:154
 msgid "Delete"
-msgstr ""
+msgstr "Forviŝi"
 
 #: ../qml/Settings.qml:17
 msgid "Settings"
@@ -192,11 +200,11 @@ msgstr "Agordoj"
 #: ../qml/widgets/lastcall/Settings.qml:57
 #: ../qml/widgets/lastmessage/Settings.qml:56
 msgid "Generals"
-msgstr ""
+msgstr "Ĝenerala"
 
 #: ../qml/Settings.qml:81
 msgid "Dark background"
-msgstr ""
+msgstr "Malhela fono"
 
 #: ../qml/Settings.qml:104
 msgid "Background blur effect"
@@ -244,11 +252,11 @@ msgstr ""
 
 #: ../qml/Settings.qml:190
 msgid "Show last message"
-msgstr ""
+msgstr "Montri lastan mesaĝon"
 
 #: ../qml/Settings.qml:199
 msgid "Show events"
-msgstr ""
+msgstr "Montri eventojn"
 
 #: ../qml/Translators.qml:14
 msgid "Translators"
@@ -295,7 +303,7 @@ msgstr ""
 
 #: ../qml/pages/Home.qml:285
 msgid "Installed Apps"
-msgstr ""
+msgstr "Instalitaj programoj"
 
 #: ../qml/pages/Home.qml:395
 msgid "Uninstall"
@@ -324,7 +332,7 @@ msgstr ""
 
 #: ../qml/pages/calendar/Settings.qml:89 ../qml/widgets/event/Settings.qml:91
 msgid "By default 60 days"
-msgstr ""
+msgstr "Implicite 60 tagoj"
 
 #: ../qml/pages/home/Settings.qml:121
 msgid "Favorite apps management"
@@ -332,7 +340,7 @@ msgstr ""
 
 #: ../qml/pages/picture/Settings.qml:58
 msgid "Image path"
-msgstr ""
+msgstr "Loko de bildo"
 
 #: ../qml/widgets/Alarm.qml:31
 msgid "Alarms"
@@ -348,19 +356,19 @@ msgstr ""
 
 #: ../qml/widgets/Event.qml:46
 msgid "Events"
-msgstr ""
+msgstr "Eventoj"
 
 #: ../qml/widgets/Event.qml:104
 msgid "No events"
-msgstr ""
+msgstr "Neniu evento"
 
 #: ../qml/widgets/FavoriteApp.qml:42
 msgid "Favorite Apps"
-msgstr ""
+msgstr "Ŝatataj programoj"
 
 #: ../qml/widgets/FavoriteContact.qml:33
 msgid "Favorite Contacts"
-msgstr ""
+msgstr "Ŝatataj kontaktoj"
 
 #: ../qml/widgets/Lastcall.qml:36
 msgid "Last Call"
@@ -372,15 +380,15 @@ msgstr ""
 
 #: ../qml/widgets/Lastmessage.qml:38
 msgid "Last Message"
-msgstr ""
+msgstr "Lasta mesaĝo"
 
 #: ../qml/widgets/Lastmessage.qml:58
 msgid "No recent messages"
-msgstr ""
+msgstr "Neniuj lastatempaj mesaĝoj"
 
 #: ../qml/widgets/SearchContact.qml:36
 msgid "Search Contacts"
-msgstr ""
+msgstr "Serĉi kontaktojn"
 
 #: ../qml/widgets/Weather.qml:23
 msgid "Please long press here to configure"
@@ -388,43 +396,43 @@ msgstr ""
 
 #: ../qml/widgets/Weather.qml:168 ../qml/widgets/Weather.qml:196
 msgid "Calm"
-msgstr ""
+msgstr "Sen vento"
 
 #: ../qml/widgets/Weather.qml:170 ../qml/widgets/Weather.qml:198
 msgid "Light Air"
-msgstr ""
+msgstr "Venteto"
 
 #: ../qml/widgets/Weather.qml:172 ../qml/widgets/Weather.qml:200
 msgid "Light Breeze"
-msgstr ""
+msgstr "Brizeteto"
 
 #: ../qml/widgets/Weather.qml:174 ../qml/widgets/Weather.qml:202
 msgid "Gentle Breeze"
-msgstr ""
+msgstr "Brizeto"
 
 #: ../qml/widgets/Weather.qml:176 ../qml/widgets/Weather.qml:204
 msgid "Moderate Breeze"
-msgstr ""
+msgstr "Brizo"
 
 #: ../qml/widgets/Weather.qml:178 ../qml/widgets/Weather.qml:206
 msgid "Fresh Breeze"
-msgstr ""
+msgstr "Brizego"
 
 #: ../qml/widgets/Weather.qml:180 ../qml/widgets/Weather.qml:208
 msgid "Strong Breeze"
-msgstr ""
+msgstr "Brizegego"
 
 #: ../qml/widgets/Weather.qml:182 ../qml/widgets/Weather.qml:210
 msgid "Near Gale"
-msgstr ""
+msgstr "Ventego"
 
 #: ../qml/widgets/Weather.qml:184 ../qml/widgets/Weather.qml:212
 msgid "Gale"
-msgstr ""
+msgstr "Ŝtormeto"
 
 #: ../qml/widgets/Weather.qml:186 ../qml/widgets/Weather.qml:214
 msgid "Severe Gale"
-msgstr ""
+msgstr "Ŝtormo"
 
 #: ../qml/widgets/Weather.qml:188 ../qml/widgets/Weather.qml:216
 msgid "Strong storm"
@@ -432,7 +440,7 @@ msgstr ""
 
 #: ../qml/widgets/Weather.qml:190 ../qml/widgets/Weather.qml:218
 msgid "Violent Storm"
-msgstr ""
+msgstr "Ŝtormego"
 
 #: ../qml/widgets/Weather.qml:192 ../qml/widgets/Weather.qml:220
 msgid "Hurricane"
@@ -447,75 +455,75 @@ msgstr "Uragano"
 #: ../qml/widgets/Weather.qml:257 ../qml/widgets/Weather.qml:259
 #: ../qml/widgets/Weather.qml:261 ../qml/widgets/Weather.qml:263
 msgid "of"
-msgstr ""
+msgstr "de"
 
 #: ../qml/widgets/Weather.qml:233
 msgid "North"
-msgstr ""
+msgstr "Norda"
 
 #: ../qml/widgets/Weather.qml:235
 msgid "North-Northeast"
-msgstr ""
+msgstr "Nord-nordeosta"
 
 #: ../qml/widgets/Weather.qml:237
 msgid "Northeast"
-msgstr ""
+msgstr "Nordeosta"
 
 #: ../qml/widgets/Weather.qml:239
 msgid "East-Northeast"
-msgstr ""
+msgstr "Eost-nordeosta"
 
 #: ../qml/widgets/Weather.qml:241
 msgid "East"
-msgstr ""
+msgstr "Eosta"
 
 #: ../qml/widgets/Weather.qml:243
 msgid "East-Southeast"
-msgstr ""
+msgstr "Eost-sudeosta"
 
 #: ../qml/widgets/Weather.qml:245
 msgid "Southeast"
-msgstr ""
+msgstr "Sudeosta"
 
 #: ../qml/widgets/Weather.qml:247
 msgid "South-Southeast"
-msgstr ""
+msgstr "Sud-sudeosta"
 
 #: ../qml/widgets/Weather.qml:249
 msgid "South"
-msgstr ""
+msgstr "Suda"
 
 #: ../qml/widgets/Weather.qml:251
 msgid "South-Southwest"
-msgstr ""
+msgstr "Sud-suduesta"
 
 #: ../qml/widgets/Weather.qml:253
 msgid "Southwest"
-msgstr ""
+msgstr "Suduesta"
 
 #: ../qml/widgets/Weather.qml:255
 msgid "West-Southwest"
-msgstr ""
+msgstr "Uest-suduesta"
 
 #: ../qml/widgets/Weather.qml:257
 msgid "West"
-msgstr ""
+msgstr "Uesta"
 
 #: ../qml/widgets/Weather.qml:259
 msgid "West-Northwest"
-msgstr ""
+msgstr "Uest-norduesta"
 
 #: ../qml/widgets/Weather.qml:261
 msgid "Northwest"
-msgstr ""
+msgstr "Norduesta"
 
 #: ../qml/widgets/Weather.qml:263
 msgid "North-Northwest"
-msgstr ""
+msgstr "Nord-norduesta"
 
 #: ../qml/widgets/Weather.qml:275
 msgid "humidity"
-msgstr ""
+msgstr "humido"
 
 #: ../qml/widgets/clock/Settings.qml:15
 msgid "Settings Widget Clock"
@@ -551,11 +559,11 @@ msgstr ""
 
 #: ../qml/widgets/favoritecontact/Settings.qml:62
 msgid "Linphone"
-msgstr ""
+msgstr "Linphone"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:62
 msgid "Open Linphone"
-msgstr ""
+msgstr "Malfermi Linphone"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:87
 #: ../qml/widgets/lastcall/Settings.qml:86
@@ -570,7 +578,7 @@ msgstr ""
 
 #: ../qml/widgets/lastcall/Settings.qml:62
 msgid "Call"
-msgstr ""
+msgstr "Alvoki"
 
 #: ../qml/widgets/lastcall/Settings.qml:62
 msgid "Open the dialer with number"
@@ -578,15 +586,15 @@ msgstr ""
 
 #: ../qml/widgets/lastmessage/Settings.qml:61
 msgid "View a summary"
-msgstr ""
+msgstr "Vidi resumon"
 
 #: ../qml/widgets/lastmessage/Settings.qml:70
 msgid "Open the application"
-msgstr ""
+msgstr "Malfermi la programon"
 
 #: ../qml/widgets/lastmessage/Settings.qml:71
 msgid "Open Message"
-msgstr ""
+msgstr "Malfermi mesaĝon"
 
 #: ../qml/widgets/lastmessage/Settings.qml:71
 msgid "Open the application with message"
