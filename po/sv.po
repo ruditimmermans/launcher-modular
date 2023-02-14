@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-05 16:12+0000\n"
-"PO-Revision-Date: 2023-01-08 13:48+0000\n"
-"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"PO-Revision-Date: 2023-02-15 10:38+0000\n"
+"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/ubports/"
 "launcher-modular/sv/>\n"
 "Language: sv\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: ../qml/About.qml:14 ../qml/Main.qml:628
 msgid "About"
-msgstr ""
+msgstr "Om"
 
 #: ../qml/About.qml:96
 msgid "A launcher modular for Ubuntu Touch"
@@ -38,26 +38,34 @@ msgid ""
 "href='https://www.gnu.org/licenses/gpl-3.0.en.html'>GNU General Public "
 "License</a> for more details."
 msgstr ""
+"Detta program är fri programvara: du kan distribuera det och/eller modifiera "
+"det enligt villkoren i GNU General Public License som publicerats av Free "
+"Software Foundation, antingen version 3 av licensen, eller (efter eget val) "
+"vilken senare version som helst. Detta program distribueras i hopp om att "
+"det ska vara användbart, men UTAN NÅGON GARANTI; utan ens den underförstådda "
+"garantin för SÄLJBARHET eller LÄMPLIGHET FÖR ETT SÄRSKILT SYFTE. Se <a href="
+"\"https://www.gnu.org/licenses/gpl-3.0.en.html\">GNU General Public License</"
+"a> för mer information."
 
 #: ../qml/About.qml:125
 msgid "SOURCE"
-msgstr ""
+msgstr "KÄLLA"
 
 #: ../qml/About.qml:125
 msgid "ISSUES"
-msgstr ""
+msgstr "PROBLEM"
 
 #: ../qml/About.qml:125
 msgid "DONATE"
-msgstr ""
+msgstr "DONERA"
 
 #: ../qml/About.qml:140
 msgid "Maintainer"
-msgstr ""
+msgstr "Underhållare"
 
 #: ../qml/About.qml:154
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../qml/About.qml:168
 msgid "Special thanks to the testers : Sander Klootwijk, Steve Kueffer."
@@ -89,7 +97,7 @@ msgstr ""
 
 #: ../qml/Help.qml:49
 msgid "Widget Settings"
-msgstr ""
+msgstr "Widget inställningar"
 
 #: ../qml/Help.qml:57
 msgid ""
@@ -99,43 +107,43 @@ msgstr ""
 
 #: ../qml/ImportPage.qml:11
 msgid "Choose"
-msgstr ""
+msgstr "Välj"
 
 #: ../qml/Main.qml:399
 msgid "Swipe up to configure the launcher"
-msgstr ""
+msgstr "Svep uppåt för att konfigurera startprogrammet"
 
 #: ../qml/Main.qml:478
 msgid "Add custom icon"
-msgstr ""
+msgstr "Lägg till anpassad ikon"
 
 #: ../qml/Main.qml:508
 msgid "Manage page"
-msgstr ""
+msgstr "Hantera sida"
 
 #: ../qml/Main.qml:538
 msgid "Configure Launcher"
-msgstr ""
+msgstr "Konfigurera Launcher"
 
 #: ../qml/Main.qml:568
 msgid "Autostart"
-msgstr ""
+msgstr "Autostart"
 
 #: ../qml/Main.qml:598
 msgid "Help"
-msgstr ""
+msgstr "Hjälp"
 
 #: ../qml/Main.qml:716
 msgid "SVG or PNG icon. 1:1 ratio"
-msgstr ""
+msgstr "SVG eller PNG ikon. 1:1 ratio"
 
 #: ../qml/Main.qml:730
 msgid "The <b>title</b> to be shown in the app list"
-msgstr ""
+msgstr "<b>titeln</b> som ska visas i applistan"
 
 #: ../qml/Main.qml:735
 msgid "Website"
-msgstr ""
+msgstr "Webbsida"
 
 #: ../qml/Main.qml:735
 msgid "Open the browser with the url"
@@ -143,7 +151,7 @@ msgstr ""
 
 #: ../qml/Main.qml:736
 msgid "Terminal command"
-msgstr ""
+msgstr "Terminalkommando"
 
 #: ../qml/Main.qml:736
 msgid "Launch an order in a terminal"
@@ -151,60 +159,60 @@ msgstr ""
 
 #: ../qml/Main.qml:737
 msgid "Launch app"
-msgstr ""
+msgstr "Starta app"
 
 #: ../qml/Main.qml:737
 msgid "Launch an app"
-msgstr ""
+msgstr "Starta en app"
 
 #: ../qml/Main.qml:761 ../qml/Main.qml:763 ../qml/Main.qml:765
 msgid "<b>Action</b> example: "
-msgstr ""
+msgstr "<b>Åtgärd</b> exempel: "
 
 #: ../qml/Main.qml:779
 msgid "Create icon"
-msgstr ""
+msgstr "Skapa ikon"
 
 #: ../qml/Main.qml:824 ../qml/Pagemanagement.qml:137
 #: ../qml/Pagemanagementback.qml:128 ../qml/pages/Home.qml:433
 #: ../qml/pages/home/Settings.qml:91
 msgid "Cancel"
-msgstr ""
+msgstr "Avbryt"
 
 #: ../qml/Pagemanagement.qml:17 ../qml/Pagemanagementback.qml:17
 msgid "Page management"
-msgstr ""
+msgstr "Sidhantering"
 
 #: ../qml/Pagemanagement.qml:52 ../qml/Pagemanagementback.qml:52
 msgid "Choose a page"
-msgstr ""
+msgstr "Välj en sida"
 
 #: ../qml/Pagemanagementback.qml:182 ../qml/pages/Todo.qml:119
 #: ../qml/pages/home/Settings.qml:154
 msgid "Delete"
-msgstr ""
+msgstr "Ta bort"
 
 #: ../qml/Settings.qml:17
 msgid "Settings"
-msgstr ""
+msgstr "Inställningar"
 
 #: ../qml/Settings.qml:76 ../qml/widgets/favoritecontact/Settings.qml:57
 #: ../qml/widgets/lastcall/Settings.qml:57
 #: ../qml/widgets/lastmessage/Settings.qml:56
 msgid "Generals"
-msgstr ""
+msgstr "Allmänt"
 
 #: ../qml/Settings.qml:81
 msgid "Dark background"
-msgstr ""
+msgstr "Mörk bakgrund"
 
 #: ../qml/Settings.qml:104
 msgid "Background blur effect"
-msgstr ""
+msgstr "Bakgrundsoskärpa effekt"
 
 #: ../qml/Settings.qml:112
 msgid "None"
-msgstr ""
+msgstr "Ingen"
 
 #: ../qml/Settings.qml:112
 msgid "Icons without style"
@@ -212,7 +220,7 @@ msgstr ""
 
 #: ../qml/Settings.qml:113
 msgid "Rounded"
-msgstr ""
+msgstr "Rundad"
 
 #: ../qml/Settings.qml:113
 msgid "Icons rounded"
@@ -220,39 +228,39 @@ msgstr ""
 
 #: ../qml/Settings.qml:137
 msgid "Style Icons : "
-msgstr ""
+msgstr "Stilikoner : "
 
 #: ../qml/Settings.qml:148
 msgid "Widgets"
-msgstr ""
+msgstr "Widgets"
 
 #: ../qml/Settings.qml:153
 msgid "Show clock"
-msgstr ""
+msgstr "Visa klocka"
 
 #: ../qml/Settings.qml:162
 msgid "Show weather"
-msgstr ""
+msgstr "Visa väder"
 
 #: ../qml/Settings.qml:172
 msgid "Show alarms"
-msgstr ""
+msgstr "Visa alarm"
 
 #: ../qml/Settings.qml:181
 msgid "Show last call"
-msgstr ""
+msgstr "Visa senaste samtal"
 
 #: ../qml/Settings.qml:190
 msgid "Show last message"
-msgstr ""
+msgstr "Visa senaste meddelande"
 
 #: ../qml/Settings.qml:199
 msgid "Show events"
-msgstr ""
+msgstr "Visa evenemang"
 
 #: ../qml/Translators.qml:14
 msgid "Translators"
-msgstr ""
+msgstr "Översättare"
 
 #: ../qml/Translators.qml:79
 msgid "Launcher Modular translators:"
@@ -260,23 +268,23 @@ msgstr ""
 
 #: ../qml/Translators.qml:98
 msgid "Dutch - "
-msgstr ""
+msgstr "Nederländska - "
 
 #: ../qml/Translators.qml:112
 msgid "French - "
-msgstr ""
+msgstr "Franska - "
 
 #: ../qml/Translators.qml:126
 msgid "German - "
-msgstr ""
+msgstr "Tyska - "
 
 #: ../qml/Translators.qml:140
 msgid "Portuguese - "
-msgstr ""
+msgstr "Portugisiska - "
 
 #: ../qml/Translators.qml:154
 msgid "Russian - "
-msgstr ""
+msgstr "Ryska - "
 
 #: ../qml/Translators.qml:168
 msgid ""
@@ -287,104 +295,104 @@ msgstr ""
 
 #: ../qml/pages/Calendar.qml:103
 msgid "Agenda"
-msgstr ""
+msgstr "Agenda"
 
 #: ../qml/pages/Home.qml:158
 msgid "Search your phone and online sources"
-msgstr ""
+msgstr "Sök i din telefon och onlinekällor"
 
 #: ../qml/pages/Home.qml:285
 msgid "Installed Apps"
-msgstr ""
+msgstr "Installerade Appar"
 
 #: ../qml/pages/Home.qml:395
 msgid "Uninstall"
-msgstr ""
+msgstr "Avinstallera"
 
 #: ../qml/pages/Home.qml:395
 msgid "Remove"
-msgstr ""
+msgstr "Ta bort"
 
 #: ../qml/pages/Todo.qml:64
 msgid "new todo"
-msgstr ""
+msgstr "ny att göra"
 
 #: ../qml/pages/calendar/Settings.qml:12 ../qml/pages/home/Settings.qml:14
 #: ../qml/pages/picture/Settings.qml:12 ../qml/pages/todo/Settings.qml:12
 msgid "Settings Page"
-msgstr ""
+msgstr "Inställningssida"
 
 #: ../qml/pages/calendar/Settings.qml:51
 msgid "General"
-msgstr ""
+msgstr "Allmänt"
 
 #: ../qml/pages/calendar/Settings.qml:70 ../qml/widgets/event/Settings.qml:72
 msgid "Limit of days"
-msgstr ""
+msgstr "Begränsning av dagar"
 
 #: ../qml/pages/calendar/Settings.qml:89 ../qml/widgets/event/Settings.qml:91
 msgid "By default 60 days"
-msgstr ""
+msgstr "Som standard 60 dagar"
 
 #: ../qml/pages/home/Settings.qml:121
 msgid "Favorite apps management"
-msgstr ""
+msgstr "Hantering av favoritappar"
 
 #: ../qml/pages/picture/Settings.qml:58
 msgid "Image path"
-msgstr ""
+msgstr "Bildsökväg"
 
 #: ../qml/widgets/Alarm.qml:31
 msgid "Alarms"
-msgstr ""
+msgstr "Alarm"
 
 #: ../qml/widgets/Alarm.qml:42
 msgid "No active alarm"
-msgstr ""
+msgstr "Inget aktivt alarm"
 
 #: ../qml/widgets/Alarm.qml:58
 msgid "at"
-msgstr ""
+msgstr "vid"
 
 #: ../qml/widgets/Event.qml:46
 msgid "Events"
-msgstr ""
+msgstr "Evenemang"
 
 #: ../qml/widgets/Event.qml:104
 msgid "No events"
-msgstr ""
+msgstr "Inga evenemang"
 
 #: ../qml/widgets/FavoriteApp.qml:42
 msgid "Favorite Apps"
-msgstr ""
+msgstr "Favoritappar"
 
 #: ../qml/widgets/FavoriteContact.qml:33
 msgid "Favorite Contacts"
-msgstr ""
+msgstr "Favoritkontakter"
 
 #: ../qml/widgets/Lastcall.qml:36
 msgid "Last Call"
-msgstr ""
+msgstr "Senaste samtalet"
 
 #: ../qml/widgets/Lastcall.qml:57
 msgid "No recent calls"
-msgstr ""
+msgstr "Inga senaste samtal"
 
 #: ../qml/widgets/Lastmessage.qml:38
 msgid "Last Message"
-msgstr ""
+msgstr "Senaste meddelandet"
 
 #: ../qml/widgets/Lastmessage.qml:58
 msgid "No recent messages"
-msgstr ""
+msgstr "Inga senaste meddelanden"
 
 #: ../qml/widgets/SearchContact.qml:36
 msgid "Search Contacts"
-msgstr ""
+msgstr "Sök efter kontakter"
 
 #: ../qml/widgets/Weather.qml:23
 msgid "Please long press here to configure"
-msgstr ""
+msgstr "Snälla långtryck här för att konfigurera"
 
 #: ../qml/widgets/Weather.qml:168 ../qml/widgets/Weather.qml:196
 msgid "Calm"
@@ -455,142 +463,142 @@ msgstr "Nord"
 
 #: ../qml/widgets/Weather.qml:235
 msgid "North-Northeast"
-msgstr ""
+msgstr "Nord-nordost"
 
 #: ../qml/widgets/Weather.qml:237
 msgid "Northeast"
-msgstr ""
+msgstr "Nordost"
 
 #: ../qml/widgets/Weather.qml:239
 msgid "East-Northeast"
-msgstr ""
+msgstr "Öst-nordost"
 
 #: ../qml/widgets/Weather.qml:241
 msgid "East"
-msgstr ""
+msgstr "Öst"
 
 #: ../qml/widgets/Weather.qml:243
 msgid "East-Southeast"
-msgstr ""
+msgstr "Öst-sydöst"
 
 #: ../qml/widgets/Weather.qml:245
 msgid "Southeast"
-msgstr ""
+msgstr "Sydöst"
 
 #: ../qml/widgets/Weather.qml:247
 msgid "South-Southeast"
-msgstr ""
+msgstr "Syd-sydost"
 
 #: ../qml/widgets/Weather.qml:249
 msgid "South"
-msgstr ""
+msgstr "Syd"
 
 #: ../qml/widgets/Weather.qml:251
 msgid "South-Southwest"
-msgstr ""
+msgstr "Syd-sydväst"
 
 #: ../qml/widgets/Weather.qml:253
 msgid "Southwest"
-msgstr ""
+msgstr "Sydväst"
 
 #: ../qml/widgets/Weather.qml:255
 msgid "West-Southwest"
-msgstr ""
+msgstr "Väst-sydväst"
 
 #: ../qml/widgets/Weather.qml:257
 msgid "West"
-msgstr ""
+msgstr "Väst"
 
 #: ../qml/widgets/Weather.qml:259
 msgid "West-Northwest"
-msgstr ""
+msgstr "Väst-nordväst"
 
 #: ../qml/widgets/Weather.qml:261
 msgid "Northwest"
-msgstr ""
+msgstr "Nordväst"
 
 #: ../qml/widgets/Weather.qml:263
 msgid "North-Northwest"
-msgstr ""
+msgstr "Nord-nordväst"
 
 #: ../qml/widgets/Weather.qml:275
 msgid "humidity"
-msgstr ""
+msgstr "luftfuktighet"
 
 #: ../qml/widgets/clock/Settings.qml:15
 msgid "Settings Widget Clock"
-msgstr ""
+msgstr "Inställningar Widget klocka"
 
 #: ../qml/widgets/clock/Settings.qml:56
 msgid "Show analog clock with digits"
-msgstr ""
+msgstr "Visa analog klocka med siffror"
 
 #: ../qml/widgets/event/Settings.qml:15
 #: ../qml/widgets/favoritecontact/Settings.qml:14
 #: ../qml/widgets/lastcall/Settings.qml:15
 #: ../qml/widgets/lastmessage/Settings.qml:15
 msgid "Settings Widget"
-msgstr ""
+msgstr "Inställningar Widget"
 
 #: ../qml/widgets/event/Settings.qml:116
 msgid "Limit of event"
-msgstr ""
+msgstr "Gräns av evenemang"
 
 #: ../qml/widgets/event/Settings.qml:135
 msgid "By default 3 event"
-msgstr ""
+msgstr "Som standard 3 evenemang"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:61
 msgid "Dialer"
-msgstr ""
+msgstr "Telefon"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:61
 #: ../qml/widgets/lastcall/Settings.qml:61
 msgid "Open the dialer"
-msgstr ""
+msgstr "Öppna telefonen"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:62
 msgid "Linphone"
-msgstr ""
+msgstr "Linphone"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:62
 msgid "Open Linphone"
-msgstr ""
+msgstr "Öppna Linphone"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:87
 #: ../qml/widgets/lastcall/Settings.qml:86
 #: ../qml/widgets/lastmessage/Settings.qml:96
 msgid "When clicked : "
-msgstr ""
+msgstr "När klickad på: "
 
 #: ../qml/widgets/lastcall/Settings.qml:61
 #: ../qml/widgets/lastmessage/Settings.qml:70
 msgid "Default"
-msgstr ""
+msgstr "Standard"
 
 #: ../qml/widgets/lastcall/Settings.qml:62
 msgid "Call"
-msgstr ""
+msgstr "Ring"
 
 #: ../qml/widgets/lastcall/Settings.qml:62
 msgid "Open the dialer with number"
-msgstr ""
+msgstr "Öppna telefonen med nummer"
 
 #: ../qml/widgets/lastmessage/Settings.qml:61
 msgid "View a summary"
-msgstr ""
+msgstr "Visa en sammanfattning"
 
 #: ../qml/widgets/lastmessage/Settings.qml:70
 msgid "Open the application"
-msgstr ""
+msgstr "Öppna applikationen"
 
 #: ../qml/widgets/lastmessage/Settings.qml:71
 msgid "Open Message"
-msgstr ""
+msgstr "Öppna meddelande"
 
 #: ../qml/widgets/lastmessage/Settings.qml:71
 msgid "Open the application with message"
-msgstr ""
+msgstr "Öppna applikationen med meddelande"
 
 #: ../qml/widgets/weather/Settings.qml:14
 msgid "Settings Widget Weather"
@@ -610,11 +618,11 @@ msgstr ""
 
 #: ../qml/widgets/weather/Settings.qml:117
 msgid "City name"
-msgstr ""
+msgstr "Stadsnamn"
 
 #: ../qml/widgets/weather/Settings.qml:136
 msgid "or"
-msgstr ""
+msgstr "eller"
 
 #: launchermodular.desktop.in.h:1
 msgid "Launcher modular"
