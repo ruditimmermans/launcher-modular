@@ -8,17 +8,20 @@ msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-22 06:48+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-02-17 04:45+0000\n"
+"Last-Translator: Raman <translations.0l5zc@simplelogin.com>\n"
+"Language-Team: Malayalam <https://hosted.weblate.org/projects/ubports/"
+"launcher-modular/ml/>\n"
 "Language: ml\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: ../qml/About.qml:14 ../qml/Main.qml:628
 msgid "About"
-msgstr ""
+msgstr "കുറിച്ച്"
 
 #: ../qml/About.qml:96
 msgid "A modular launcher for Ubuntu Touch"
@@ -38,23 +41,23 @@ msgstr ""
 
 #: ../qml/About.qml:125
 msgid "SOURCE"
-msgstr ""
+msgstr "ഉറവിടം"
 
 #: ../qml/About.qml:125
 msgid "ISSUES"
-msgstr ""
+msgstr "പ്രശ്നങ്ങൾ"
 
 #: ../qml/About.qml:125
 msgid "DONATE"
-msgstr ""
+msgstr "സംഭാവനചെയ്യുക"
 
 #: ../qml/About.qml:140
 msgid "Maintainer"
-msgstr ""
+msgstr "പരിപാലകൻ"
 
 #: ../qml/About.qml:154
 msgid "Copyright"
-msgstr ""
+msgstr "പകർപ്പവകാശം"
 
 #: ../qml/About.qml:168
 msgid "Special thanks to the testers: Sander Klootwijk, Steve Kueffer."
@@ -94,7 +97,7 @@ msgstr ""
 
 #: ../qml/ImportPage.qml:11
 msgid "Choose"
-msgstr ""
+msgstr "തിരഞ്ഞെടുക്കുക"
 
 #: ../qml/Main.qml:399
 msgid "Swipe up to configure the launcher"
@@ -118,7 +121,7 @@ msgstr ""
 
 #: ../qml/Main.qml:598
 msgid "Help"
-msgstr ""
+msgstr "സഹായം"
 
 #: ../qml/Main.qml:716
 msgid "SVG or PNG icon. 1:1 ratio"
@@ -164,7 +167,7 @@ msgstr ""
 #: ../qml/Pagemanagementback.qml:128 ../qml/pages/Home.qml:402
 #: ../qml/pages/home/Settings.qml:91
 msgid "Cancel"
-msgstr ""
+msgstr "റദ്ദാക്കുക"
 
 #: ../qml/Pagemanagement.qml:17 ../qml/Pagemanagementback.qml:17
 msgid "Page management"
@@ -177,19 +180,20 @@ msgstr ""
 #: ../qml/Pagemanagementback.qml:182 ../qml/pages/Todo.qml:119
 #: ../qml/pages/home/Settings.qml:154
 msgid "Delete"
-msgstr ""
+msgstr "ഇല്ലാതാക്കുക"
 
 #: ../qml/Settings.qml:16
 msgid "Settings"
-msgstr ""
+msgstr "ക്രമീകരണങ്ങൾ"
 
 #: ../qml/Settings.qml:57 ../qml/pages/calendar/Settings.qml:51
 msgid "General"
-msgstr ""
+msgstr "പൊതുവായ"
 
 #: ../qml/Settings.qml:62
+#, fuzzy
 msgid "Dark background"
-msgstr ""
+msgstr "ഇരുണ്ട പശ്ചാത്തലം"
 
 #: ../qml/Settings.qml:85
 msgid "Background blur effect"
@@ -197,7 +201,7 @@ msgstr ""
 
 #: ../qml/Settings.qml:93
 msgid "None"
-msgstr ""
+msgstr "ഒന്നുമില്ല"
 
 #: ../qml/Settings.qml:93
 msgid "Unstyled icons"
@@ -205,7 +209,7 @@ msgstr ""
 
 #: ../qml/Settings.qml:94
 msgid "Rounded"
-msgstr ""
+msgstr "വൃത്താകൃതിയിലുള്ളത്"
 
 #: ../qml/Settings.qml:94
 msgid "Rounded icons"
@@ -221,11 +225,11 @@ msgstr ""
 
 #: ../qml/Settings.qml:134
 msgid "Show clock"
-msgstr ""
+msgstr "ഘടികാരം കാണിക്കുക"
 
 #: ../qml/Settings.qml:143
 msgid "Show weather"
-msgstr ""
+msgstr "കാലാവസ്ഥ കാണിക്കുക"
 
 #: ../qml/Settings.qml:153
 msgid "Show alarms"
@@ -245,7 +249,7 @@ msgstr ""
 
 #: ../qml/Settings.qml:188
 msgid "Other"
-msgstr ""
+msgstr "മറ്റുള്ളവ"
 
 #: ../qml/Settings.qml:193
 msgid "Launch Modular Launcher on boot"
@@ -253,7 +257,7 @@ msgstr ""
 
 #: ../qml/Translators.qml:14
 msgid "Translators"
-msgstr ""
+msgstr "പരിഭാഷകർ"
 
 #: ../qml/Translators.qml:79
 msgid "Modular Launcher-translators:"
@@ -261,7 +265,7 @@ msgstr ""
 
 #: ../qml/Translators.qml:98
 msgid "Dutch - "
-msgstr ""
+msgstr "ഡച്ച് - "
 
 #: ../qml/Translators.qml:112
 msgid "French - "
