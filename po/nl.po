@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Launcher modular\n"
-"PO-Revision-Date: 2023-01-19 20:29+0000\n"
-"Last-Translator: Rudi Timmermans <rudi.timmermans@mailfence.com>\n"
+"PO-Revision-Date: 2023-02-22 13:39+0000\n"
+"Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/ubports/"
 "launcher-modular/nl/>\n"
 "Language: nl\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.1\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: ../qml/About.qml:14 ../qml/Main.qml:628
 msgid "About"
@@ -35,7 +35,7 @@ msgstr ""
 
 #: ../qml/About.qml:125
 msgid "SOURCE"
-msgstr "CODE"
+msgstr "BRONCODE"
 
 #: ../qml/About.qml:125
 msgid "ISSUES"
@@ -51,7 +51,7 @@ msgstr "Beheerder"
 
 #: ../qml/About.qml:154
 msgid "Copyright"
-msgstr "Copyright"
+msgstr "Auteursrecht"
 
 #: ../qml/About.qml:168
 msgid "Special thanks to the testers : Sander Klootwijk, Steve Kueffer."
@@ -79,7 +79,7 @@ msgstr "Kiezen"
 
 #: ../qml/Main.qml:399
 msgid "Swipe up to configure the launcher"
-msgstr "Veeg omhoog om te configureren"
+msgstr "Veeg omhoog om in te stellen"
 
 #. SOME DESCRIPTIVE TITLE.
 #. Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
@@ -91,7 +91,7 @@ msgstr "Aangepast pictogram"
 
 #: ../qml/Main.qml:508
 msgid "Manage page"
-msgstr "Beheer pagina"
+msgstr "Pagina beheren"
 
 #: ../qml/Main.qml:528 ../qml/Util.qml:18
 msgid "Utilities"
@@ -99,19 +99,19 @@ msgstr "Gereedschap"
 
 #: ../qml/Main.qml:538
 msgid "Configure Launcher"
-msgstr "Configureer Launcher"
+msgstr "Startscherm instellen"
 
 #: ../qml/Main.qml:598
 msgid "Help"
-msgstr "Help"
+msgstr "Hulp"
 
 #: ../qml/Main.qml:716
 msgid "SVG or PNG icon. 1:1 ratio"
-msgstr "SVG of PNG icoon. 1:1 verhouding"
+msgstr "Svg- of png-pictogram. 1:1-beeldverhouding"
 
 #: ../qml/Main.qml:730
 msgid "The <b>title</b> to be shown in the app list"
-msgstr "De <b>titel</b> die in de lijst weergeven moet worden"
+msgstr "De <b>naam</b> die op de lijst wordt getoond"
 
 #: ../qml/Main.qml:735
 msgid "Website"
@@ -123,7 +123,7 @@ msgstr "Open de browser met de url"
 
 #: ../qml/Main.qml:736
 msgid "Terminal command"
-msgstr "Terminal commando"
+msgstr "Terminalopdracht"
 
 #: ../qml/Main.qml:736
 msgid "Launch an order in a terminal"
@@ -131,7 +131,7 @@ msgstr "Open een commando in een terminal"
 
 #: ../qml/Main.qml:737
 msgid "Launch app"
-msgstr "Open app"
+msgstr "App openen"
 
 #: ../qml/Main.qml:737
 msgid "Launch an app"
@@ -139,11 +139,11 @@ msgstr "Open een app"
 
 #: ../qml/Main.qml:761 ../qml/Main.qml:763 ../qml/Main.qml:765
 msgid "<b>Action</b> example: "
-msgstr "<b>Actie</b> voorbeeld: "
+msgstr "<b>Actie</b>voorbeeld: "
 
 #: ../qml/Main.qml:779
 msgid "Create icon"
-msgstr "Maak icoon"
+msgstr "Pictogram maken"
 
 #: ../qml/Main.qml:824 ../qml/Pagemanagement.qml:137
 #: ../qml/Pagemanagementback.qml:128 ../qml/pages/Home.qml:433
@@ -153,7 +153,7 @@ msgstr "Annuleren"
 
 #: ../qml/Pagemanagement.qml:17 ../qml/Pagemanagementback.qml:17
 msgid "Page management"
-msgstr "Beheer pagina's"
+msgstr "Paginabeheer"
 
 #: ../qml/Pagemanagement.qml:52 ../qml/Pagemanagementback.qml:52
 msgid "Choose a page"
@@ -192,7 +192,7 @@ msgstr "Standaard stijl"
 
 #: ../qml/Settings.qml:113
 msgid "Rounded"
-msgstr "Rond"
+msgstr "Afgerond"
 
 #: ../qml/Settings.qml:113
 msgid "Icons rounded"
@@ -208,7 +208,7 @@ msgstr "Stijlloze pictogrammen"
 
 #: ../qml/Settings.qml:137
 msgid "Style Icons : "
-msgstr "Pictogrammen stijl : "
+msgstr "Pictogramstijl : "
 
 #: ../qml/Settings.qml:148
 msgid "Widgets"
@@ -216,27 +216,27 @@ msgstr "Widgets"
 
 #: ../qml/Settings.qml:153
 msgid "Show clock"
-msgstr "Toon klok"
+msgstr "Klok tonen"
 
 #: ../qml/Settings.qml:162
 msgid "Show weather"
-msgstr "Toon weer"
+msgstr "Weer tonen"
 
 #: ../qml/Settings.qml:172
 msgid "Show alarms"
-msgstr "Toon alarmen"
+msgstr "Alarmen tonen"
 
 #: ../qml/Settings.qml:181
 msgid "Show last call"
-msgstr "Toon laatste oproep"
+msgstr "Recentste oproep tonen"
 
 #: ../qml/Settings.qml:190
 msgid "Show last message"
-msgstr "Toon laatste bericht"
+msgstr "Recentste bericht tonen"
 
 #: ../qml/Settings.qml:199
 msgid "Show events"
-msgstr "Toon gebeurtenissen"
+msgstr "Afspraken tonen"
 
 #: ../qml/Settings.qml:210
 msgid "Other"
@@ -316,7 +316,7 @@ msgstr "Agenda"
 
 #: ../qml/pages/Home.qml:158
 msgid "Search your phone and online sources"
-msgstr "Je telefoon en online bronnen doorzoeken"
+msgstr "Doorzoek je telefoon en online-bronnen"
 
 #: ../qml/pages/Home.qml:285
 msgid "Installed Apps"
@@ -332,7 +332,7 @@ msgstr "Verwijderen"
 
 #: ../qml/pages/Todo.qml:64
 msgid "new todo"
-msgstr "nieuwe to-do"
+msgstr "nieuwe taak"
 
 #: ../qml/pages/calendar/Settings.qml:12 ../qml/pages/home/Settings.qml:14
 #: ../qml/pages/picture/Settings.qml:12 ../qml/pages/todo/Settings.qml:12
@@ -349,15 +349,15 @@ msgstr "Aantal dagen"
 
 #: ../qml/pages/calendar/Settings.qml:89 ../qml/widgets/event/Settings.qml:91
 msgid "By default 60 days"
-msgstr "Standaard 60 dagen"
+msgstr "Standaard: 60 dagen"
 
 #: ../qml/pages/home/Settings.qml:121
 msgid "Favorite apps management"
-msgstr "Beheer favoriete apps"
+msgstr "Favoriete apps beheren"
 
 #: ../qml/pages/picture/Settings.qml:58
 msgid "Image path"
-msgstr "Pad naar afbeelding"
+msgstr "Afbeeldingslocatie"
 
 #: ../qml/widgets/Alarm.qml:31
 msgid "Alarms"
@@ -369,15 +369,15 @@ msgstr "Geen actieve alarmen"
 
 #: ../qml/widgets/Alarm.qml:58
 msgid "at"
-msgstr "bij"
+msgstr "om"
 
 #: ../qml/widgets/Event.qml:46
 msgid "Events"
-msgstr "Gebeurtenissen"
+msgstr "Afspraken"
 
 #: ../qml/widgets/Event.qml:104
 msgid "No events"
-msgstr "Geen gebeurtenissen"
+msgstr "Geen afspraken"
 
 #: ../qml/widgets/FavoriteApp.qml:42
 msgid "Favorite Apps"
@@ -385,11 +385,11 @@ msgstr "Favoriete apps"
 
 #: ../qml/widgets/FavoriteContact.qml:33
 msgid "Favorite Contacts"
-msgstr "Favoriete contacten"
+msgstr "Favoriete contactpersonen"
 
 #: ../qml/widgets/Lastcall.qml:36
 msgid "Last Call"
-msgstr "Laatste oproep"
+msgstr "Recentste oproep"
 
 #: ../qml/widgets/Lastcall.qml:57
 msgid "No recent calls"
@@ -397,7 +397,7 @@ msgstr "Geen recente oproepen"
 
 #: ../qml/widgets/Lastmessage.qml:38
 msgid "Last Message"
-msgstr "Laatste bericht"
+msgstr "Recentst bericht"
 
 #: ../qml/widgets/Lastmessage.qml:58
 msgid "No recent messages"
@@ -405,11 +405,11 @@ msgstr "Geen recente berichten"
 
 #: ../qml/widgets/SearchContact.qml:36
 msgid "Search Contacts"
-msgstr "Zoek in contacten"
+msgstr "Contactpersonen doorzoeken"
 
 #: ../qml/widgets/Weather.qml:23
 msgid "Please long press here to configure"
-msgstr "Houd ingedrukt om te configureren"
+msgstr "Houd ingedrukt om in te stellen"
 
 #: ../qml/widgets/Weather.qml:168 ../qml/widgets/Weather.qml:196
 msgid "Calm"
@@ -480,7 +480,7 @@ msgstr "Noord"
 
 #: ../qml/widgets/Weather.qml:235
 msgid "North-Northeast"
-msgstr "Noord-Noordoost"
+msgstr "Noord-noordoost"
 
 #: ../qml/widgets/Weather.qml:237
 msgid "Northeast"
@@ -488,7 +488,7 @@ msgstr "Noordoost"
 
 #: ../qml/widgets/Weather.qml:239
 msgid "East-Northeast"
-msgstr "Oost-Noordoost"
+msgstr "Oost-noordoost"
 
 #: ../qml/widgets/Weather.qml:241
 msgid "East"
@@ -496,7 +496,7 @@ msgstr "Oost"
 
 #: ../qml/widgets/Weather.qml:243
 msgid "East-Southeast"
-msgstr "Oost-Zuidoost"
+msgstr "Oost-zuidoost"
 
 #: ../qml/widgets/Weather.qml:245
 msgid "Southeast"
@@ -504,7 +504,7 @@ msgstr "Zuidoost"
 
 #: ../qml/widgets/Weather.qml:247
 msgid "South-Southeast"
-msgstr "Zuid-Zuidoost"
+msgstr "Zuid-zuidoost"
 
 #: ../qml/widgets/Weather.qml:249
 msgid "South"
@@ -512,7 +512,7 @@ msgstr "Zuid"
 
 #: ../qml/widgets/Weather.qml:251
 msgid "South-Southwest"
-msgstr "Zuid-Zuidwest"
+msgstr "Zuid-zuidwest"
 
 #: ../qml/widgets/Weather.qml:253
 msgid "Southwest"
@@ -520,7 +520,7 @@ msgstr "Zuidwest"
 
 #: ../qml/widgets/Weather.qml:255
 msgid "West-Southwest"
-msgstr "West-Zuidwest"
+msgstr "West-zuidwest"
 
 #: ../qml/widgets/Weather.qml:257
 msgid "West"
@@ -528,7 +528,7 @@ msgstr "West"
 
 #: ../qml/widgets/Weather.qml:259
 msgid "West-Northwest"
-msgstr "West-Noordwest"
+msgstr "West-noordwest"
 
 #: ../qml/widgets/Weather.qml:261
 msgid "Northwest"
@@ -536,7 +536,7 @@ msgstr "Noordwest"
 
 #: ../qml/widgets/Weather.qml:263
 msgid "North-Northwest"
-msgstr "Noord-Noordwest"
+msgstr "Noord-noordwest"
 
 #: ../qml/widgets/Weather.qml:275
 msgid "humidity"
@@ -544,26 +544,26 @@ msgstr "luchtvochtigheid"
 
 #: ../qml/widgets/clock/Settings.qml:15
 msgid "Settings Widget Clock"
-msgstr "Klok-widget instellingen"
+msgstr "Klokwidgetinstellingen"
 
 #: ../qml/widgets/clock/Settings.qml:56
 msgid "Show analog clock with digits"
-msgstr "Toon analoge klok met cijfers"
+msgstr "Analoge klok met cijfers tonen"
 
 #: ../qml/widgets/event/Settings.qml:15
 #: ../qml/widgets/favoritecontact/Settings.qml:14
 #: ../qml/widgets/lastcall/Settings.qml:15
 #: ../qml/widgets/lastmessage/Settings.qml:15
 msgid "Settings Widget"
-msgstr "Instellingen Widget"
+msgstr "Instellingenwidget"
 
 #: ../qml/widgets/event/Settings.qml:116
 msgid "Limit of event"
-msgstr "Grens van gebeurtenis"
+msgstr "Aantal keren"
 
 #: ../qml/widgets/event/Settings.qml:135
 msgid "By default 3 event"
-msgstr "Standaard 3 gebeurtenissen"
+msgstr "Standaard: 3 keer"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:61
 msgid "Dialer"
@@ -572,7 +572,7 @@ msgstr "Telefoon"
 #: ../qml/widgets/favoritecontact/Settings.qml:61
 #: ../qml/widgets/lastcall/Settings.qml:61
 msgid "Open the dialer"
-msgstr "Open de telefoon-app"
+msgstr "Open de telefoonapp"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:62
 msgid "Linphone"
@@ -586,7 +586,7 @@ msgstr "Open Linphone"
 #: ../qml/widgets/lastcall/Settings.qml:86
 #: ../qml/widgets/lastmessage/Settings.qml:96
 msgid "When clicked : "
-msgstr "Wanneer er op wordt geklikt : "
+msgstr "Na indrukken : "
 
 #: ../qml/widgets/lastcall/Settings.qml:61
 #: ../qml/widgets/lastmessage/Settings.qml:70
@@ -605,27 +605,27 @@ msgstr "Standaard"
 
 #: ../qml/widgets/lastcall/Settings.qml:62
 msgid "Call"
-msgstr "Bel"
+msgstr "Bellen"
 
 #: ../qml/widgets/lastcall/Settings.qml:62
 msgid "Open the dialer with number"
-msgstr "Open de telefoon-app met dit nummer"
+msgstr "Telefoonapp openen met nummer"
 
 #: ../qml/widgets/lastmessage/Settings.qml:61
 msgid "View a summary"
-msgstr "Toon een samenvatting"
+msgstr "Samenvatting tonen"
 
 #: ../qml/widgets/lastmessage/Settings.qml:70
 msgid "Open the application"
-msgstr "Open de applicatie"
+msgstr "App openen"
 
 #: ../qml/widgets/lastmessage/Settings.qml:71
 msgid "Open Message"
-msgstr "Open bericht"
+msgstr "Bericht openen"
 
 #: ../qml/widgets/lastmessage/Settings.qml:71
 msgid "Open the application with message"
-msgstr "Open de app met bericht"
+msgstr "App met bericht openen"
 
 #: ../qml/widgets/weather/Settings.qml:14
 msgid "Settings Widget Weather"
@@ -645,7 +645,7 @@ msgstr "Klik om je aan te melden voor een API sleutel"
 
 #: ../qml/widgets/weather/Settings.qml:117
 msgid "City name"
-msgstr "Stad naam"
+msgstr "Locatienaam"
 
 #: ../qml/widgets/weather/Settings.qml:136
 msgid "or"
@@ -795,7 +795,7 @@ msgstr "Wil je Launcher Modular in je eigen taal vertalen? Ga naar <a href='http
 
 #: ../qml/Main.qml:568
 msgid "Autostart"
-msgstr "Automatisch starten"
+msgstr "Automatisch opstarten"
 
 #: ../qml/Autostart.qml:15
 msgid "Autostart Launcher Modular"
