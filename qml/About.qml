@@ -122,7 +122,7 @@ Item {
             height: donateLabel.height + units.gu(2)
             Label {
                 id: donateLabel
-                text: "<a href='https://github.com/ruditimmermans/launcher-modular'>" + i18n.tr("SOURCE") + "</a> | <a href='https://github.com/ruditimmermans/launcher-modular/issues'>" + i18n.tr("ISSUES") + "</a> | <a href='https://www.paypal.com/paypalme/RudiTimmer'>" + i18n.tr("DONATE") + "</a>"
+                text: "<a href='https://github.com/ruditimmermans/launcher-modular'>" + i18n.tr("SOURCE") + "</a> | <a href='https://github.com/ruditimmermans/launcher-modular/issues'>" + i18n.tr("ISSUES") "</a>"
                 onLinkActivated: Qt.openUrlExternally(link)
                 anchors.centerIn: parent
                 wrapMode: TextEdit.WrapAtWordBoundaryOrAnywhere
