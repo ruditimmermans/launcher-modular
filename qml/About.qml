@@ -122,7 +122,7 @@ Item {
             height: donateLabel.height + units.gu(2)
             Label {
                 id: donateLabel
-                text: "<a href='https://github.com/ruditimmermans/launcher-modular'>" + i18n.tr("SOURCE") + "</a> | <a href='https://github.com/ruditimmermans/launcher-modular/issues'>" + i18n.tr("ISSUES") "</a>"
+                text: "<a href='https://github.com/ruditimmermans/launcher-modular'>" + i18n.tr("SOURCE") + "</a> | <a href='https://github.com/ruditimmermans/launcher-modular/issues'>" + i18n.tr("ISSUES") + "</a> | <a href='https://wise.com/share/rudit24'>" + i18n.tr("DONATE") + "</a>"
                 onLinkActivated: Qt.openUrlExternally(link)
                 anchors.centerIn: parent
                 wrapMode: TextEdit.WrapAtWordBoundaryOrAnywhere
@@ -130,7 +130,7 @@ Item {
                 width: parent.width - units.gu(12)
                 color: "#ffffff"
             }
-        }
+        }                            
 
         Item {
             width: parent.width
