@@ -8,17 +8,21 @@ msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-05 16:12+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-07-25 15:07+0000\n"
+"Last-Translator: Maciej Sopyło <me@klh.io>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/ubports/"
+"launcher-modular/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: ../qml/About.qml:14 ../qml/Main.qml:628
 msgid "About"
-msgstr ""
+msgstr "O programie"
 
 #: ../qml/About.qml:96
 msgid "A launcher modular for Ubuntu Touch"
@@ -35,14 +39,23 @@ msgid ""
 "href='https://www.gnu.org/licenses/gpl-3.0.en.html'>GNU General Public "
 "License</a> for more details."
 msgstr ""
+"Niniejszy program jest wolnym oprogramowaniem; możesz go rozprowadzać dalej "
+"i/lub modyfikować na warunkach Powszechnej Licencji Publicznej GNU, wydanej "
+"przez Fundację Wolnego Oprogramowania - według wersji 3-giej tej Licencji "
+"lub którejś z późniejszych wersji. Niniejszy program rozpowszechniany jest z "
+"nadzieją, iż będzie on użyteczny - jednak BEZ JAKIEJKOLWIEK GWARANCJI, nawet "
+"domyślnej gwarancji PRZYDATNOŚCI HANDLOWEJ albo PRZYDATNOŚCI DO OKREŚLONYCH "
+"ZASTOSOWAŃ.  W celu uzyskania bliższych informacji kliknij w link: <a href="
+"\"https://www.gnu.org/licenses/gpl-3.0.en.html\">Powszechna Licencja "
+"Publiczna GNU</a>."
 
 #: ../qml/About.qml:125
 msgid "SOURCE"
-msgstr ""
+msgstr "KOD ŹRÓDŁOWY"
 
 #: ../qml/About.qml:125
 msgid "ISSUES"
-msgstr ""
+msgstr "ISSUES"
 
 #: ../qml/About.qml:125
 msgid "DONATE"
@@ -50,11 +63,11 @@ msgstr ""
 
 #: ../qml/About.qml:140
 msgid "Maintainer"
-msgstr ""
+msgstr "Maintainer"
 
 #: ../qml/About.qml:154
 msgid "Copyright"
-msgstr ""
+msgstr "Prawa autorskie"
 
 #: ../qml/About.qml:168
 msgid "Special thanks to the testers : Sander Klootwijk, Steve Kueffer."
@@ -166,7 +179,7 @@ msgstr ""
 #: ../qml/Pagemanagementback.qml:128 ../qml/pages/Home.qml:433
 #: ../qml/pages/home/Settings.qml:91
 msgid "Cancel"
-msgstr ""
+msgstr "Anuluj"
 
 #: ../qml/Pagemanagement.qml:17 ../qml/Pagemanagementback.qml:17
 msgid "Page management"
@@ -183,7 +196,7 @@ msgstr ""
 
 #: ../qml/Settings.qml:17
 msgid "Settings"
-msgstr ""
+msgstr "Ustawienia"
 
 #: ../qml/Settings.qml:76 ../qml/widgets/favoritecontact/Settings.qml:57
 #: ../qml/widgets/lastcall/Settings.qml:57
