@@ -8,13 +8,16 @@ msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-05 16:12+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-07-25 15:07+0000\n"
+"Last-Translator: Jozef Mlich <jmlich83@gmail.com>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/ubports/"
+"launcher-modular/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: ../qml/About.qml:14 ../qml/Main.qml:628
 msgid "About"
@@ -50,7 +53,7 @@ msgstr ""
 
 #: ../qml/About.qml:140
 msgid "Maintainer"
-msgstr ""
+msgstr "Správce"
 
 #: ../qml/About.qml:154
 msgid "Copyright"
@@ -166,7 +169,7 @@ msgstr ""
 #: ../qml/Pagemanagementback.qml:128 ../qml/pages/Home.qml:433
 #: ../qml/pages/home/Settings.qml:91
 msgid "Cancel"
-msgstr ""
+msgstr "Zrušit"
 
 #: ../qml/Pagemanagement.qml:17 ../qml/Pagemanagementback.qml:17
 msgid "Page management"
@@ -183,7 +186,7 @@ msgstr ""
 
 #: ../qml/Settings.qml:17
 msgid "Settings"
-msgstr ""
+msgstr "Nastavení"
 
 #: ../qml/Settings.qml:76 ../qml/widgets/favoritecontact/Settings.qml:57
 #: ../qml/widgets/lastcall/Settings.qml:57
@@ -313,7 +316,7 @@ msgstr ""
 
 #: ../qml/pages/calendar/Settings.qml:51
 msgid "General"
-msgstr ""
+msgstr "Obecné"
 
 #: ../qml/pages/calendar/Settings.qml:70 ../qml/widgets/event/Settings.qml:72
 msgid "Limit of days"
