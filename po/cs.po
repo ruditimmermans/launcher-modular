@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-05 16:12+0000\n"
-"PO-Revision-Date: 2023-07-25 15:07+0000\n"
-"Last-Translator: Jozef Mlich <jmlich83@gmail.com>\n"
+"PO-Revision-Date: 2023-08-04 20:07+0000\n"
+"Last-Translator: Milan Korecky <milan.korecky@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/ubports/"
 "launcher-modular/cs/>\n"
 "Language: cs\n"
@@ -182,7 +182,7 @@ msgstr ""
 #: ../qml/Pagemanagementback.qml:182 ../qml/pages/Todo.qml:119
 #: ../qml/pages/home/Settings.qml:154
 msgid "Delete"
-msgstr ""
+msgstr "Smazat"
 
 #: ../qml/Settings.qml:17
 msgid "Settings"
