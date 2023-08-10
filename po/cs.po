@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-05 16:12+0000\n"
-"PO-Revision-Date: 2023-08-04 20:07+0000\n"
+"PO-Revision-Date: 2023-08-15 19:25+0000\n"
 "Last-Translator: Milan Korecky <milan.korecky@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/ubports/"
 "launcher-modular/cs/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../qml/About.qml:14 ../qml/Main.qml:628
 msgid "About"
-msgstr ""
+msgstr "O aplikaci"
 
 #: ../qml/About.qml:96
 msgid "A launcher modular for Ubuntu Touch"
@@ -38,6 +38,14 @@ msgid ""
 "href='https://www.gnu.org/licenses/gpl-3.0.en.html'>GNU General Public "
 "License</a> for more details."
 msgstr ""
+"Tento program je svobodný software: můžete ho sdílet anebo upravovat za "
+"podmínek GNU General Public Licence, zveřejněné Free Software Foundation, "
+"pod licencí ve verzi 3, anebo (dle vaší volby) pod jakoukoli pozdější verzí. "
+"Tento program je distribuován v naději, že bude užitečný, avšak BEZ "
+"JAKÉKOLIV ZÁRUKY; a to i bez předpokládané záruky OBCHODOVATELNOSTI nebo "
+"VHODNOSTI PRO KONKRÉTNÍ ÚČEL.   Další podrobnosti naleznete na stránkách <a "
+"href=\"https://www.gnu.org/licenses/gpl-3.0.en.html\">GNU General Public "
+"Licence </a>."
 
 #: ../qml/About.qml:125
 msgid "SOURCE"
@@ -45,7 +53,7 @@ msgstr ""
 
 #: ../qml/About.qml:125
 msgid "ISSUES"
-msgstr ""
+msgstr "HLÁŠENÍ CHYB"
 
 #: ../qml/About.qml:125
 msgid "DONATE"
@@ -57,7 +65,7 @@ msgstr "Správce"
 
 #: ../qml/About.qml:154
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: ../qml/About.qml:168
 msgid "Special thanks to the testers : Sander Klootwijk, Steve Kueffer."
