@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-05 16:12+0000\n"
-"PO-Revision-Date: 2023-02-15 10:38+0000\n"
-"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
+"PO-Revision-Date: 2023-09-07 04:43+0000\n"
+"Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/ubports/"
 "launcher-modular/sv/>\n"
 "Language: sv\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #: ../qml/About.qml:14 ../qml/Main.qml:628
 msgid "About"
@@ -550,7 +550,7 @@ msgstr "Som standard 3 evenemang"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:61
 msgid "Dialer"
-msgstr "Telefon"
+msgstr "Nummerskiva"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:61
 #: ../qml/widgets/lastcall/Settings.qml:61
