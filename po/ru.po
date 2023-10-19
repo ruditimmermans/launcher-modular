@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Launcher modular\n"
-"PO-Revision-Date: 2023-01-08 13:48+0000\n"
-"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"PO-Revision-Date: 2023-10-27 09:27+0000\n"
+"Last-Translator: Serhii Horichenko <m@sgg.im>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/ubports/"
 "launcher-modular/ru/>\n"
 "Language: ru\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 5.2-dev\n"
 
 #. SOME DESCRIPTIVE TITLE.
 #. Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
@@ -35,7 +35,7 @@ msgstr "SVG или PNG иконка. Соотношение 1:1"
 
 #: ../qml/Main.qml:714
 msgid "The <b>title</b> to be shown in the app list"
-msgstr "<b>название</b> для отображения в списке приложений"
+msgstr "<b>Название</b> для отображения в списке приложений"
 
 #: ../qml/Main.qml:719
 msgid "Website"
@@ -78,7 +78,7 @@ msgstr "Отменить"
 
 #: ../qml/Main.qml:611 ../qml/About.qml:14
 msgid "About"
-msgstr "Инфо"
+msgstr "О программе"
 
 #: ../qml/About.qml:67
 msgid "Version: "
@@ -90,11 +90,19 @@ msgstr "Launcher modular для Ubuntu Touch"
 
 #: ../qml/About.qml:110
 msgid "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the <a href='https://www.gnu.org/licenses/gpl-3.0.en.html'>GNU General Public License</a> for more details."
-msgstr "Эта программа является бесплатным ПО: вы можете перераспределить его и/или изменить его в соответствии с условиями GNU General Public License, как бесплатное программное обеспечение, либо как вер. 3 лицензии, либо (по вашему варианту) любая более поздняя версия. Эта программа распространяется в надежде, что она будет полезна, но без какой-либо гарантии; даже не подразумеваемая гарантия товарной принадлежности или пригодности для определенной цели. См. Генеральная лицензия GNU GNU GNU GNU GNU TA HREF='HTTP//www.gnu.org///GPL-3.0."
+msgstr ""
+"Эта программа является бесплатным ПО: Вы можете распространять его и/или "
+"изменить его в соответствии с условиями GNU General Public License, как "
+"бесплатное программное обеспечение, либо как вер. 3 лицензии, либо (на Ваше "
+"усмотрение) любой более поздней версии. Эта программа распространяется в "
+"надежде, что она будет полезна, но без какой-либо гарантии; даже без "
+"гарантии КОММЕРЧЕСКОЙ ВЫГОДЫ или ДОСТИЖЕНИЯ КОНКРЕТНОЙ ЦЕЛИ. Подробнее в <a "
+"href=\"https://www.gnu.org/licenses/gpl-3.0.en.html\">GNU General Public "
+"License</a>."
 
 #: ../qml/About.qml:125
 msgid "SOURCE"
-msgstr "ИСТОЧНИК"
+msgstr "ИСХОДНЫЙ КОД"
 
 #: ../qml/About.qml:125
 msgid "ISSUES"
@@ -110,7 +118,7 @@ msgstr "Сопроводитель"
 
 #: ../qml/About.qml:154
 msgid "Copyright"
-msgstr "Авторство"
+msgstr "Авторское право"
 
 #: ../qml/widgets/favoritecontact/Settings.qml:14
 #: ../qml/widgets/event/Settings.qml:15
@@ -427,7 +435,7 @@ msgstr "Нет активных событий"
 
 #: ../qml/ImportPage.qml:11
 msgid "Choose"
-msgstr "Выбор"
+msgstr "Выбрать"
 
 #: ../qml/Pagemanagement.qml:17 ../qml/Pagemanagementback.qml:17
 msgid "Page management"
@@ -747,7 +755,7 @@ msgstr ""
 
 #: ../qml/Main.qml:582
 msgid "Help"
-msgstr ""
+msgstr "Помощь"
 
 #: ../qml/About.qml:183
 msgid "<a href='LAUNCHER MODULAR TRANSLATORS'>LAUNCHER MODULAR TRANSLATORS</a>"
@@ -759,7 +767,7 @@ msgstr ""
 
 #: ../qml/Help.qml:49
 msgid "Widget Settings"
-msgstr ""
+msgstr "Настройки виджета"
 
 #: ../qml/Help.qml:52
 msgid "To access to the widget settings, click and hold on the widget and then you can change the widget settings."
