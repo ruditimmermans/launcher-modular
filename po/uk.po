@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-22 06:48+0000\n"
-"PO-Revision-Date: 2023-02-23 02:31+0000\n"
-"Last-Translator: Dan <denqwerta@gmail.com>\n"
+"PO-Revision-Date: 2023-10-27 09:27+0000\n"
+"Last-Translator: Serhii Horichenko <m@sgg.im>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/"
 "launcher-modular/uk/>\n"
 "Language: uk\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 5.2-dev\n"
 
 #: ../qml/About.qml:14 ../qml/Main.qml:628
 msgid "About"
-msgstr "Про застосунок"
+msgstr "Про програму"
 
 #: ../qml/About.qml:96
 msgid "A modular launcher for Ubuntu Touch"
@@ -39,18 +39,18 @@ msgid ""
 "href='https://www.gnu.org/licenses/gpl-3.0.en.html'>GNU General Public "
 "License</a> for more details."
 msgstr ""
-"Ця програма є вільним програмним забезпеченням: Її можна перерозподілити та/"
+"Ця програма є вільним програмним забезпеченням: Її можна розповсюджувати та/"
 "або модифікувати за умовами GNU General Public License, як це було "
-"опубліковано Free Software Foundation, або 3 версії ліцензії, або (за вашим "
-"вибором) будь-якої пізнішої версії. Ця програма розповсюджується в надії, що "
-"вона буде корисною, але БЕЗ БУДЬ-ЯКОЇ ГАРАНТІЇ; без навіть непрямої гарантії "
-"КОМЕРЦІЙНА ПРИДАТНІСТЬ або ПРИДАТНОСТІ ДЛЯ ПЕВНОЇ МЕТИ. Докладніше про це "
-"читайте у розділі <a href=\"https://www.gnu.org/licenses/gpl-3.0.en.html\""
-">GNU General Public License</a>."
+"опубліковано Free Software Foundation, або у 3-й версії ліцензії, або (за "
+"Вашим вибором) у будь-якій пізнішій версії. Ця програма розповсюджується в "
+"надії, що вона буде корисною, але БЕЗ ЖОДНИХ ГАРАНТІЙ; навіть без непрямої "
+"гарантії КОМЕРЦІЙНОЇ ПРИДАТНОСТІ або ПРИДАТНОСТІ ДЛЯ ПЕВНОЇ МЕТИ. Докладніше "
+"про це читайте у розділі <a href=\"https://www.gnu.org/licenses/gpl-3.0.en."
+"html\">GNU General Public License</a>."
 
 #: ../qml/About.qml:125
 msgid "SOURCE"
-msgstr "ДЖЕРЕЛО"
+msgstr "ДЖЕРЕЛЬНИЙ КОД"
 
 #: ../qml/About.qml:125
 msgid "ISSUES"
@@ -95,7 +95,7 @@ msgstr ""
 "Як налаштувати автоматичний запуск Modular Launcher під час завантаження "
 "пристрою. <br><br>Детальніше в статті <a href=\"https://github.com/"
 "ruditimmermans/launcher-modular-service\">як додати службовий файл "
-"користувача systemd Modular Launcher до/на ваш пристрій</a>"
+"користувача systemd Modular Launcher на свій пристрій</a>"
 
 #: ../qml/Help.qml:15
 msgid "Modular Launcher Help"
@@ -144,7 +144,7 @@ msgstr "Іконка у форматі SVG або PNG. Співвідношен�
 
 #: ../qml/Main.qml:730
 msgid "The <b>title</b> to be shown in the app list"
-msgstr "<b>Назва</b>, яку буде показано у списку застосунків"
+msgstr "<b>Назва</b>, яку буде показано у списку програм"
 
 #: ../qml/Main.qml:735
 msgid "Website"
@@ -164,11 +164,11 @@ msgstr "Запустити команду в терміналі"
 
 #: ../qml/Main.qml:737
 msgid "Launch app"
-msgstr "Запустити застосунок"
+msgstr "Запустити програму"
 
 #: ../qml/Main.qml:737
 msgid "Launch an app"
-msgstr "Запустити застосунок"
+msgstr "Запустити програму"
 
 #: ../qml/Main.qml:761 ../qml/Main.qml:763 ../qml/Main.qml:765
 msgid "<b>Action</b> example: "
@@ -203,7 +203,7 @@ msgstr "Налаштування"
 
 #: ../qml/Settings.qml:57 ../qml/pages/calendar/Settings.qml:51
 msgid "General"
-msgstr "Загальний"
+msgstr "Загальне"
 
 #: ../qml/Settings.qml:62
 msgid "Dark background"
@@ -315,7 +315,7 @@ msgstr "Пошук на телефоні та в інтернет-джерела
 
 #: ../qml/pages/Home.qml:254
 msgid "Installed Apps"
-msgstr "Встановлені застосунки"
+msgstr "Встановлені програми"
 
 #: ../qml/pages/Home.qml:364
 msgid "Uninstall"
@@ -344,7 +344,7 @@ msgstr "За замовчуванням 60 днів"
 
 #: ../qml/pages/home/Settings.qml:121
 msgid "Favorite apps management"
-msgstr "Керування улюбленими застосунками"
+msgstr "Керування улюбленими програмами"
 
 #: ../qml/pages/picture/Settings.qml:58
 msgid "Image path"
@@ -372,7 +372,7 @@ msgstr "Немає подій"
 
 #: ../qml/widgets/FavoriteApp.qml:42
 msgid "Favorite Apps"
-msgstr "Улюблені застосунки"
+msgstr "Улюблені програми"
 
 #: ../qml/widgets/FavoriteContact.qml:33
 msgid "Favorite Contacts"
@@ -604,7 +604,7 @@ msgstr "Переглянути резюме"
 
 #: ../qml/widgets/lastmessage/Settings.qml:70
 msgid "Open the application"
-msgstr "Відкрити застосунок"
+msgstr "Відкрити програму"
 
 #: ../qml/widgets/lastmessage/Settings.qml:71
 msgid "Open Message"
@@ -612,7 +612,7 @@ msgstr "Відкрити повідомлення"
 
 #: ../qml/widgets/lastmessage/Settings.qml:71
 msgid "Open the application with message"
-msgstr "Відкрити застосунок з повідомленням"
+msgstr "Відкрити програму з повідомленням"
 
 #: ../qml/widgets/weather/Settings.qml:14
 msgid "Settings for weather widget"
