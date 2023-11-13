@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: launchermodular.ubuntouchfr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-05 16:12+0000\n"
-"PO-Revision-Date: 2023-11-11 09:34+0000\n"
+"PO-Revision-Date: 2023-11-20 10:01+0000\n"
 "Last-Translator: marcin mikołajczak <me@mkljczk.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/ubports/"
 "launcher-modular/pl/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.2-dev\n"
+"X-Generator: Weblate 5.2\n"
 
 #: ../qml/About.qml:14 ../qml/Main.qml:628
 msgid "About"
@@ -141,11 +141,11 @@ msgstr "Ikona SVG lub PNG. Proporcje 1:1"
 
 #: ../qml/Main.qml:730
 msgid "The <b>title</b> to be shown in the app list"
-msgstr ""
+msgstr "<b>Tytuł</b> wyświetlany na liście aplikacji"
 
 #: ../qml/Main.qml:735
 msgid "Website"
-msgstr ""
+msgstr "Strona internetowa"
 
 #: ../qml/Main.qml:735
 msgid "Open the browser with the url"
@@ -153,7 +153,7 @@ msgstr ""
 
 #: ../qml/Main.qml:736
 msgid "Terminal command"
-msgstr ""
+msgstr "Polecenie konsoli"
 
 #: ../qml/Main.qml:736
 msgid "Launch an order in a terminal"
@@ -161,19 +161,19 @@ msgstr ""
 
 #: ../qml/Main.qml:737
 msgid "Launch app"
-msgstr ""
+msgstr "Uruchom aplikację"
 
 #: ../qml/Main.qml:737
 msgid "Launch an app"
-msgstr ""
+msgstr "Uruchom aplikację"
 
 #: ../qml/Main.qml:761 ../qml/Main.qml:763 ../qml/Main.qml:765
 msgid "<b>Action</b> example: "
-msgstr ""
+msgstr "Przykład <b>działania</b>: "
 
 #: ../qml/Main.qml:779
 msgid "Create icon"
-msgstr ""
+msgstr "Utwórz ikonę"
 
 #: ../qml/Main.qml:824 ../qml/Pagemanagement.qml:137
 #: ../qml/Pagemanagementback.qml:128 ../qml/pages/Home.qml:433
@@ -183,16 +183,16 @@ msgstr "Anuluj"
 
 #: ../qml/Pagemanagement.qml:17 ../qml/Pagemanagementback.qml:17
 msgid "Page management"
-msgstr ""
+msgstr "Zarządzanie stroną"
 
 #: ../qml/Pagemanagement.qml:52 ../qml/Pagemanagementback.qml:52
 msgid "Choose a page"
-msgstr ""
+msgstr "Wybierz stronę"
 
 #: ../qml/Pagemanagementback.qml:182 ../qml/pages/Todo.qml:119
 #: ../qml/pages/home/Settings.qml:154
 msgid "Delete"
-msgstr ""
+msgstr "Usuń"
 
 #: ../qml/Settings.qml:17
 msgid "Settings"
@@ -202,19 +202,19 @@ msgstr "Ustawienia"
 #: ../qml/widgets/lastcall/Settings.qml:57
 #: ../qml/widgets/lastmessage/Settings.qml:56
 msgid "Generals"
-msgstr ""
+msgstr "Ogólne"
 
 #: ../qml/Settings.qml:81
 msgid "Dark background"
-msgstr ""
+msgstr "Ciemne tło"
 
 #: ../qml/Settings.qml:104
 msgid "Background blur effect"
-msgstr ""
+msgstr "Efekt rozmycia tła"
 
 #: ../qml/Settings.qml:112
 msgid "None"
-msgstr ""
+msgstr "Brak"
 
 #: ../qml/Settings.qml:112
 msgid "Icons without style"
